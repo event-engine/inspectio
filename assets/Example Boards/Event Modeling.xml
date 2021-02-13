@@ -1,0 +1,739 @@
+<mxGraphModel dx="6049.9" dy="2841.74" grid="1" gridSize="16" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff">
+  <root>
+    <mxCell id="e975feae-1579-4c09-98d0-98cbf2108aec"/>
+    <mxCell id="7fe80d19-d317-4e9d-8296-96c598786d78" parent="e975feae-1579-4c09-98d0-98cbf2108aec"/>
+    <mxCell id="ivtpHizCgVGdgJQuQcm7uK" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;Time&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxGeometry x="2704" y="-1317" width="176" height="2208" as="geometry"/>
+    </mxCell>
+    <mxCell id="7T145QbDkFvmXW6Eheiqri" style="html=1;" edge="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78" source="iMB6pkDhDEkauqZPe3GGNL" target="ivtpHizCgVGdgJQuQcm7uK">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1312" y="-677"/>
+          <mxPoint x="1312" y="-677"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="iMB6pkDhDEkauqZPe3GGNL" value="&amp;nbsp;&amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 512 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm80 248c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;" style="freeText" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxGeometry x="-2330" y="-707" width="100" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="uVSFB2s52jDa3TdS1w3qe8" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;Guest&lt;/font&gt;" style="freeText" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxGeometry x="-2417" y="-937.5" width="208" height="60" as="geometry"/>
+    </mxCell>
+    <mxCell id="nsNcfmtWxwrqVSSajJHTPj" style="html=1;dashed=1;" edge="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78" source="nuKFX4E2dYoLFQN3VMqqP" target="ivtpHizCgVGdgJQuQcm7uK">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1430" y="-1059.5"/>
+          <mxPoint x="1430" y="-1059.5"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="nuKFX4E2dYoLFQN3VMqqP" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;Manager&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 48px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxGeometry x="-2417" y="-1273.5" width="256" height="224" as="geometry"/>
+    </mxCell>
+    <mxCell id="uMXNVTXV9UGUFu9BAu3qWo" style="html=1;dashed=1;" edge="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78" source="sXZCAdjvkmFunJbzToy3bW" target="ivtpHizCgVGdgJQuQcm7uK">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="-1018" y="-148"/>
+          <mxPoint x="-1018" y="-148"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="sXZCAdjvkmFunJbzToy3bW" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;Inventory&lt;/font&gt;" style="freeText" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxGeometry x="-2417" y="-305" width="272" height="158" as="geometry"/>
+    </mxCell>
+    <mxCell id="uPpUKVq9R7bZMrQAQhcTGE" style="html=1;dashed=1;" edge="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78" source="VnBRa9zb79zHNvpi4FwpZ" target="ivtpHizCgVGdgJQuQcm7uK">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1333" y="61"/>
+          <mxPoint x="1333" y="61"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="VnBRa9zb79zHNvpi4FwpZ" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;Auth&lt;/span&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxGeometry x="-2392" y="-67" width="240" height="158" as="geometry"/>
+    </mxCell>
+    <mxCell id="oU8ivaSHuZZq3oopDqx8z7" style="html=1;dashed=1;" edge="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78" source="5H4CqEJh3gTfKFd3wZNJqW" target="ivtpHizCgVGdgJQuQcm7uK">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1322" y="269"/>
+          <mxPoint x="1322" y="269"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="5H4CqEJh3gTfKFd3wZNJqW" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;Payment&lt;/span&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxGeometry x="-2400" y="141" width="256" height="158" as="geometry"/>
+    </mxCell>
+    <mxCell id="dcLoMP9K3kMUUtJRQ2b5Cj" style="html=1;dashed=1;" edge="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78" source="ikjYGGtTgCxxBeEHXG6DrV" target="ivtpHizCgVGdgJQuQcm7uK">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="1429" y="477"/>
+          <mxPoint x="1429" y="477"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="ikjYGGtTgCxxBeEHXG6DrV" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;GPS&lt;/span&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxGeometry x="-2400" y="351.5" width="235" height="158" as="geometry"/>
+    </mxCell>
+    <mxCell id="4soRNa97Z5tkE8x3ieySVk" style="html=1;" edge="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78" source="bgqbYGY4ixWpuQi46wZoDd" target="j7r29tRRd8JVuC34AhNFfg">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="8orSeG271ctWQajGzRRwwA" style="html=1;" edge="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78" source="9YrgVByd75VnkLVqnRWPYJ" target="dvg58meDzVVjRy2pgfVDiR">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="-800" y="-255"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="29w5MWT8Q49DPy4a57AhFQ" style="html=1;" edge="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78" source="dDG5ezpzxT9Afzj5ALJMrh" target="a4Kuqbg7HkV5SmehQdzpd1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="aQmKcw6vp1qFx2NB1N2qau" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxGeometry x="-1314" y="1049.5" width="365" height="158" as="geometry"/>
+    </mxCell>
+    <mxCell id="fWtAKqUDgQFbxsrSHdeyYC" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxGeometry x="-309" y="1049.5" width="365" height="158" as="geometry"/>
+    </mxCell>
+    <mxCell id="9seM4aHM7jZKcKvpakWiX3" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxGeometry x="792" y="1049.5" width="563" height="158" as="geometry"/>
+    </mxCell>
+    <mxCell id="s2cp16oy8sT1Xsy6tNugMG" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxGeometry x="1960" y="1049.5" width="563" height="158" as="geometry"/>
+    </mxCell>
+    <feature label="Registration" type="feature" id="oNqTqYiR5H9zL8B2zG4Tsj">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-2112" y="-1061" width="400" height="1122" as="geometry">
+          <mxRectangle x="-2112" y="-1061" width="400" height="1122" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <ui label="&lt;div&gt;Guest Registration&lt;/div&gt;&lt;div&gt;&lt;hr id=&quot;null&quot;&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 448 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M0 84V44c0-8.837 7.163-16 16-16h416c8.837 0 16 7.163 16 16v40c0 8.837-7.163 16-16 16H16c-8.837 0-16-7.163-16-16zm16 144h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 256h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0-128h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 512 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M416 448h-84c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h84c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32h-84c-6.6 0-12-5.4-12-12V76c0-6.6 5.4-12 12-12h84c53 0 96 43 96 96v192c0 53-43 96-96 96zm-47-201L201 79c-15-15-41-4.5-41 17v96H24c-13.3 0-24 10.7-24 24v96c0 13.3 10.7 24 24 24h136v96c0 21.5 26 32 41 17l168-168c9.3-9.4 9.3-24.6 0-34z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/div&gt;" type="ui" id="dhEE5hFAm8kv3XMQ4UJEpj">
+      <mxCell style="ui" vertex="1" parent="oNqTqYiR5H9zL8B2zG4Tsj" tempVisible="1">
+        <mxGeometry x="94.5" y="112" width="211" height="132" as="geometry"/>
+      </mxCell>
+    </ui>
+    <command label="Register" type="command" id="wmz4F46FEDNW9YYz7xWLrr">
+      <mxCell style="command" vertex="1" parent="oNqTqYiR5H9zL8B2zG4Tsj" tempVisible="1">
+        <mxGeometry x="120" y="498" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </command>
+    <mxCell id="eHGSegMd3kGeriGwgzRxWH" style="html=1;" edge="1" parent="oNqTqYiR5H9zL8B2zG4Tsj" source="dhEE5hFAm8kv3XMQ4UJEpj" target="wmz4F46FEDNW9YYz7xWLrr" tempVisible="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <event label="Registered" type="event" id="3TkTfJsiYwhDAmz7A9LUDm">
+      <mxCell style="event" vertex="1" parent="oNqTqYiR5H9zL8B2zG4Tsj" tempVisible="1">
+        <mxGeometry x="120" y="973" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <mxCell id="5q7jSX2WLb1q77FjZUWj54" style="html=1;" edge="1" parent="oNqTqYiR5H9zL8B2zG4Tsj" source="wmz4F46FEDNW9YYz7xWLrr" target="3TkTfJsiYwhDAmz7A9LUDm" tempVisible="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <feature label="Add Room" type="feature" id="wQuuzgF4AYQ443GZGyL8su">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-1640" y="-1408.5" width="272" height="1264" as="geometry">
+          <mxRectangle x="15120" y="-1296" width="272" height="1264" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <ui label="&lt;div&gt;Room Management&lt;/div&gt;&lt;div&gt;&lt;hr id=&quot;null&quot;&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 512 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M149.333 216v80c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24v-80c0-13.255 10.745-24 24-24h101.333c13.255 0 24 10.745 24 24zM0 376v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zM125.333 32H24C10.745 32 0 42.745 0 56v80c0 13.255 10.745 24 24 24h101.333c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24zm80 448H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24zm-24-424v80c0 13.255 10.745 24 24 24H488c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24zm24 264H488c13.255 0 24-10.745 24-24v-80c0-13.255-10.745-24-24-24H205.333c-13.255 0-24 10.745-24 24v80c0 13.255 10.745 24 24 24z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: right;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 448 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;text-align: right;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" type="ui" id="mSKA2XZbD93tdBnUGCqZeL">
+      <mxCell style="ui" vertex="1" parent="wQuuzgF4AYQ443GZGyL8su" tempVisible="1">
+        <mxGeometry x="32" y="108" width="211" height="132" as="geometry"/>
+      </mxCell>
+    </ui>
+    <mxCell id="vS5Vkkz8udiExcuFKc2coP" style="html=1;" edge="1" parent="wQuuzgF4AYQ443GZGyL8su" source="mSKA2XZbD93tdBnUGCqZeL" target="mFtcXpJEqb1gao4p1JfTHu" tempVisible="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <command label="Add Room" type="command" id="mFtcXpJEqb1gao4p1JfTHu">
+      <mxCell style="command" vertex="1" parent="wQuuzgF4AYQ443GZGyL8su" tempVisible="1">
+        <mxGeometry x="58" y="848" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </command>
+    <event label="Room Added" type="event" id="bgqbYGY4ixWpuQi46wZoDd">
+      <mxCell style="event" vertex="1" parent="wQuuzgF4AYQ443GZGyL8su" tempVisible="1">
+        <mxGeometry x="58" y="1116" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <mxCell id="mA9Y1GEFi4b9BVFjpTPnzx" style="html=1;" edge="1" parent="wQuuzgF4AYQ443GZGyL8su" source="mFtcXpJEqb1gao4p1JfTHu" target="bgqbYGY4ixWpuQi46wZoDd" tempVisible="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <feature label="Booking" type="feature" id="6Sbu7c47osaSENyMUAKCCx">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-1330" y="-1056.5" width="538" height="912" as="geometry">
+          <mxRectangle x="15430" y="-944" width="538" height="912" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <document label="Room&amp;nbsp;&lt;div&gt;Availability&lt;/div&gt;" type="document" id="j7r29tRRd8JVuC34AhNFfg">
+      <mxCell style="document" vertex="1" parent="6Sbu7c47osaSENyMUAKCCx" tempVisible="1">
+        <mxGeometry x="74" y="496" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </document>
+    <ui label="&lt;div&gt;Booking Engine&lt;/div&gt;&lt;div&gt;&lt;hr id=&quot;null&quot;&gt;&lt;/div&gt;&amp;nbsp;&amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 448 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M400 64h-48V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H160V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zm0 96v80h-96v-80h96zM176 352v-80h96v80h-96zm96 32v80h-96v-80h96zm-128-32H48v-80h96v80zm32-112v-80h96v80h-96zm128 32h96v80h-96v-80zM144 160v80H48v-80h96zM48 458v-74h96v80H54c-3.3 0-6-2.7-6-6zm346 6h-90v-80h96v74c0 3.3-2.7 6-6 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 512 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/div&gt;" type="ui" id="2B7877m5Zwz17Aira4ucSJ">
+      <mxCell style="ui" vertex="1" parent="6Sbu7c47osaSENyMUAKCCx" tempVisible="1">
+        <mxGeometry x="154" y="98" width="230" height="144" as="geometry"/>
+      </mxCell>
+    </ui>
+    <mxCell id="fouLVMU8B897jkRbirhJV6" style="html=1;" edge="1" parent="6Sbu7c47osaSENyMUAKCCx" source="j7r29tRRd8JVuC34AhNFfg" target="2B7877m5Zwz17Aira4ucSJ" tempVisible="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="188.5" y="427"/>
+          <mxPoint x="188.5" y="427"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <command label="Book Room" type="command" id="6VmtDJo3nN268wj4thJUAu">
+      <mxCell style="command" vertex="1" parent="6Sbu7c47osaSENyMUAKCCx" tempVisible="1">
+        <mxGeometry x="304" y="496" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </command>
+    <mxCell id="uaqdiNyUxQDtBYqFwgL5CG" style="html=1;" edge="1" parent="6Sbu7c47osaSENyMUAKCCx" source="2B7877m5Zwz17Aira4ucSJ" target="6VmtDJo3nN268wj4thJUAu" tempVisible="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="314" y="320"/>
+          <mxPoint x="383" y="320"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <event label="Room Booked" type="event" id="9YrgVByd75VnkLVqnRWPYJ">
+      <mxCell style="event" vertex="1" parent="6Sbu7c47osaSENyMUAKCCx" tempVisible="1">
+        <mxGeometry x="304" y="754" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <mxCell id="dwLPyvcJscRMX8nHktYQw6" style="html=1;" edge="1" parent="6Sbu7c47osaSENyMUAKCCx" source="6VmtDJo3nN268wj4thJUAu" target="9YrgVByd75VnkLVqnRWPYJ" tempVisible="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <feature label="Ready Room" type="feature" id="gc5dHoK45HoHXHWLpuAaC3">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-745" y="-1408.5" width="465" height="1264" as="geometry">
+          <mxRectangle x="16015" y="-1296" width="465" height="1264" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <document label="Cleaning Schedule" type="document" id="dvg58meDzVVjRy2pgfVDiR">
+      <mxCell style="document" vertex="1" parent="gc5dHoK45HoHXHWLpuAaC3" tempVisible="1">
+        <mxGeometry x="33" y="848" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </document>
+    <ui label="&lt;div&gt;Room Management&lt;/div&gt;&lt;div&gt;&lt;hr id=&quot;null&quot;&gt;&lt;/div&gt;&amp;nbsp;&amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 384 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M336 64h-80c0-35.3-28.7-64-64-64s-64 28.7-64 64H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM96 424c-13.3 0-24-10.7-24-24s10.7-24 24-24 24 10.7 24 24-10.7 24-24 24zm0-96c-13.3 0-24-10.7-24-24s10.7-24 24-24 24 10.7 24 24-10.7 24-24 24zm0-96c-13.3 0-24-10.7-24-24s10.7-24 24-24 24 10.7 24 24-10.7 24-24 24zm96-192c13.3 0 24 10.7 24 24s-10.7 24-24 24-24-10.7-24-24 10.7-24 24-24zm128 368c0 4.4-3.6 8-8 8H168c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16zm0-96c0 4.4-3.6 8-8 8H168c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16zm0-96c0 4.4-3.6 8-8 8H168c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h144c4.4 0 8 3.6 8 8v16z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 512 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M504 256C504 119 393 8 256 8S8 119 8 256s111 248 248 248 248-111 248-248zm-448 0c0-110.5 89.5-200 200-200s200 89.5 200 200-89.5 200-200 200S56 366.5 56 256zm72 20v-40c0-6.6 5.4-12 12-12h116v-67c0-10.7 12.9-16 20.5-8.5l99 99c4.7 4.7 4.7 12.3 0 17l-99 99c-7.6 7.6-20.5 2.2-20.5-8.5v-67H140c-6.6 0-12-5.4-12-12z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;" type="ui" id="mXQZA1hrZYk9NPQM2xMQCp">
+      <mxCell style="ui" vertex="1" parent="gc5dHoK45HoHXHWLpuAaC3" tempVisible="1">
+        <mxGeometry x="33" y="108" width="211" height="132" as="geometry"/>
+      </mxCell>
+    </ui>
+    <mxCell id="gVdXf5DQSNMFowgmftKQC3" style="html=1;" edge="1" parent="gc5dHoK45HoHXHWLpuAaC3" source="dvg58meDzVVjRy2pgfVDiR" target="mXQZA1hrZYk9NPQM2xMQCp" tempVisible="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="97" y="694"/>
+          <mxPoint x="97" y="694"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <command label="Ready&amp;nbsp;&lt;div&gt;Room&lt;/div&gt;" type="command" id="9ix3r4rDztnMNvSNbFmvvA">
+      <mxCell style="command" vertex="1" parent="gc5dHoK45HoHXHWLpuAaC3" tempVisible="1">
+        <mxGeometry x="273" y="848" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </command>
+    <mxCell id="heejt8Xi1V3rT3ThtdtSrr" style="html=1;" edge="1" parent="gc5dHoK45HoHXHWLpuAaC3" source="mXQZA1hrZYk9NPQM2xMQCp" target="9ix3r4rDztnMNvSNbFmvvA" tempVisible="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="177" y="304"/>
+          <mxPoint x="352" y="304"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <event label="Room Readied" type="event" id="KcPsi6EN7XNFBGALuJqps">
+      <mxCell style="event" vertex="1" parent="gc5dHoK45HoHXHWLpuAaC3" tempVisible="1">
+        <mxGeometry x="273" y="1106" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <mxCell id="uP2zneGQmAKUp8ojEviQ2a" style="html=1;" edge="1" parent="gc5dHoK45HoHXHWLpuAaC3" source="9ix3r4rDztnMNvSNbFmvvA" target="KcPsi6EN7XNFBGALuJqps" tempVisible="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <feature label="Check In" type="feature" id="kUPDJPUFecaqhV2CbzMTkD">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-248" y="-1058.5" width="256" height="914" as="geometry">
+          <mxRectangle x="16512" y="-946" width="256" height="914" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <ui label="&lt;div&gt;Check In Terminal&lt;/div&gt;&lt;div&gt;&lt;hr id=&quot;null&quot;&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 448 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M0 84V44c0-8.837 7.163-16 16-16h416c8.837 0 16 7.163 16 16v40c0 8.837-7.163 16-16 16H16c-8.837 0-16-7.163-16-16zm16 144h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 256h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0-128h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 512 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M416 448h-84c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h84c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32h-84c-6.6 0-12-5.4-12-12V76c0-6.6 5.4-12 12-12h84c53 0 96 43 96 96v192c0 53-43 96-96 96zm-47-201L201 79c-15-15-41-4.5-41 17v96H24c-13.3 0-24 10.7-24 24v96c0 13.3 10.7 24 24 24h136v96c0 21.5 26 32 41 17l168-168c9.3-9.4 9.3-24.6 0-34z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/div&gt;" type="ui" id="nbow424JLTva759bJv4Mvg">
+      <mxCell style="ui" vertex="1" parent="kUPDJPUFecaqhV2CbzMTkD" tempVisible="1">
+        <mxGeometry x="16.5" y="112" width="211" height="132" as="geometry"/>
+      </mxCell>
+    </ui>
+    <command label="Check In" type="command" id="q7oKuviuv2jqRWNWmymWtN">
+      <mxCell style="command" vertex="1" parent="kUPDJPUFecaqhV2CbzMTkD" tempVisible="1">
+        <mxGeometry x="42" y="498" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </command>
+    <mxCell id="oDcEaAaTGVziS7wML8Ha4p" style="html=1;" edge="1" parent="kUPDJPUFecaqhV2CbzMTkD" source="nbow424JLTva759bJv4Mvg" target="q7oKuviuv2jqRWNWmymWtN" tempVisible="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <event label="Checked In" type="event" id="8U5XryAcMLjW2gqEgaGmwF">
+      <mxCell style="event" vertex="1" parent="kUPDJPUFecaqhV2CbzMTkD" tempVisible="1">
+        <mxGeometry x="42" y="756" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <mxCell id="PmGwm3WDiHtuDW2wJWWCL" style="html=1;" edge="1" parent="kUPDJPUFecaqhV2CbzMTkD" source="q7oKuviuv2jqRWNWmymWtN" target="8U5XryAcMLjW2gqEgaGmwF" tempVisible="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <feature label="Automatic Check Out" type="feature" id="dVxT1K2HzeNsX1nuVNLh5i">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="62" y="-1368.5" width="1114" height="1851" as="geometry">
+          <mxRectangle x="-90" y="-1371" width="1114" height="1851" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <policy label="Checkout Processor&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 640 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M512.1 191l-8.2 14.3c-3 5.3-9.4 7.5-15.1 5.4-11.8-4.4-22.6-10.7-32.1-18.6-4.6-3.8-5.8-10.5-2.8-15.7l8.2-14.3c-6.9-8-12.3-17.3-15.9-27.4h-16.5c-6 0-11.2-4.3-12.2-10.3-2-12-2.1-24.6 0-37.1 1-6 6.2-10.4 12.2-10.4h16.5c3.6-10.1 9-19.4 15.9-27.4l-8.2-14.3c-3-5.2-1.9-11.9 2.8-15.7 9.5-7.9 20.4-14.2 32.1-18.6 5.7-2.1 12.1.1 15.1 5.4l8.2 14.3c10.5-1.9 21.2-1.9 31.7 0L552 6.3c3-5.3 9.4-7.5 15.1-5.4 11.8 4.4 22.6 10.7 32.1 18.6 4.6 3.8 5.8 10.5 2.8 15.7l-8.2 14.3c6.9 8 12.3 17.3 15.9 27.4h16.5c6 0 11.2 4.3 12.2 10.3 2 12 2.1 24.6 0 37.1-1 6-6.2 10.4-12.2 10.4h-16.5c-3.6 10.1-9 19.4-15.9 27.4l8.2 14.3c3 5.2 1.9 11.9-2.8 15.7-9.5 7.9-20.4 14.2-32.1 18.6-5.7 2.1-12.1-.1-15.1-5.4l-8.2-14.3c-10.4 1.9-21.2 1.9-31.7 0zm-10.5-58.8c38.5 29.6 82.4-14.3 52.8-52.8-38.5-29.7-82.4 14.3-52.8 52.8zM386.3 286.1l33.7 16.8c10.1 5.8 14.5 18.1 10.5 29.1-8.9 24.2-26.4 46.4-42.6 65.8-7.4 8.9-20.2 11.1-30.3 5.3l-29.1-16.8c-16 13.7-34.6 24.6-54.9 31.7v33.6c0 11.6-8.3 21.6-19.7 23.6-24.6 4.2-50.4 4.4-75.9 0-11.5-2-20-11.9-20-23.6V418c-20.3-7.2-38.9-18-54.9-31.7L74 403c-10 5.8-22.9 3.6-30.3-5.3-16.2-19.4-33.3-41.6-42.2-65.7-4-10.9.4-23.2 10.5-29.1l33.3-16.8c-3.9-20.9-3.9-42.4 0-63.4L12 205.8c-10.1-5.8-14.6-18.1-10.5-29 8.9-24.2 26-46.4 42.2-65.8 7.4-8.9 20.2-11.1 30.3-5.3l29.1 16.8c16-13.7 34.6-24.6 54.9-31.7V57.1c0-11.5 8.2-21.5 19.6-23.5 24.6-4.2 50.5-4.4 76-.1 11.5 2 20 11.9 20 23.6v33.6c20.3 7.2 38.9 18 54.9 31.7l29.1-16.8c10-5.8 22.9-3.6 30.3 5.3 16.2 19.4 33.2 41.6 42.1 65.8 4 10.9.1 23.2-10 29.1l-33.7 16.8c3.9 21 3.9 42.5 0 63.5zm-117.6 21.1c59.2-77-28.7-164.9-105.7-105.7-59.2 77 28.7 164.9 105.7 105.7zm243.4 182.7l-8.2 14.3c-3 5.3-9.4 7.5-15.1 5.4-11.8-4.4-22.6-10.7-32.1-18.6-4.6-3.8-5.8-10.5-2.8-15.7l8.2-14.3c-6.9-8-12.3-17.3-15.9-27.4h-16.5c-6 0-11.2-4.3-12.2-10.3-2-12-2.1-24.6 0-37.1 1-6 6.2-10.4 12.2-10.4h16.5c3.6-10.1 9-19.4 15.9-27.4l-8.2-14.3c-3-5.2-1.9-11.9 2.8-15.7 9.5-7.9 20.4-14.2 32.1-18.6 5.7-2.1 12.1.1 15.1 5.4l8.2 14.3c10.5-1.9 21.2-1.9 31.7 0l8.2-14.3c3-5.3 9.4-7.5 15.1-5.4 11.8 4.4 22.6 10.7 32.1 18.6 4.6 3.8 5.8 10.5 2.8 15.7l-8.2 14.3c6.9 8 12.3 17.3 15.9 27.4h16.5c6 0 11.2 4.3 12.2 10.3 2 12 2.1 24.6 0 37.1-1 6-6.2 10.4-12.2 10.4h-16.5c-3.6 10.1-9 19.4-15.9 27.4l8.2 14.3c3 5.2 1.9 11.9-2.8 15.7-9.5 7.9-20.4 14.2-32.1 18.6-5.7 2.1-12.1-.1-15.1-5.4l-8.2-14.3c-10.4 1.9-21.2 1.9-31.7 0zM501.6 431c38.5 29.6 82.4-14.3 52.8-52.8-38.5-29.6-82.4 14.3-52.8 52.8z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/div&gt;" type="policy" id="fxcrApZ3Kj2JCWW3bB84wy">
+      <mxCell style="policy" vertex="1" parent="dVxT1K2HzeNsX1nuVNLh5i" tempVisible="1">
+        <mxGeometry x="797" y="84" width="186" height="116" as="geometry"/>
+      </mxCell>
+    </policy>
+    <command label="Hotel Proximity&lt;div&gt;Translator&lt;/div&gt;" type="command" id="jFTDe1qziGTEc5KKtz1Ydd">
+      <mxCell style="command" vertex="1" parent="dVxT1K2HzeNsX1nuVNLh5i" tempVisible="1">
+        <mxGeometry x="172.5" y="808" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </command>
+    <event label="Guest Left&amp;nbsp;&lt;div&gt;Hotel&lt;/div&gt;" type="event" id="qTXW5aE24qRcnwkh9Ym5h3">
+      <mxCell style="event" vertex="1" parent="dVxT1K2HzeNsX1nuVNLh5i" tempVisible="1">
+        <mxGeometry x="637" y="1076" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <mxCell id="gzA9ZUgNNTdktg5TfwR9xm" style="html=1;" edge="1" parent="dVxT1K2HzeNsX1nuVNLh5i" source="jFTDe1qziGTEc5KKtz1Ydd" target="qTXW5aE24qRcnwkh9Ym5h3" tempVisible="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="362" y="856"/>
+          <mxPoint x="362" y="1126"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="nVf763t2tGwH7GxkyANbNv" style="html=1;" edge="1" parent="dVxT1K2HzeNsX1nuVNLh5i" source="tH9XwwHAMWrBnjJRpvSsn8" target="fxcrApZ3Kj2JCWW3bB84wy" tempVisible="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="718" y="503"/>
+          <mxPoint x="844" y="503"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <document label="Guest&amp;nbsp;&lt;div&gt;Roster&lt;/div&gt;" type="document" id="tH9XwwHAMWrBnjJRpvSsn8">
+      <mxCell style="document" vertex="1" parent="dVxT1K2HzeNsX1nuVNLh5i" tempVisible="1">
+        <mxGeometry x="637" y="808" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </document>
+    <mxCell id="tSdbM41YBscE954HjrDoLU" style="html=1;" edge="1" parent="dVxT1K2HzeNsX1nuVNLh5i" source="qTXW5aE24qRcnwkh9Ym5h3" target="tH9XwwHAMWrBnjJRpvSsn8" tempVisible="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="irrYngfpRQecKrpb8FBDZN" style="html=1;" edge="1" parent="dVxT1K2HzeNsX1nuVNLh5i" source="fxcrApZ3Kj2JCWW3bB84wy" target="i8zv7iN7jXMJaNvi3664Gg" tempVisible="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="941" y="339"/>
+          <mxPoint x="941" y="339"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <command label="Check Out" type="command" id="i8zv7iN7jXMJaNvi3664Gg">
+      <mxCell style="command" vertex="1" parent="dVxT1K2HzeNsX1nuVNLh5i" tempVisible="1">
+        <mxGeometry x="890" y="808" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </command>
+    <event label="Checked&lt;div&gt;Out&lt;/div&gt;" type="event" id="wb6M8xRcexQ3DUm2Yg1Zd3">
+      <mxCell style="event" vertex="1" parent="dVxT1K2HzeNsX1nuVNLh5i" tempVisible="1">
+        <mxGeometry x="890" y="1076" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <mxCell id="fNXpuodEUWERPNaZ3LnunD" style="html=1;" edge="1" parent="dVxT1K2HzeNsX1nuVNLh5i" source="i8zv7iN7jXMJaNvi3664Gg" target="wb6M8xRcexQ3DUm2Yg1Zd3" tempVisible="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="ofsYbwHFJ7LEcwknXLZi4u" style="html=1;" edge="1" parent="dVxT1K2HzeNsX1nuVNLh5i" source="7r8NDcrdRKbYgPUQz5aXVA" target="jFTDe1qziGTEc5KKtz1Ydd" tempVisible="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="179.5" y="1688"/>
+          <mxPoint x="243.5" y="1688"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <event label="&lt;div style=&quot;text-align: right;&quot;&gt;Lat: 50.04836&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;Long: 8.56790&lt;/div&gt;" type="event" id="7r8NDcrdRKbYgPUQz5aXVA">
+      <mxCell style="event" vertex="1" parent="dVxT1K2HzeNsX1nuVNLh5i" tempVisible="1">
+        <mxGeometry x="66.5" y="1699" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <mxCell id="txE7MeR1QvSGGSNDYZJYLj" style="html=1;" edge="1" parent="dVxT1K2HzeNsX1nuVNLh5i" source="8RQwQU9Pmdpgsbyc2wbbY4" target="jFTDe1qziGTEc5KKtz1Ydd" tempVisible="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="340" y="1688"/>
+          <mxPoint x="276" y="1688"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <event label="&lt;div style=&quot;text-align: right;&quot;&gt;Lat: 50.14836&lt;/div&gt;&lt;div style=&quot;text-align: right;&quot;&gt;Long: 8.56790&lt;/div&gt;" type="event" id="8RQwQU9Pmdpgsbyc2wbbY4">
+      <mxCell style="event" vertex="1" parent="dVxT1K2HzeNsX1nuVNLh5i" tempVisible="1">
+        <mxGeometry x="277" y="1699" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <feature label="Payment" type="feature" id="tjwmqPyGcM4jrsGSPt6Vxw">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="1268" y="-1056.5" width="854" height="1331" as="geometry">
+          <mxRectangle x="1116" y="-1059" width="854" height="1331" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <ui label="&lt;div&gt;Payment Form&lt;/div&gt;&lt;div&gt;&lt;hr id=&quot;null&quot;&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 448 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M0 84V44c0-8.837 7.163-16 16-16h416c8.837 0 16 7.163 16 16v40c0 8.837-7.163 16-16 16H16c-8.837 0-16-7.163-16-16zm16 144h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 256h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0-128h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 288 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M209.2 233.4l-108-31.6C88.7 198.2 80 186.5 80 173.5c0-16.3 13.2-29.5 29.5-29.5h66.3c12.2 0 24.2 3.7 34.2 10.5 6.1 4.1 14.3 3.1 19.5-2l34.8-34c7.1-6.9 6.1-18.4-1.8-24.5C238 74.8 207.4 64.1 176 64V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48h-2.5C45.8 64-5.4 118.7.5 183.6c4.2 46.1 39.4 83.6 83.8 96.6l102.5 30c12.5 3.7 21.2 15.3 21.2 28.3 0 16.3-13.2 29.5-29.5 29.5h-66.3C100 368 88 364.3 78 357.5c-6.1-4.1-14.3-3.1-19.5 2l-34.8 34c-7.1 6.9-6.1 18.4 1.8 24.5 24.5 19.2 55.1 29.9 86.5 30v48c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-48.2c46.6-.9 90.3-28.6 105.7-72.7 21.5-61.6-14.6-124.8-72.5-141.7z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/div&gt;" type="ui" id="w96mJZHQoQkoEwda8pgTT8">
+      <mxCell style="ui" vertex="1" parent="tjwmqPyGcM4jrsGSPt6Vxw" tempVisible="1">
+        <mxGeometry x="42" y="90" width="211" height="132" as="geometry"/>
+      </mxCell>
+    </ui>
+    <command label="Pay" type="command" id="iDF5f83DcLhLJ9r77kCGwg">
+      <mxCell style="command" vertex="1" parent="tjwmqPyGcM4jrsGSPt6Vxw" tempVisible="1">
+        <mxGeometry x="93" y="496" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </command>
+    <mxCell id="c7RaaKLjS7nvq9TiFpbKYY" style="html=1;" edge="1" parent="tjwmqPyGcM4jrsGSPt6Vxw" source="w96mJZHQoQkoEwda8pgTT8" target="iDF5f83DcLhLJ9r77kCGwg" tempVisible="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="203" y="416"/>
+          <mxPoint x="203" y="416"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <event label="Payment&amp;nbsp;&lt;div&gt;Requested&lt;/div&gt;" type="event" id="bJLog2ZGsBWZPF5JgdRHhi">
+      <mxCell style="event" vertex="1" parent="tjwmqPyGcM4jrsGSPt6Vxw" tempVisible="1">
+        <mxGeometry x="93" y="1179" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <mxCell id="eVxP9fuTPSK87r6EnfwPjg" style="html=1;" edge="1" parent="tjwmqPyGcM4jrsGSPt6Vxw" source="iDF5f83DcLhLJ9r77kCGwg" target="bJLog2ZGsBWZPF5JgdRHhi" tempVisible="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="202" y="880"/>
+          <mxPoint x="202" y="880"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <document label="Payments to Process" type="document" id="7kkyyza634W9Fj4XRjUYWq">
+      <mxCell style="document" vertex="1" parent="tjwmqPyGcM4jrsGSPt6Vxw" tempVisible="1">
+        <mxGeometry x="394" y="496" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </document>
+    <mxCell id="bproyW8ZLX7guBE3tjHABD" style="html=1;" edge="1" parent="tjwmqPyGcM4jrsGSPt6Vxw" source="bJLog2ZGsBWZPF5JgdRHhi" target="7kkyyza634W9Fj4XRjUYWq" tempVisible="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <policy label="Payment Processor&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 640 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M512.1 191l-8.2 14.3c-3 5.3-9.4 7.5-15.1 5.4-11.8-4.4-22.6-10.7-32.1-18.6-4.6-3.8-5.8-10.5-2.8-15.7l8.2-14.3c-6.9-8-12.3-17.3-15.9-27.4h-16.5c-6 0-11.2-4.3-12.2-10.3-2-12-2.1-24.6 0-37.1 1-6 6.2-10.4 12.2-10.4h16.5c3.6-10.1 9-19.4 15.9-27.4l-8.2-14.3c-3-5.2-1.9-11.9 2.8-15.7 9.5-7.9 20.4-14.2 32.1-18.6 5.7-2.1 12.1.1 15.1 5.4l8.2 14.3c10.5-1.9 21.2-1.9 31.7 0L552 6.3c3-5.3 9.4-7.5 15.1-5.4 11.8 4.4 22.6 10.7 32.1 18.6 4.6 3.8 5.8 10.5 2.8 15.7l-8.2 14.3c6.9 8 12.3 17.3 15.9 27.4h16.5c6 0 11.2 4.3 12.2 10.3 2 12 2.1 24.6 0 37.1-1 6-6.2 10.4-12.2 10.4h-16.5c-3.6 10.1-9 19.4-15.9 27.4l8.2 14.3c3 5.2 1.9 11.9-2.8 15.7-9.5 7.9-20.4 14.2-32.1 18.6-5.7 2.1-12.1-.1-15.1-5.4l-8.2-14.3c-10.4 1.9-21.2 1.9-31.7 0zm-10.5-58.8c38.5 29.6 82.4-14.3 52.8-52.8-38.5-29.7-82.4 14.3-52.8 52.8zM386.3 286.1l33.7 16.8c10.1 5.8 14.5 18.1 10.5 29.1-8.9 24.2-26.4 46.4-42.6 65.8-7.4 8.9-20.2 11.1-30.3 5.3l-29.1-16.8c-16 13.7-34.6 24.6-54.9 31.7v33.6c0 11.6-8.3 21.6-19.7 23.6-24.6 4.2-50.4 4.4-75.9 0-11.5-2-20-11.9-20-23.6V418c-20.3-7.2-38.9-18-54.9-31.7L74 403c-10 5.8-22.9 3.6-30.3-5.3-16.2-19.4-33.3-41.6-42.2-65.7-4-10.9.4-23.2 10.5-29.1l33.3-16.8c-3.9-20.9-3.9-42.4 0-63.4L12 205.8c-10.1-5.8-14.6-18.1-10.5-29 8.9-24.2 26-46.4 42.2-65.8 7.4-8.9 20.2-11.1 30.3-5.3l29.1 16.8c16-13.7 34.6-24.6 54.9-31.7V57.1c0-11.5 8.2-21.5 19.6-23.5 24.6-4.2 50.5-4.4 76-.1 11.5 2 20 11.9 20 23.6v33.6c20.3 7.2 38.9 18 54.9 31.7l29.1-16.8c10-5.8 22.9-3.6 30.3 5.3 16.2 19.4 33.2 41.6 42.1 65.8 4 10.9.1 23.2-10 29.1l-33.7 16.8c3.9 21 3.9 42.5 0 63.5zm-117.6 21.1c59.2-77-28.7-164.9-105.7-105.7-59.2 77 28.7 164.9 105.7 105.7zm243.4 182.7l-8.2 14.3c-3 5.3-9.4 7.5-15.1 5.4-11.8-4.4-22.6-10.7-32.1-18.6-4.6-3.8-5.8-10.5-2.8-15.7l8.2-14.3c-6.9-8-12.3-17.3-15.9-27.4h-16.5c-6 0-11.2-4.3-12.2-10.3-2-12-2.1-24.6 0-37.1 1-6 6.2-10.4 12.2-10.4h16.5c3.6-10.1 9-19.4 15.9-27.4l-8.2-14.3c-3-5.2-1.9-11.9 2.8-15.7 9.5-7.9 20.4-14.2 32.1-18.6 5.7-2.1 12.1.1 15.1 5.4l8.2 14.3c10.5-1.9 21.2-1.9 31.7 0l8.2-14.3c3-5.3 9.4-7.5 15.1-5.4 11.8 4.4 22.6 10.7 32.1 18.6 4.6 3.8 5.8 10.5 2.8 15.7l-8.2 14.3c6.9 8 12.3 17.3 15.9 27.4h16.5c6 0 11.2 4.3 12.2 10.3 2 12 2.1 24.6 0 37.1-1 6-6.2 10.4-12.2 10.4h-16.5c-3.6 10.1-9 19.4-15.9 27.4l8.2 14.3c3 5.2 1.9 11.9-2.8 15.7-9.5 7.9-20.4 14.2-32.1 18.6-5.7 2.1-12.1-.1-15.1-5.4l-8.2-14.3c-10.4 1.9-21.2 1.9-31.7 0zM501.6 431c38.5 29.6 82.4-14.3 52.8-52.8-38.5-29.6-82.4 14.3-52.8 52.8z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/div&gt;" type="policy" id="r22rHkYm68R9o69pQUzoRp">
+      <mxCell style="policy" vertex="1" parent="tjwmqPyGcM4jrsGSPt6Vxw" tempVisible="1">
+        <mxGeometry x="522" y="98" width="186" height="116" as="geometry"/>
+      </mxCell>
+    </policy>
+    <mxCell id="exnqr8ypnxYtccvc1Gbox6" style="html=1;" edge="1" parent="tjwmqPyGcM4jrsGSPt6Vxw" source="7kkyyza634W9Fj4XRjUYWq" target="r22rHkYm68R9o69pQUzoRp" tempVisible="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="475" y="432"/>
+          <mxPoint x="570" y="432"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <command label="Process&amp;nbsp;&lt;div&gt;Payment&lt;/div&gt;" type="command" id="j6VBro5JW9VxcdQynVMjK4">
+      <mxCell style="command" vertex="1" parent="tjwmqPyGcM4jrsGSPt6Vxw" tempVisible="1">
+        <mxGeometry x="615" y="496" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </command>
+    <mxCell id="3tz4QqpSVRLQoKRCRaA2Cb" style="html=1;" edge="1" parent="tjwmqPyGcM4jrsGSPt6Vxw" source="r22rHkYm68R9o69pQUzoRp" target="j6VBro5JW9VxcdQynVMjK4" tempVisible="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="681.5" y="268"/>
+          <mxPoint x="681.5" y="268"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <event label="Payment&amp;nbsp;&lt;div&gt;Succeeded&lt;/div&gt;" type="event" id="dDG5ezpzxT9Afzj5ALJMrh">
+      <mxCell style="event" vertex="1" parent="tjwmqPyGcM4jrsGSPt6Vxw" tempVisible="1">
+        <mxGeometry x="615" y="1178.9999999999998" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <mxCell id="u9jeQ1vUsGtM4Yg3ApUKQW" style="html=1;" edge="1" parent="tjwmqPyGcM4jrsGSPt6Vxw" source="j6VBro5JW9VxcdQynVMjK4" target="dDG5ezpzxT9Afzj5ALJMrh" tempVisible="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <feature label="Sales Reports" type="feature" id="4H1pzUcqBDN8w4otcR3Fbk">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="2184" y="-1389.5" width="448" height="1024" as="geometry">
+          <mxRectangle x="2032" y="-1392" width="448" height="1024" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <ui label="&lt;div&gt;Reporting&lt;/div&gt;&lt;div&gt;&lt;hr id=&quot;null&quot;&gt;&lt;/div&gt;&amp;nbsp;&amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 512 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M496 384H64V80c0-8.84-7.16-16-16-16H16C7.16 64 0 71.16 0 80v336c0 17.67 14.33 32 32 32h464c8.84 0 16-7.16 16-16v-32c0-8.84-7.16-16-16-16zM464 96H345.94c-21.38 0-32.09 25.85-16.97 40.97l32.4 32.4L288 242.75l-73.37-73.37c-12.5-12.5-32.76-12.5-45.25 0l-68.69 68.69c-6.25 6.25-6.25 16.38 0 22.63l22.62 22.62c6.25 6.25 16.38 6.25 22.63 0L192 237.25l73.37 73.37c12.5 12.5 32.76 12.5 45.25 0l96-96 32.4 32.4c15.12 15.12 40.97 4.41 40.97-16.97V112c.01-8.84-7.15-16-15.99-16z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 288 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M209.2 233.4l-108-31.6C88.7 198.2 80 186.5 80 173.5c0-16.3 13.2-29.5 29.5-29.5h66.3c12.2 0 24.2 3.7 34.2 10.5 6.1 4.1 14.3 3.1 19.5-2l34.8-34c7.1-6.9 6.1-18.4-1.8-24.5C238 74.8 207.4 64.1 176 64V16c0-8.8-7.2-16-16-16h-32c-8.8 0-16 7.2-16 16v48h-2.5C45.8 64-5.4 118.7.5 183.6c4.2 46.1 39.4 83.6 83.8 96.6l102.5 30c12.5 3.7 21.2 15.3 21.2 28.3 0 16.3-13.2 29.5-29.5 29.5h-66.3C100 368 88 364.3 78 357.5c-6.1-4.1-14.3-3.1-19.5 2l-34.8 34c-7.1 6.9-6.1 18.4 1.8 24.5 24.5 19.2 55.1 29.9 86.5 30v48c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16v-48.2c46.6-.9 90.3-28.6 105.7-72.7 21.5-61.6-14.6-124.8-72.5-141.7z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;" type="ui" id="x5fT269SR6cDZ9xpvVuhfM">
+      <mxCell style="ui" vertex="1" parent="4H1pzUcqBDN8w4otcR3Fbk" tempVisible="1">
+        <mxGeometry x="102" y="82" width="234" height="146" as="geometry"/>
+      </mxCell>
+    </ui>
+    <mxCell id="431h7sa45h3skuhkNfPZ63" style="html=1;" edge="1" parent="4H1pzUcqBDN8w4otcR3Fbk" source="a4Kuqbg7HkV5SmehQdzpd1" target="x5fT269SR6cDZ9xpvVuhfM" tempVisible="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="134" y="748"/>
+          <mxPoint x="220" y="748"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <document label="Sales&amp;nbsp;&lt;div&gt;Report&lt;/div&gt;" type="document" id="a4Kuqbg7HkV5SmehQdzpd1">
+      <mxCell style="document" vertex="1" parent="4H1pzUcqBDN8w4otcR3Fbk" tempVisible="1">
+        <mxGeometry x="54" y="829" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </document>
+    <feature label="Legend" type="feature" id="gqhruitVX7P9LZx9EoKnQa">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-2380" y="1094" width="740" height="795" as="geometry">
+          <mxRectangle x="-2380" y="1094" width="740" height="795" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <ui label="UI / API / Job" type="ui" id="q8xxznCv3CYSsqWX3meQRY">
+      <mxCell style="ui" vertex="1" parent="gqhruitVX7P9LZx9EoKnQa" tempVisible="1">
+        <mxGeometry x="343" y="140" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </ui>
+    <command label="Command" type="command" id="6VSmiCXbKu7AZhDCW3vDnu">
+      <mxCell style="command" vertex="1" parent="gqhruitVX7P9LZx9EoKnQa" tempVisible="1">
+        <mxGeometry x="343" y="300" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </command>
+    <mxCell id="fadvR9vbHToL45n8UaYnCh" style="html=1;" edge="1" parent="gqhruitVX7P9LZx9EoKnQa" source="q8xxznCv3CYSsqWX3meQRY" target="6VSmiCXbKu7AZhDCW3vDnu" tempVisible="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <event label="Event" type="event" id="5ybiKTeX8FxVRUguQoD99s">
+      <mxCell style="event" vertex="1" parent="gqhruitVX7P9LZx9EoKnQa" tempVisible="1">
+        <mxGeometry x="343" y="474" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <mxCell id="aQi7BJqekWEkAtMngyF7qN" style="html=1;" edge="1" parent="gqhruitVX7P9LZx9EoKnQa" source="6VSmiCXbKu7AZhDCW3vDnu" target="5ybiKTeX8FxVRUguQoD99s" tempVisible="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="3GE17eGJ1gschambyjAzSJ" style="html=1;" edge="1" parent="gqhruitVX7P9LZx9EoKnQa" source="9modYiBniZ5wdXAEZWuacf" target="q8xxznCv3CYSsqWX3meQRY" tempVisible="1">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="215" y="684.0000000000005"/>
+          <mxPoint x="215" y="190"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+    <document label="View" type="document" id="9modYiBniZ5wdXAEZWuacf">
+      <mxCell style="document" vertex="1" parent="gqhruitVX7P9LZx9EoKnQa" tempVisible="1">
+        <mxGeometry x="343" y="634.0000000000005" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </document>
+    <mxCell id="2bepwMkQvMhGu2KTJsv1ok" style="html=1;" edge="1" parent="gqhruitVX7P9LZx9EoKnQa" source="5ybiKTeX8FxVRUguQoD99s" target="9modYiBniZ5wdXAEZWuacf" tempVisible="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <feature label="State Change" type="feature" id="iWs2nfvWnSXHACDBvWzAYj">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-1520" y="1104" width="811" height="792" as="geometry">
+          <mxRectangle x="-1520" y="1104" width="811" height="792" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <event label="Registered" type="event" id="cMApdQkMukaVym8L2xqBqA">
+      <mxCell style="event" vertex="1" parent="iWs2nfvWnSXHACDBvWzAYj" tempVisible="1">
+        <mxGeometry x="399" y="119" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <event label="Room Added" type="event" id="vdJPawSeBrgBPWRQDdM3bj">
+      <mxCell style="event" vertex="1" parent="iWs2nfvWnSXHACDBvWzAYj" tempVisible="1">
+        <mxGeometry x="399" y="229" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <command label="Book Room" type="command" id="fo8mmPYjBJ82Taq5ZxC759">
+      <mxCell style="command" vertex="1" parent="iWs2nfvWnSXHACDBvWzAYj" tempVisible="1">
+        <mxGeometry x="514" y="379" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </command>
+    <event label="Room Booked" type="event" id="dTMhu5JRc3zwPPnCxLPdEm">
+      <mxCell style="event" vertex="1" parent="iWs2nfvWnSXHACDBvWzAYj" tempVisible="1">
+        <mxGeometry x="399" y="553" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <mxCell id="kiGCH5GkfFoBZh8UVZrabd" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;Given&lt;/span&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="iWs2nfvWnSXHACDBvWzAYj" tempVisible="1">
+      <mxGeometry x="47" y="140" width="235" height="158" as="geometry"/>
+    </mxCell>
+    <mxCell id="c8Qpo6MRW7UuwrR9AcGVrc" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;When&lt;/span&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="iWs2nfvWnSXHACDBvWzAYj" tempVisible="1">
+      <mxGeometry x="47" y="350" width="235" height="158" as="geometry"/>
+    </mxCell>
+    <mxCell id="34CxHSGUXUvFe8iRrUhLNj" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;Then&lt;/span&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="iWs2nfvWnSXHACDBvWzAYj" tempVisible="1">
+      <mxGeometry x="47" y="524" width="235" height="158" as="geometry"/>
+    </mxCell>
+    <feature label="State View" type="feature" id="x3ZMtoi8mGRQXPz2vyLKL4">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-592" y="1134" width="804" height="773" as="geometry">
+          <mxRectangle x="-592" y="1134" width="804" height="773" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <event label="Payment&amp;nbsp;&lt;div&gt;Succeeded&lt;/div&gt;" type="event" id="KPyAcHjMwMCGG9sKcpQDz">
+      <mxCell style="event" vertex="1" parent="x3ZMtoi8mGRQXPz2vyLKL4" tempVisible="1">
+        <mxGeometry x="411" y="100" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <event label="Payment&amp;nbsp;&lt;div&gt;Succeeded&lt;/div&gt;" type="event" id="96h85HK1LWHXQbojJQfyCY">
+      <mxCell style="event" vertex="1" parent="x3ZMtoi8mGRQXPz2vyLKL4" tempVisible="1">
+        <mxGeometry x="411" y="209.99999999999977" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <document label="Sales&amp;nbsp;&lt;div&gt;Report&lt;/div&gt;" type="document" id="apEA4SeUSSM3npXvWJQu6V">
+      <mxCell style="document" vertex="1" parent="x3ZMtoi8mGRQXPz2vyLKL4" tempVisible="1">
+        <mxGeometry x="469" y="360" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </document>
+    <mxCell id="3NCuwL4eV4H9MDgwvy68Jx" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;Given&lt;/span&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="x3ZMtoi8mGRQXPz2vyLKL4" tempVisible="1">
+      <mxGeometry x="68.5" y="121" width="235" height="158" as="geometry"/>
+    </mxCell>
+    <mxCell id="ibTmSCz9m3H1C1aMnMAZgC" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;Then&lt;/span&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="x3ZMtoi8mGRQXPz2vyLKL4" tempVisible="1">
+      <mxGeometry x="68.5" y="355" width="235" height="158" as="geometry"/>
+    </mxCell>
+    <feature label="External State Input" type="feature" id="4Ss41PsZM5CwYqhbYGsdUd">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="288" y="1149" width="1211" height="758" as="geometry">
+          <mxRectangle x="288" y="1149" width="1211" height="758" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <event label="GPS&amp;nbsp;&lt;div&gt;Update&lt;/div&gt;" type="event" id="sL8iGZF3QC6jdvjK5zCaDi">
+      <mxCell style="event" vertex="1" parent="4Ss41PsZM5CwYqhbYGsdUd" tempVisible="1">
+        <mxGeometry x="389" y="95.00000000000023" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <event label="GPS&amp;nbsp;&lt;div&gt;Update&lt;/div&gt;" type="event" id="7YwvhNBTfgy79QFF62exju">
+      <mxCell style="event" vertex="1" parent="4Ss41PsZM5CwYqhbYGsdUd" tempVisible="1">
+        <mxGeometry x="574.5" y="95.00000000000023" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <event label="GPS&amp;nbsp;&lt;div&gt;Update&lt;/div&gt;" type="event" id="mh2zYv7b3dsCt25svF7ZYE">
+      <mxCell style="event" vertex="1" parent="4Ss41PsZM5CwYqhbYGsdUd" tempVisible="1">
+        <mxGeometry x="773" y="95" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <event label="GPS&amp;nbsp;&lt;div&gt;Update&lt;/div&gt;" type="event" id="kr4NU6dzsF9nhnPtSGwwhY">
+      <mxCell style="event" vertex="1" parent="4Ss41PsZM5CwYqhbYGsdUd" tempVisible="1">
+        <mxGeometry x="965" y="95" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <mxCell id="n5jn8cLXfUprZE15BKmTnd" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;Given&lt;/span&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="4Ss41PsZM5CwYqhbYGsdUd" tempVisible="1">
+      <mxGeometry x="43" y="66" width="235" height="158" as="geometry"/>
+    </mxCell>
+    <command label="Translate&lt;div&gt;To Location&lt;/div&gt;" type="command" id="avHXrLa8B7y4k39EzQvTxu">
+      <mxCell style="command" vertex="1" parent="4Ss41PsZM5CwYqhbYGsdUd" tempVisible="1">
+        <mxGeometry x="658" y="290" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </command>
+    <mxCell id="bCFcGhsFvNHpvYWyArpkaf" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;When&lt;/span&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="4Ss41PsZM5CwYqhbYGsdUd" tempVisible="1">
+      <mxGeometry x="43" y="245" width="235" height="158" as="geometry"/>
+    </mxCell>
+    <event label="Entered&lt;div&gt;Hotel&lt;/div&gt;" type="event" id="5NgtTy6UC1kJ6qAeg6Lke">
+      <mxCell style="event" vertex="1" parent="4Ss41PsZM5CwYqhbYGsdUd" tempVisible="1">
+        <mxGeometry x="498" y="479" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <event label="Exited&lt;div&gt;Hotel&lt;/div&gt;" type="event" id="2E3JbiGWVgAppUdDELDVtT">
+      <mxCell style="event" vertex="1" parent="4Ss41PsZM5CwYqhbYGsdUd" tempVisible="1">
+        <mxGeometry x="818" y="474" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <mxCell id="aswjbUSQu3yiGgnViLG5U7" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;Then&lt;/span&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="4Ss41PsZM5CwYqhbYGsdUd" tempVisible="1">
+      <mxGeometry x="43" y="445" width="235" height="158" as="geometry"/>
+    </mxCell>
+    <feature label="External State Output" type="feature" id="t59yBUZAm3v2wmiJ2cV6jP">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="1600" y="1155" width="971" height="752" as="geometry">
+          <mxRectangle x="1600" y="1155" width="971" height="752" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <document label="Stay&amp;nbsp;&lt;div&gt;Notifications to&lt;/div&gt;&lt;div&gt;Send&lt;/div&gt;" type="document" id="8rjHK5nEXi6jx84VqJEFK6">
+      <mxCell style="document" vertex="1" parent="t59yBUZAm3v2wmiJ2cV6jP" tempVisible="1">
+        <mxGeometry x="561.5" y="93.99999999999977" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </document>
+    <command label="Send&lt;div&gt;Notification&lt;/div&gt;" type="command" id="f3HoBEgXXyWNB9UVj3TEzo">
+      <mxCell style="command" vertex="1" parent="t59yBUZAm3v2wmiJ2cV6jP" tempVisible="1">
+        <mxGeometry x="562" y="284" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </command>
+    <event label="Notification&lt;div&gt;Sent&lt;/div&gt;" type="event" id="eo8rEj21BxBQNqXCtpd6yV">
+      <mxCell style="event" vertex="1" parent="t59yBUZAm3v2wmiJ2cV6jP" tempVisible="1">
+        <mxGeometry x="402" y="468" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <event label="Notification&lt;div&gt;Failed&lt;/div&gt;" type="event" id="roChoRng2eVP6oHCTiUzgc">
+      <mxCell style="event" vertex="1" parent="t59yBUZAm3v2wmiJ2cV6jP" tempVisible="1">
+        <mxGeometry x="722" y="468" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </event>
+    <mxCell id="9HZ3PfehQy1E7yD6GS2Go7" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;Given&lt;/span&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="t59yBUZAm3v2wmiJ2cV6jP" tempVisible="1">
+      <mxGeometry x="60.5" y="36" width="235" height="158" as="geometry"/>
+    </mxCell>
+    <mxCell id="mtnmK3weC7ZN98KSQ5VKcP" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;When&lt;/span&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="t59yBUZAm3v2wmiJ2cV6jP" tempVisible="1">
+      <mxGeometry x="62" y="215" width="235" height="158" as="geometry"/>
+    </mxCell>
+    <mxCell id="YtKr1tSn9FKHZ74TCttch" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;Then&lt;/span&gt;&lt;/div&gt;" style="freeText" vertex="1" parent="t59yBUZAm3v2wmiJ2cV6jP" tempVisible="1">
+      <mxGeometry x="62" y="415" width="235" height="158" as="geometry"/>
+    </mxCell>
+    <boundedContext label="Introduction" type="boundedContext" id="7ouPwWnAxNabcZ9icJgjjT">
+      <mxCell style="boundedContext;fontSize=78;" vertex="1" alternateStyle="boundedContext;verticalAlign=middle;fontSize=112;" originalStyle="boundedContext" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="-5032" y="-1458" width="1456" height="3514" as="geometry">
+          <mxRectangle x="-5280" y="-1386" width="1456" height="3514" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </boundedContext>
+    <feature label="Hi&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 512 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M256 32C114.6 32 0 125.1 0 240c0 47.6 19.9 91.2 52.9 126.3C38 405.7 7 439.1 6.5 439.5c-6.6 7-8.4 17.2-4.6 26S14.4 480 24 480c61.5 0 110-25.7 139.1-46.3C192 442.8 223.2 448 256 448c141.4 0 256-93.1 256-208S397.4 32 256 32zm0 368c-26.7 0-53.1-4.1-78.4-12.1l-22.7-7.2-19.5 13.8c-14.3 10.1-33.9 21.4-57.5 29 7.3-12.1 14.4-25.7 19.9-40.2l10.6-28.1-20.6-21.8C69.7 314.1 48 282.2 48 240c0-88.2 93.3-160 208-160s208 71.8 208 160-93.3 160-208 160z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;" type="feature" id="3PMAQ7qzmKd7HJRVccaFUL">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7ouPwWnAxNabcZ9icJgjjT" tempVisible="1">
+        <mxGeometry x="248" y="217" width="960" height="304" as="geometry">
+          <mxRectangle x="304" y="256" width="960" height="304" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <mxCell id="6TPZgdgYCEBym3uj7ZmGqj" value="&lt;span&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;This is an Event Modeling example board. The hotel example is taken from&amp;nbsp;&lt;a href=&quot;https://eventmodeling.org/posts/what-is-event-modeling/&quot;&gt;https://eventmodeling.org/posts/what-is-event-modeling/&lt;/a&gt;&lt;/font&gt;&lt;/span&gt;" style="freeText;fillColor=#FFCC99;" vertex="1" parent="3PMAQ7qzmKd7HJRVccaFUL" tempVisible="1">
+      <mxGeometry x="72" y="110" width="816" height="114" as="geometry"/>
+    </mxCell>
+    <feature label="Preface&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 512 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M352 96c0-53.02-42.98-96-96-96s-96 42.98-96 96 42.98 96 96 96 96-42.98 96-96zM233.59 241.1c-59.33-36.32-155.43-46.3-203.79-49.05C13.55 191.13 0 203.51 0 219.14v222.8c0 14.33 11.59 26.28 26.49 27.05 43.66 2.29 131.99 10.68 193.04 41.43 9.37 4.72 20.48-1.71 20.48-11.87V252.56c-.01-4.67-2.32-8.95-6.42-11.46zm248.61-49.05c-48.35 2.74-144.46 12.73-203.78 49.05-4.1 2.51-6.41 6.96-6.41 11.63v245.79c0 10.19 11.14 16.63 20.54 11.9 61.04-30.72 149.32-39.11 192.97-41.4 14.9-.78 26.49-12.73 26.49-27.06V219.14c-.01-15.63-13.56-28.01-29.81-27.09z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;" type="feature" id="moR7NMd3Pzmp33Zo9oUrUG">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7ouPwWnAxNabcZ9icJgjjT" tempVisible="1">
+        <mxGeometry x="248" y="602" width="960" height="422" as="geometry">
+          <mxRectangle x="248" y="602" width="960" height="422" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <mxCell id="2MSR44wqSUssoen3gejkmP" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;The original example that you can find on the website linked above was created with Miro/Realtimeboard. Our version is very similar but contains some additions. We&#39;ve added feature frames (learn more about them &lt;a href=&quot;https://inspect.event-engine.io/inspectio/board/adcb18bb-ef49-4114-9638-bb08b0e088fe?cells=4aiepq52dABZq2VwY5jNJq&amp;amp;clicks=1&quot;&gt;here&lt;/a&gt;) to vertically slice through the swim lanes and group features/use cases. On this small example board the effect isn&#39;t that big, but with more content on the board, features will help you navigate and keep an overview. Check out the context tree on the left sidebar to see the effect.&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="freeText;fillColor=#FFCC99;" vertex="1" parent="moR7NMd3Pzmp33Zo9oUrUG" tempVisible="1">
+      <mxGeometry x="72" y="88" width="816" height="264" as="geometry"/>
+    </mxCell>
+    <feature label="When To Use&amp;nbsp; &amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 576 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M573.19 402.67l-139.79-320C428.43 71.29 417.6 64 405.68 64h-97.59l2.45 23.16c.5 4.72-3.21 8.84-7.96 8.84h-29.16c-4.75 0-8.46-4.12-7.96-8.84L267.91 64h-97.59c-11.93 0-22.76 7.29-27.73 18.67L2.8 402.67C-6.45 423.86 8.31 448 30.54 448h196.84l10.31-97.68c.86-8.14 7.72-14.32 15.91-14.32h68.8c8.19 0 15.05 6.18 15.91 14.32L348.62 448h196.84c22.23 0 36.99-24.14 27.73-45.33zM260.4 135.16a8 8 0 0 1 7.96-7.16h39.29c4.09 0 7.53 3.09 7.96 7.16l4.6 43.58c.75 7.09-4.81 13.26-11.93 13.26h-40.54c-7.13 0-12.68-6.17-11.93-13.26l4.59-43.58zM315.64 304h-55.29c-9.5 0-16.91-8.23-15.91-17.68l5.07-48c.86-8.14 7.72-14.32 15.91-14.32h45.15c8.19 0 15.05 6.18 15.91 14.32l5.07 48c1 9.45-6.41 17.68-15.91 17.68z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;" type="feature" id="q5SdD3cQemzGXMpomP2rH5">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7ouPwWnAxNabcZ9icJgjjT" tempVisible="1">
+        <mxGeometry x="248" y="1109" width="960" height="683" as="geometry">
+          <mxRectangle x="248" y="1109" width="960" height="683" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <mxCell id="k9d8huziGrBJooN5b2izkL" value="&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Event Modeling came out while we were already working on and with InspectIO. It heavily influenced the way we organize stickies on the board. Our best practice is documented on the &lt;a href=&quot;https://inspect.event-engine.io/inspectio/board/adcb18bb-ef49-4114-9638-bb08b0e088fe&quot;&gt;InspectIO Example Board&lt;/a&gt;. Make sure to check it out.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;However, our approach is focused&amp;nbsp;on Design-Level Event Storming since we use Bounded Contexts, Aggregates and Hot Spots. Event Modeling on the other hand wants to minimize the number of required stickies (and therefor concepts) to make communication with business people as simple as possible. This moves some information back to the implementation, for example what piece of code handles a command. What are the business rules and so on.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;For us there is no clear winner at the moment. The simplicity of Event Modeling is definitely an advantage. On the other hand some details are missing that we usually discuss before implementing them. So it&#39;s a team choice what you prefer. It might also make sense to combine the approaches:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;You can start with Big Picture Event Storming. After that use Event Modeling to explore details together with domain experts, UX Designer, .... Once boundaries are clear (the swim lanes in Event Modeling), each team can use Design-Level Event Storming to work out and discuss implementation details.&lt;/span&gt;&lt;/div&gt;" style="freeText;fillColor=#FFCC99;" vertex="1" parent="q5SdD3cQemzGXMpomP2rH5" tempVisible="1">
+      <mxGeometry x="72" y="88" width="816" height="536" as="geometry"/>
+    </mxCell>
+    <feature label="How To&amp;nbsp; &amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 640 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M512.1 191l-8.2 14.3c-3 5.3-9.4 7.5-15.1 5.4-11.8-4.4-22.6-10.7-32.1-18.6-4.6-3.8-5.8-10.5-2.8-15.7l8.2-14.3c-6.9-8-12.3-17.3-15.9-27.4h-16.5c-6 0-11.2-4.3-12.2-10.3-2-12-2.1-24.6 0-37.1 1-6 6.2-10.4 12.2-10.4h16.5c3.6-10.1 9-19.4 15.9-27.4l-8.2-14.3c-3-5.2-1.9-11.9 2.8-15.7 9.5-7.9 20.4-14.2 32.1-18.6 5.7-2.1 12.1.1 15.1 5.4l8.2 14.3c10.5-1.9 21.2-1.9 31.7 0L552 6.3c3-5.3 9.4-7.5 15.1-5.4 11.8 4.4 22.6 10.7 32.1 18.6 4.6 3.8 5.8 10.5 2.8 15.7l-8.2 14.3c6.9 8 12.3 17.3 15.9 27.4h16.5c6 0 11.2 4.3 12.2 10.3 2 12 2.1 24.6 0 37.1-1 6-6.2 10.4-12.2 10.4h-16.5c-3.6 10.1-9 19.4-15.9 27.4l8.2 14.3c3 5.2 1.9 11.9-2.8 15.7-9.5 7.9-20.4 14.2-32.1 18.6-5.7 2.1-12.1-.1-15.1-5.4l-8.2-14.3c-10.4 1.9-21.2 1.9-31.7 0zm-10.5-58.8c38.5 29.6 82.4-14.3 52.8-52.8-38.5-29.7-82.4 14.3-52.8 52.8zM386.3 286.1l33.7 16.8c10.1 5.8 14.5 18.1 10.5 29.1-8.9 24.2-26.4 46.4-42.6 65.8-7.4 8.9-20.2 11.1-30.3 5.3l-29.1-16.8c-16 13.7-34.6 24.6-54.9 31.7v33.6c0 11.6-8.3 21.6-19.7 23.6-24.6 4.2-50.4 4.4-75.9 0-11.5-2-20-11.9-20-23.6V418c-20.3-7.2-38.9-18-54.9-31.7L74 403c-10 5.8-22.9 3.6-30.3-5.3-16.2-19.4-33.3-41.6-42.2-65.7-4-10.9.4-23.2 10.5-29.1l33.3-16.8c-3.9-20.9-3.9-42.4 0-63.4L12 205.8c-10.1-5.8-14.6-18.1-10.5-29 8.9-24.2 26-46.4 42.2-65.8 7.4-8.9 20.2-11.1 30.3-5.3l29.1 16.8c16-13.7 34.6-24.6 54.9-31.7V57.1c0-11.5 8.2-21.5 19.6-23.5 24.6-4.2 50.5-4.4 76-.1 11.5 2 20 11.9 20 23.6v33.6c20.3 7.2 38.9 18 54.9 31.7l29.1-16.8c10-5.8 22.9-3.6 30.3 5.3 16.2 19.4 33.2 41.6 42.1 65.8 4 10.9.1 23.2-10 29.1l-33.7 16.8c3.9 21 3.9 42.5 0 63.5zm-117.6 21.1c59.2-77-28.7-164.9-105.7-105.7-59.2 77 28.7 164.9 105.7 105.7zm243.4 182.7l-8.2 14.3c-3 5.3-9.4 7.5-15.1 5.4-11.8-4.4-22.6-10.7-32.1-18.6-4.6-3.8-5.8-10.5-2.8-15.7l8.2-14.3c-6.9-8-12.3-17.3-15.9-27.4h-16.5c-6 0-11.2-4.3-12.2-10.3-2-12-2.1-24.6 0-37.1 1-6 6.2-10.4 12.2-10.4h16.5c3.6-10.1 9-19.4 15.9-27.4l-8.2-14.3c-3-5.2-1.9-11.9 2.8-15.7 9.5-7.9 20.4-14.2 32.1-18.6 5.7-2.1 12.1.1 15.1 5.4l8.2 14.3c10.5-1.9 21.2-1.9 31.7 0l8.2-14.3c3-5.3 9.4-7.5 15.1-5.4 11.8 4.4 22.6 10.7 32.1 18.6 4.6 3.8 5.8 10.5 2.8 15.7l-8.2 14.3c6.9 8 12.3 17.3 15.9 27.4h16.5c6 0 11.2 4.3 12.2 10.3 2 12 2.1 24.6 0 37.1-1 6-6.2 10.4-12.2 10.4h-16.5c-3.6 10.1-9 19.4-15.9 27.4l8.2 14.3c3 5.2 1.9 11.9-2.8 15.7-9.5 7.9-20.4 14.2-32.1 18.6-5.7 2.1-12.1-.1-15.1-5.4l-8.2-14.3c-10.4 1.9-21.2 1.9-31.7 0zM501.6 431c38.5 29.6 82.4-14.3 52.8-52.8-38.5-29.6-82.4 14.3-52.8 52.8z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;" type="feature" id="harsVNoYji7wgVoE3WYmTY">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7ouPwWnAxNabcZ9icJgjjT" tempVisible="1">
+        <mxGeometry x="248" y="1866" width="960" height="966" as="geometry">
+          <mxRectangle x="248" y="1866" width="960" height="966" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <mxCell id="iVU6LUisZKG8w6fgpAaHkJ" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;InspectIO is in closed beta. We&#39;re focusing on stability and usability of the service. Once stable, we want to improve Event Modeling support, especially working with swim lanes instead of Bounded Context frames. For now you have to use some tricks to create the swim lanes.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;Here is how we did it:&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;1) The timeline starts with a dot icon.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;2) It ends with a comment box that contains the word &quot;time&quot;.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;3) In between the two is a connector arrow.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;4) The&lt;/span&gt;&lt;span&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;nbsp;height of the &quot;time&quot; comment box is the same as the entire height of the diagram, but it has no border and a transparent bg. Line breaks are used to vertically align the word &quot;time&quot; with the timeline arrow.&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font size=&quot;3&quot;&gt;5) &lt;/font&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;The swim lanes are created the same. Each starts with a comment box that holds the label of the swim lane.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;6) An arrow connects the label with the &quot;time&quot; comment.&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;7) The dashed style of the arrows can be chosen from the context menu (right click on an arrow).&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;i&gt;Please note: It&#39;s planned to move arrow styling into a format toolbar. So this is subject to change, like other usability aspects of InspectIO.&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;i style=&quot;text-align: center;&quot;&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 192 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M176 432c0 44.112-35.888 80-80 80s-80-35.888-80-80 35.888-80 80-80 80 35.888 80 80zM25.26 25.199l13.6 272C39.499 309.972 50.041 320 62.83 320h66.34c12.789 0 23.331-10.028 23.97-22.801l13.6-272C167.425 11.49 156.496 0 142.77 0H49.23C35.504 0 24.575 11.49 25.26 25.199z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;The &quot;time&quot; comment box trick has the advantage that all arrows are connected with it. If you need to expand the timeline, just move the &quot;time&quot; comment to the right and all arrows and therefor all swim lanes will be resized accordingly.&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;i&gt;Instead of swim lanes you could also use the bounded context frames. We do this on one of our production boards to get the advantage of better readability in the &quot;bird view&quot; (zoomed out) and grouping in the context tree.&lt;/i&gt;&lt;/span&gt;&lt;/div&gt;" style="freeText;fillColor=#FFCC99;" vertex="1" parent="harsVNoYji7wgVoE3WYmTY" tempVisible="1">
+      <mxGeometry x="72" y="88" width="816" height="776" as="geometry"/>
+    </mxCell>
+    <feature label="Good To Know&amp;nbsp;&amp;nbsp;&lt;i&gt;&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 480 512&quot; style=&quot;width: 30px; height: 30px;&quot;&gt;&lt;path fill=&quot;currentcolor&quot; d=&quot;M471.99 334.43L336.06 256l135.93-78.43c7.66-4.42 10.28-14.2 5.86-21.86l-32.02-55.43c-4.42-7.65-14.21-10.28-21.87-5.86l-135.93 78.43V16c0-8.84-7.17-16-16.01-16h-64.04c-8.84 0-16.01 7.16-16.01 16v156.86L56.04 94.43c-7.66-4.42-17.45-1.79-21.87 5.86L2.15 155.71c-4.42 7.65-1.8 17.44 5.86 21.86L143.94 256 8.01 334.43c-7.66 4.42-10.28 14.21-5.86 21.86l32.02 55.43c4.42 7.65 14.21 10.27 21.87 5.86l135.93-78.43V496c0 8.84 7.17 16 16.01 16h64.04c8.84 0 16.01-7.16 16.01-16V339.14l135.93 78.43c7.66 4.42 17.45 1.8 21.87-5.86l32.02-55.43c4.42-7.65 1.8-17.43-5.86-21.85z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/i&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;" type="feature" id="bqRgdCiUhgPWCdewto6PRm">
+      <mxCell style="feature" vertex="1" alternateStyle="feature;verticalAlign=middle;fontSize=56;" originalStyle="feature" alternateStyleEnabled="0" parent="7ouPwWnAxNabcZ9icJgjjT" tempVisible="1">
+        <mxGeometry x="248" y="2917" width="960" height="492" as="geometry">
+          <mxRectangle x="248" y="2917" width="960" height="492" as="alternateBounds"/>
+        </mxGeometry>
+      </mxCell>
+    </feature>
+    <mxCell id="azWdo37xjwW8jANySM7XJo" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;You might wonder why InspectIO does not simply offer some more drawing options. The reason for that is the same as why Event Modeling wants to reduce the number of sticky types: &lt;b&gt;simplicity&lt;/b&gt;. The less you have to think about how you display information, the more you can concentrate on the business problems and proper solutions.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 18px;&quot;&gt;InspectIO is &lt;b&gt;not&lt;/b&gt; meant to be a drawing or general purpose diagramming tool. The provided elements all have a specific meaning. This allows us to analyze the content of a board and provide features that a general purpose online whiteboarding tool cannot provide. The context tree on the sidebar is one example. We have much more in the pipeline, like code generation, project management stuff and so on. For Event Modeling this means, that we want to add swim lane elements similar to the Bounded Contexts frames available for Design-Level Event Storming.&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="freeText;fillColor=#FFCC99;" vertex="1" parent="bqRgdCiUhgPWCdewto6PRm" tempVisible="1">
+      <mxGeometry x="72" y="88" width="816" height="312" as="geometry"/>
+    </mxCell>
+    <mxCell id="4qo7mCMGJm15zgku4Zd2Yi" style="html=1;" edge="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78" source="8U5XryAcMLjW2gqEgaGmwF" target="tH9XwwHAMWrBnjJRpvSsn8">
+      <mxGeometry relative="1" as="geometry">
+        <Array as="points">
+          <mxPoint x="31" y="-252"/>
+          <mxPoint x="31" y="-657"/>
+          <mxPoint x="431" y="-657"/>
+          <mxPoint x="431" y="-512"/>
+        </Array>
+      </mxGeometry>
+    </mxCell>
+  </root>
+</mxGraphModel>
