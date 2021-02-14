@@ -10,3 +10,7 @@ InspectIO [Docs](https://github.com/event-engine/inspectio/wiki) &amp; [Issue Tr
 ## Introduction Slides
 
 [From Event Storming to working code](https://slides.com/prooph/deck/fullscreen)
+
+## Free Version
+
+[InspectIO Standalone Client](https://event-engine.io/free-inspectio/)
