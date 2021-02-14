@@ -24,5 +24,6 @@ InspectIO [Docs](https://github.com/event-engine/inspectio/wiki) &amp; [Issue Tr
 
 ## Cody Tutorial
 
-- [PHP Code Generation Guide](https://github.com/event-engine/inspectio/wiki/PHP-Cody-Tutorial)
-- Node.js coming soon!
+- [Node.js Code Generation Tutorial](https://github.com/event-engine/inspectio/wiki/Node.js-Cody-Tutorial)
+- [PHP Code Generation Tutorial](https://github.com/event-engine/inspectio/wiki/PHP-Cody-Tutorial)
+
