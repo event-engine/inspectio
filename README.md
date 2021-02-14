@@ -9,7 +9,7 @@ InspectIO [Docs](https://github.com/event-engine/inspectio/wiki) &amp; [Issue Tr
 
 ## Introduction Slides
 
-[From Event Storming to working code](https://slides.com/prooph/deck/fullscreen)
+[From Event Storming to working code](https://slides.com/prooph/event-driven-development/fullscreen)
 
 ## Free Version
 
