@@ -21,3 +21,8 @@ InspectIO [Docs](https://github.com/event-engine/inspectio/wiki) &amp; [Issue Tr
 - [Event Storming - The Picture](https://event-engine.io/free-inspectio/inspectio/boards/import/https%3A%2F%2Fraw.githubusercontent.com%2Fevent-engine%2Finspectio%2Fmaster%2Fassets%2FExample%2520Boards%2FThe%2520Picture.xml)
 
 - [Event Modeling Example](https://event-engine.io/free-inspectio/inspectio/boards/import/https%3A%2F%2Fraw.githubusercontent.com%2Fevent-engine%2Finspectio%2Fmaster%2Fassets%2FExample%2520Boards%2FEvent%2520Modeling.xml)
+
+## Cody Tutorial
+
+- [PHP Code Generation Guide](https://github.com/event-engine/inspectio/wiki/PHP-Cody-Tutorial)
+- Node.js coming soon!
