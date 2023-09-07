@@ -1,11 +1,11 @@
-<mxGraphModel dx="-2174.16" dy="-404.56" grid="1" gridSize="16" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff">
+<mxGraphModel dx="3407.09" dy="-500.37" grid="1" gridSize="16" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff">
   <root>
     <mxCell id="e975feae-1579-4c09-98d0-98cbf2108aec"/>
     <mxCell id="7fe80d19-d317-4e9d-8296-96c598786d78" parent="e975feae-1579-4c09-98d0-98cbf2108aec"/>
     <feature label="Hire Employee" type="feature" metadata="" tags="pb:connected,planned" id="45pEZLHQaQWG3rs2jzrBMj">
       <mxCell style="feature;fillColor=#FFE1AD;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
-        <mxGeometry x="-640" y="1018" width="915" height="1700" as="geometry">
-          <mxRectangle x="-640" y="1018" width="915" height="1700" as="alternateBounds"/>
+        <mxGeometry x="-640" y="1018" width="915" height="1718" as="geometry">
+          <mxRectangle x="-640" y="1018" width="915" height="1718" as="alternateBounds"/>
         </mxGeometry>
       </mxCell>
     </feature>
@@ -84,6 +84,35 @@
         <mxGeometry x="355" y="1066" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
+    <mxCell id="iecvXwUHeHporfuQspfTg" value="" edge="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj" source="g4y9FCAYRbQfdNEe8suEVX" target="n3hZguFXGmmf2TDrKXM9k2">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <ui label="Employees" type="ui" metadata="{&#xa;  &quot;route&quot;: &quot;/time-tracker/employees&quot;,&#xa;  &quot;sidebar&quot;: {&#xa;    &quot;label&quot;: &quot;Employees&quot;,&#xa;    &quot;icon&quot;: &quot;account-group&quot;&#xa;  },&#xa;  &quot;breadcrumb&quot;: &quot;Employees&quot;&#xa;}" tags="pb:connected" id="g4y9FCAYRbQfdNEe8suEVX">
+      <mxCell style="ui" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
+        <mxGeometry x="595" y="540" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </ui>
+    <mxCell id="pi1xgdoByTztnAAEQBRZYt" style="html=1;dashed=1;dashPattern=none;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj" source="tBno167tpckNbaFVeNGRcV" target="cDpAJqEMPQQ1vfRcoiKcnc">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="iXVkqFDxQzwvbRw6WPT88V" value="Move &quot;&lt;b&gt;HR&lt;/b&gt;&quot; card close to&amp;nbsp;&lt;div&gt;&quot;&lt;b&gt;Employees&lt;/b&gt;&quot; card&amp;nbsp;&lt;div&gt;&lt;b&gt;AFTER&lt;/b&gt; you&#39;ve hired&amp;nbsp;&lt;/div&gt;&lt;div&gt;at least one Employee&amp;nbsp;&lt;/div&gt;&lt;div&gt;with the &quot;HR&quot; role&amp;nbsp;&lt;/div&gt;&lt;div&gt;assigned.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;Run Cody&quot; again.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This will activate the&lt;/div&gt;&lt;div&gt;permission system, so&lt;/div&gt;&lt;div&gt;that only &quot;HR&quot; can hire&lt;/div&gt;&lt;div&gt;more Employees.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Once you&#39;ve activated the&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;permission system, you&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;have to sign in as a&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;persona with &quot;HR&quot; role,&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;if you want to hire another&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;employee.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This can be done from the&lt;/div&gt;&lt;div&gt;Cody Engine Dashboard.&lt;/div&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fillColor=#99FF99;" vertex="1" connectable="0" tempVisible="1" parent="pi1xgdoByTztnAAEQBRZYt">
+      <mxGeometry x="-0.2715" y="3" relative="1" as="geometry">
+        <mxPoint x="-326" y="135" as="offset"/>
+      </mxGeometry>
+    </mxCell>
+    <document label="Employee List" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Employee&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Employee/Employee&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;table&quot;: {&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;name&quot;,&#xa;          &quot;headerName&quot;: &quot;Name&quot;,&#xa;          &quot;flex&quot;: 1,&#xa;          &quot;pageLink&quot;: &quot;EmployeeDetails&quot;&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;email&quot;,&#xa;          &quot;headerName&quot;: &quot;Email&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        }&#xa;      ]&#xa;    }&#xa;  }&#xa;}" tags="pb:connected" id="rg4rueECaq7NGRkQMZpqPt">
+      <mxCell style="document" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
+        <mxGeometry x="355.0000000000002" y="540" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </document>
+    <UserObject label="&amp;nbsp;" tags="pb:connected" id="cDpAJqEMPQQ1vfRcoiKcnc">
+      <mxCell style="freeText" vertex="1" tempVisible="1" parent="rg4rueECaq7NGRkQMZpqPt">
+        <mxGeometry x="224" y="74" width="48" height="38" as="geometry"/>
+      </mxCell>
+    </UserObject>
+    <mxCell id="etfWbCyayM5RuJSuAtuoZk" value="" edge="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj" source="rg4rueECaq7NGRkQMZpqPt" target="g4y9FCAYRbQfdNEe8suEVX">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
     <feature label="Acquire Client" type="feature" metadata="" tags="pb:connected,planned" id="d5f4ikN44X7AhYaudagF3S">
       <mxCell style="feature;fillColor=#FFE1AD;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
         <mxGeometry x="653" y="1024" width="720" height="1694" as="geometry">
@@ -751,34 +780,5 @@
         <mxGeometry x="6368.243243243243" y="1270.2432432432433" width="160" height="100" as="geometry"/>
       </mxCell>
     </icon>
-    <mxCell id="etfWbCyayM5RuJSuAtuoZk" value="" edge="1" tempVisible="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78" source="rg4rueECaq7NGRkQMZpqPt" target="g4y9FCAYRbQfdNEe8suEVX">
-      <mxGeometry relative="1" as="geometry"/>
-    </mxCell>
-    <mxCell id="iecvXwUHeHporfuQspfTg" value="" edge="1" tempVisible="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78" source="g4y9FCAYRbQfdNEe8suEVX" target="n3hZguFXGmmf2TDrKXM9k2">
-      <mxGeometry relative="1" as="geometry"/>
-    </mxCell>
-    <ui label="Employees" type="ui" metadata="{&#xa;  &quot;route&quot;: &quot;/time-tracker/employees&quot;,&#xa;  &quot;sidebar&quot;: {&#xa;    &quot;label&quot;: &quot;Employees&quot;,&#xa;    &quot;icon&quot;: &quot;account-group&quot;&#xa;  },&#xa;  &quot;breadcrumb&quot;: &quot;Employees&quot;&#xa;}" tags="pb:connected" id="g4y9FCAYRbQfdNEe8suEVX">
-      <mxCell style="ui" vertex="1" tempVisible="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
-        <mxGeometry x="-45" y="1558" width="160" height="100" as="geometry"/>
-      </mxCell>
-    </ui>
-    <mxCell id="pi1xgdoByTztnAAEQBRZYt" style="html=1;dashed=1;dashPattern=none;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" tempVisible="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78" source="tBno167tpckNbaFVeNGRcV" target="cDpAJqEMPQQ1vfRcoiKcnc">
-      <mxGeometry relative="1" as="geometry"/>
-    </mxCell>
-    <mxCell id="iXVkqFDxQzwvbRw6WPT88V" value="Move &quot;&lt;b&gt;HR&lt;/b&gt;&quot; card close to&amp;nbsp;&lt;div&gt;&quot;&lt;b&gt;Employees&lt;/b&gt;&quot; card&amp;nbsp;&lt;div&gt;&lt;b&gt;AFTER&lt;/b&gt; you&#39;ve hired&amp;nbsp;&lt;/div&gt;&lt;div&gt;at least one Employee&amp;nbsp;&lt;/div&gt;&lt;div&gt;with the &quot;HR&quot; role&amp;nbsp;&lt;/div&gt;&lt;div&gt;assigned.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;Run Cody&quot; again.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This will activate the&lt;/div&gt;&lt;div&gt;permission system, so&lt;/div&gt;&lt;div&gt;that only &quot;HR&quot; can hire&lt;/div&gt;&lt;div&gt;more Employees.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Once you&#39;ve activated the&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;permission system, you&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;have to sign in as a&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;persona with &quot;HR&quot; role,&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;if you want to hire another&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;employee.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This can be done from the&lt;/div&gt;&lt;div&gt;Cody Engine Dashboard.&lt;/div&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fillColor=#99FF99;" vertex="1" connectable="0" tempVisible="1" parent="pi1xgdoByTztnAAEQBRZYt">
-      <mxGeometry x="-0.2715" y="3" relative="1" as="geometry">
-        <mxPoint x="-326" y="135" as="offset"/>
-      </mxGeometry>
-    </mxCell>
-    <document label="Employee List" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Employee&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Employee/Employee&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;table&quot;: {&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;name&quot;,&#xa;          &quot;headerName&quot;: &quot;Name&quot;,&#xa;          &quot;flex&quot;: 1,&#xa;          &quot;pageLink&quot;: &quot;EmployeeDetails&quot;&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;email&quot;,&#xa;          &quot;headerName&quot;: &quot;Email&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        }&#xa;      ]&#xa;    }&#xa;  }&#xa;}" tags="pb:connected" id="rg4rueECaq7NGRkQMZpqPt">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
-        <mxGeometry x="-284.9999999999998" y="1558" width="160" height="100" as="geometry"/>
-      </mxCell>
-    </document>
-    <UserObject label="&amp;nbsp;" tags="pb:connected" id="cDpAJqEMPQQ1vfRcoiKcnc">
-      <mxCell style="freeText" vertex="1" tempVisible="1" parent="rg4rueECaq7NGRkQMZpqPt">
-        <mxGeometry x="224" y="74" width="48" height="38" as="geometry"/>
-      </mxCell>
-    </UserObject>
   </root>
 </mxGraphModel>
