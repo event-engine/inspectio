@@ -1,4 +1,4 @@
-<mxGraphModel dx="3407.09" dy="-500.37" grid="1" gridSize="16" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff">
+<mxGraphModel dx="3093.43" dy="-217.12" grid="1" gridSize="16" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff">
   <root>
     <mxCell id="e975feae-1579-4c09-98d0-98cbf2108aec"/>
     <mxCell id="7fe80d19-d317-4e9d-8296-96c598786d78" parent="e975feae-1579-4c09-98d0-98cbf2108aec"/>
@@ -29,7 +29,7 @@
         <mxGeometry x="595" y="1260" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
-    <document label="Employee List" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Employee&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Employee/Employee&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;table&quot;: {&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;name&quot;,&#xa;          &quot;headerName&quot;: &quot;Name&quot;,&#xa;          &quot;flex&quot;: 1,&#xa;          &quot;pageLink&quot;: &quot;EmployeeDetails&quot;&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;email&quot;,&#xa;          &quot;headerName&quot;: &quot;Email&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        }&#xa;      ]&#xa;    }&#xa;  }&#xa;}" tags="pb:connected" id="w7QrYDDq2eyGc3QQgRUDGb">
+    <document label="Employee List" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Employee&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Employee/Employee&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;table&quot;: {&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;name&quot;,&#xa;          &quot;headerName&quot;: &quot;Name&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;email&quot;,&#xa;          &quot;headerName&quot;: &quot;Email&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        }&#xa;      ]&#xa;    }&#xa;  }&#xa;}" tags="pb:connected" id="w7QrYDDq2eyGc3QQgRUDGb">
       <mxCell style="document" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
         <mxGeometry x="595" y="1440" width="160" height="100" as="geometry"/>
       </mxCell>
@@ -54,11 +54,6 @@
     <mxCell id="82dnNbMsKdWCh9cWKvTJzt" value="" edge="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj" source="bqJMHmjHTvPvzUcrymGMqY" target="8hQ1FuARfEdtXe4GFn2mSJ">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
-    <role label="HR" type="role" tags="pb:connected" id="btKHbLDWAiAJqJr4TJuNMC">
-      <mxCell style="role" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
-        <mxGeometry x="243" y="640.5" width="70" height="90" as="geometry"/>
-      </mxCell>
-    </role>
     <UserObject label="&amp;nbsp;" tags="pb:connected" id="tBno167tpckNbaFVeNGRcV">
       <mxCell style="freeText" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
         <mxGeometry x="313" y="681" width="26" height="38" as="geometry"/>
@@ -100,7 +95,7 @@
         <mxPoint x="-326" y="135" as="offset"/>
       </mxGeometry>
     </mxCell>
-    <document label="Employee List" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Employee&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Employee/Employee&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;table&quot;: {&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;name&quot;,&#xa;          &quot;headerName&quot;: &quot;Name&quot;,&#xa;          &quot;flex&quot;: 1,&#xa;          &quot;pageLink&quot;: &quot;EmployeeDetails&quot;&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;email&quot;,&#xa;          &quot;headerName&quot;: &quot;Email&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        }&#xa;      ]&#xa;    }&#xa;  }&#xa;}" tags="pb:connected" id="rg4rueECaq7NGRkQMZpqPt">
+    <document label="Employee List" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Employee&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Employee/Employee&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;table&quot;: {&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;name&quot;,&#xa;          &quot;headerName&quot;: &quot;Name&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;email&quot;,&#xa;          &quot;headerName&quot;: &quot;Email&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        }&#xa;      ]&#xa;    }&#xa;  }&#xa;}" tags="pb:disconnected" id="rg4rueECaq7NGRkQMZpqPt">
       <mxCell style="document" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
         <mxGeometry x="355.0000000000002" y="540" width="160" height="100" as="geometry"/>
       </mxCell>
@@ -110,6 +105,11 @@
         <mxGeometry x="224" y="74" width="48" height="38" as="geometry"/>
       </mxCell>
     </UserObject>
+    <role label="HR" type="role" tags="pb:connected" id="btKHbLDWAiAJqJr4TJuNMC">
+      <mxCell style="role" vertex="1" tempVisible="1" parent="rg4rueECaq7NGRkQMZpqPt">
+        <mxGeometry x="227.49999999999977" y="50" width="70" height="90" as="geometry"/>
+      </mxCell>
+    </role>
     <mxCell id="etfWbCyayM5RuJSuAtuoZk" value="" edge="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj" source="rg4rueECaq7NGRkQMZpqPt" target="g4y9FCAYRbQfdNEe8suEVX">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
@@ -581,7 +581,7 @@
     </document>
     <role label="HR" type="role" tags="pb:connected" id="dZrZiPFW51F93KEhKcCmgp">
       <mxCell style="role" vertex="1" tempVisible="1" parent="gMed4wuVeYmYGkAG4xFUdt">
-        <mxGeometry x="479" y="882" width="70" height="90" as="geometry"/>
+        <mxGeometry x="239" y="872" width="70" height="90" as="geometry"/>
       </mxCell>
     </role>
     <document label="Employee List" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Employee&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Employee/Employee&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;table&quot;: {&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;name&quot;,&#xa;          &quot;headerName&quot;: &quot;Name&quot;,&#xa;          &quot;flex&quot;: 1,&#xa;          &quot;pageLink&quot;: &quot;EmployeeDetails&quot;&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;email&quot;,&#xa;          &quot;headerName&quot;: &quot;Email&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        }&#xa;      ]&#xa;    }&#xa;  }&#xa;}" tags="pb:disconnected" id="4ib4epJmobFJHmHNptFpLQ">
@@ -684,7 +684,7 @@
     </UserObject>
     <role label="PM" type="role" tags="pb:connected" id="kamQBJp375RjEYKpK3PDcr">
       <mxCell style="role" vertex="1" tempVisible="1" parent="8FRLUitvnxwu4D9rgqKZgE">
-        <mxGeometry x="566" y="904.5" width="70" height="90" as="geometry"/>
+        <mxGeometry x="331" y="894" width="70" height="90" as="geometry"/>
       </mxCell>
     </role>
     <mxCell id="dzoc92RdcnQnXxYJ8bqzSm" style="html=1;" edge="1" tempVisible="1" parent="8FRLUitvnxwu4D9rgqKZgE" source="qpJh5ZSjssHrNoYn3c7s6Z" target="fW7Agjrr78tf1UD7WX1GrK">
