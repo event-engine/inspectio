@@ -1,4 +1,4 @@
-<mxGraphModel dx="1356.66" dy="-1063.21" grid="1" gridSize="16" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff">
+<mxGraphModel dx="1855.18" dy="-870.76" grid="1" gridSize="16" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff">
   <root>
     <mxCell id="e975feae-1579-4c09-98d0-98cbf2108aec"/>
     <mxCell id="7fe80d19-d317-4e9d-8296-96c598786d78" parent="e975feae-1579-4c09-98d0-98cbf2108aec"/>
@@ -273,6 +273,16 @@
     <icon label="" type="icon" tags="pb:connected" id="L5wzmbZQCGhz4sBaQqZAE">
       <mxCell style="icon;image=data:image/svg+xml,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;fill:#00CC66&quot; viewBox=&quot;0 0 448 512&quot;&gt;&lt;path d=&quot;M408.781 128.007C386.356 127.578 368 146.36 368 168.79V256h-8V79.79c0-22.43-18.356-41.212-40.781-40.783C297.488 39.423 280 57.169 280 79v177h-8V40.79C272 18.36 253.644-.422 231.219.007 209.488.423 192 18.169 192 40v216h-8V80.79c0-22.43-18.356-41.212-40.781-40.783C121.488 40.423 104 58.169 104 80v235.992l-31.648-43.519c-12.993-17.866-38.009-21.817-55.877-8.823-17.865 12.994-21.815 38.01-8.822 55.877l125.601 172.705A48 48 0 0 0 172.073 512h197.59c22.274 0 41.622-15.324 46.724-37.006l26.508-112.66a192.011 192.011 0 0 0 5.104-43.975V168c.001-21.831-17.487-39.577-39.218-39.993z&quot;/&gt;&lt;/svg&gt;;rotation=25;" vertex="1" parent="uYhghzR3xxYbC7XdFpZeoB">
         <mxGeometry x="694.4663608562691" y="94.70588235294116" width="93.5045871559633" height="58.440366972477065" as="geometry"/>
+      </mxCell>
+    </icon>
+    <UserObject label="&lt;font style=&quot;font-size: 36px;&quot;&gt;Walk-Through Video:&amp;nbsp;&lt;a href=&quot;https://youtu.be/ycNambVdQks&quot;&gt;https://youtu.be/ycNambVdQks&lt;/a&gt;&lt;/font&gt;" tags="pb:connected" id="mXWNX8up1D9e6fuWoDjxec">
+      <mxCell style="freeText" vertex="1" parent="uYhghzR3xxYbC7XdFpZeoB">
+        <mxGeometry x="141.5" y="460" width="933" height="100" as="geometry"/>
+      </mxCell>
+    </UserObject>
+    <icon label="" type="icon" tags="pb:connected" id="5361AdDPSGoAztkaDApV3p">
+      <mxCell style="icon;image=data:image/svg+xml,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;fill:#00CC66&quot; viewBox=&quot;0 0 576 512&quot;&gt;&lt;path d=&quot;M336.2 64H47.8C21.4 64 0 85.4 0 111.8v288.4C0 426.6 21.4 448 47.8 448h288.4c26.4 0 47.8-21.4 47.8-47.8V111.8c0-26.4-21.4-47.8-47.8-47.8zm189.4 37.7L416 177.3v157.4l109.6 75.5c21.2 14.6 50.4-.3 50.4-25.8V127.5c0-25.4-29.1-40.4-50.4-25.8z&quot;/&gt;&lt;/svg&gt;;" vertex="1" parent="uYhghzR3xxYbC7XdFpZeoB">
+        <mxGeometry x="56" y="484" width="83" height="52" as="geometry"/>
       </mxCell>
     </icon>
     <feature label="Common" type="feature" tags="pb:connected,planned" id="4uiRoZvm9WNwmUBFFozWC9">
