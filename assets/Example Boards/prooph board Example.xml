@@ -1,185 +1,185 @@
-<mxGraphModel dx="1855.18" dy="-870.76" grid="1" gridSize="16" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff">
+<mxGraphModel dx="3477.52" dy="3052.33" grid="1" gridSize="16" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff">
   <root>
     <mxCell id="e975feae-1579-4c09-98d0-98cbf2108aec"/>
     <mxCell id="7fe80d19-d317-4e9d-8296-96c598786d78" parent="e975feae-1579-4c09-98d0-98cbf2108aec"/>
     <feature label="Hire Employee" type="feature" metadata="" tags="pb:connected,planned" id="45pEZLHQaQWG3rs2jzrBMj">
-      <mxCell style="feature;fillColor=#FFE1AD;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxCell style="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=78;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
         <mxGeometry x="-640" y="1018" width="915" height="1718" as="geometry">
           <mxRectangle x="-640" y="1018" width="915" height="1718" as="alternateBounds"/>
         </mxGeometry>
       </mxCell>
     </feature>
     <command label="Hire Employee" type="command" metadata="{&#xa;  &quot;schema&quot;: {&#xa;    &quot;name&quot;: &quot;string|minLength:1&quot;,&#xa;    &quot;email&quot;: &quot;string|format:email&quot;,&#xa;    &quot;role&quot;: &quot;/User/Role&quot;&#xa;  },&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;ui:button&quot;: {&#xa;      &quot;icon&quot;: &quot;account-check&quot;&#xa;    }&#xa;  },&#xa;  &quot;newAggregate&quot;: true,&#xa;  &quot;dependencies&quot;: {&#xa;    &quot;AuthService&quot;: {&#xa;      &quot;type&quot;: &quot;service&quot;&#xa;    }&#xa;  }&#xa;}" tags="pb:connected" id="n3hZguFXGmmf2TDrKXM9k2">
-      <mxCell style="command" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
+      <mxCell style="command" vertex="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj">
         <mxGeometry x="595" y="720" width="160" height="100" as="geometry"/>
       </mxCell>
     </command>
     <aggregate label="Employee" type="aggregate" metadata="{&#xa;  &quot;rules&quot;: [&#xa;    {&#xa;      &quot;rule&quot;: &quot;always&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;call&quot;: {&#xa;          &quot;service&quot;: &quot;AuthService&quot;,&#xa;          &quot;method&quot;: &quot;register&quot;,&#xa;          &quot;arguments&quot;: {&#xa;            &quot;displayName&quot;: &quot;command.name&quot;,&#xa;            &quot;email&quot;: &quot;command.email&quot;,&#xa;            &quot;roles&quot;: &quot;[command.role]&quot;&#xa;          },&#xa;          &quot;result&quot;: {&#xa;            &quot;variable&quot;: &quot;userId&quot;&#xa;          }&#xa;        }&#xa;      }&#xa;    },&#xa;    {&#xa;      &quot;rule&quot;: &quot;always&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;record&quot;: {&#xa;          &quot;event&quot;: &quot;Employee Hired&quot;,&#xa;          &quot;mapping&quot;: {&#xa;            &quot;$merge&quot;: &quot;command&quot;,&#xa;            &quot;employeeId&quot;: &quot;userId&quot;&#xa;          }&#xa;        }&#xa;      }&#xa;    }&#xa;  ]&#xa;}" tags="pb:disconnected" id="8hQ1FuARfEdtXe4GFn2mSJ">
-      <mxCell style="aggregate" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
+      <mxCell style="aggregate" vertex="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj">
         <mxGeometry x="595" y="900" width="160" height="100" as="geometry"/>
       </mxCell>
     </aggregate>
     <event label="Employee Hired" type="event" tags="pb:connected" metadata="{&#xa;  &quot;public&quot;: false,&#xa;  &quot;schema&quot;: {&#xa;    &quot;employeeId&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;name&quot;: &quot;string|minLength:1&quot;,&#xa;    &quot;email&quot;: &quot;string|format:email&quot;,&#xa;    &quot;role&quot;: &quot;/User/Role&quot;&#xa;  },&#xa;  &quot;applyRules&quot;: [&#xa;    {&#xa;      &quot;rule&quot;: &quot;always&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;assign&quot;: {&#xa;          &quot;variable&quot;: &quot;information&quot;,&#xa;          &quot;value&quot;: {&#xa;            &quot;$merge&quot;: [&#xa;              &quot;information&quot;,&#xa;              &quot;event&quot;&#xa;            ]&#xa;          }&#xa;        }&#xa;      }&#xa;    }&#xa;  ]&#xa;}" id="wjP7wdWpRDpsRinq2CZvXe">
-      <mxCell style="event" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
+      <mxCell style="event" vertex="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj">
         <mxGeometry x="595" y="1080" width="160" height="100" as="geometry"/>
       </mxCell>
     </event>
     <document label="Employee" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Employee&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;employeeId&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;name&quot;: &quot;string|minLength:1&quot;,&#xa;    &quot;email&quot;: &quot;string|format:email&quot;,&#xa;    &quot;role&quot;: &quot;/User/Role&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {&#xa;    &quot;employeeId&quot;: &quot;string|format:uuid&quot;&#xa;  },&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;employeeId&quot;: {&#xa;      &quot;ui:widget&quot;: &quot;hidden&quot;&#xa;    }&#xa;  },&#xa;  &quot;identifier&quot;: &quot;employeeId&quot;&#xa;}" tags="pb:connected" id="9waTSdRQN6E6sVzJn6fWew">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj">
         <mxGeometry x="595" y="1260" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
     <document label="Employee List" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Employee&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Employee/Employee&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;table&quot;: {&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;name&quot;,&#xa;          &quot;headerName&quot;: &quot;Name&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;email&quot;,&#xa;          &quot;headerName&quot;: &quot;Email&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        }&#xa;      ]&#xa;    }&#xa;  }&#xa;}" tags="pb:connected" id="w7QrYDDq2eyGc3QQgRUDGb">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj">
         <mxGeometry x="595" y="1440" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
-    <mxCell id="4SKr7mZTanGpoqAM4FKgYR" value="" edge="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj" source="n3hZguFXGmmf2TDrKXM9k2" target="8hQ1FuARfEdtXe4GFn2mSJ">
+    <mxCell id="4SKr7mZTanGpoqAM4FKgYR" value="" edge="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj" source="n3hZguFXGmmf2TDrKXM9k2" target="8hQ1FuARfEdtXe4GFn2mSJ">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
-    <mxCell id="qb2T9rRnaxVBjdQAhk3ivY" value="" edge="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj" source="8hQ1FuARfEdtXe4GFn2mSJ" target="wjP7wdWpRDpsRinq2CZvXe">
+    <mxCell id="qb2T9rRnaxVBjdQAhk3ivY" value="" edge="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj" source="8hQ1FuARfEdtXe4GFn2mSJ" target="wjP7wdWpRDpsRinq2CZvXe">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
-    <mxCell id="8jqQJDRukk47kixLP7v1Ld" value="" edge="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj" source="wjP7wdWpRDpsRinq2CZvXe" target="9waTSdRQN6E6sVzJn6fWew">
+    <mxCell id="8jqQJDRukk47kixLP7v1Ld" value="" edge="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj" source="wjP7wdWpRDpsRinq2CZvXe" target="9waTSdRQN6E6sVzJn6fWew">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
-    <mxCell id="im8LjFhXpii2xhfdQZ3GTV" value="" edge="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj" source="9waTSdRQN6E6sVzJn6fWew" target="w7QrYDDq2eyGc3QQgRUDGb">
+    <mxCell id="im8LjFhXpii2xhfdQZ3GTV" value="" edge="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj" source="9waTSdRQN6E6sVzJn6fWew" target="w7QrYDDq2eyGc3QQgRUDGb">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <externalSystem label="Auth Service" type="externalSystem" metadata="" tags="pb:connected" id="bqJMHmjHTvPvzUcrymGMqY">
-      <mxCell style="externalSystem" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
+      <mxCell style="externalSystem" vertex="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj">
         <mxGeometry x="355" y="900" width="160" height="100" as="geometry"/>
       </mxCell>
     </externalSystem>
-    <mxCell id="82dnNbMsKdWCh9cWKvTJzt" value="" edge="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj" source="bqJMHmjHTvPvzUcrymGMqY" target="8hQ1FuARfEdtXe4GFn2mSJ">
+    <mxCell id="82dnNbMsKdWCh9cWKvTJzt" value="" edge="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj" source="bqJMHmjHTvPvzUcrymGMqY" target="8hQ1FuARfEdtXe4GFn2mSJ">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <UserObject label="&amp;nbsp;" tags="pb:connected" id="tBno167tpckNbaFVeNGRcV">
-      <mxCell style="freeText" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
+      <mxCell style="freeText" vertex="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj">
         <mxGeometry x="313" y="681" width="26" height="38" as="geometry"/>
       </mxCell>
     </UserObject>
     <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;HR is responsible for hiring new employees. Cody Engine running in prototyping mode (default mode), adds each new user (employee in this case) as a persona. You can sign in as a specific persona on the Cody Engine dashboard.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. Select the &quot;Hire Employee&quot; feature frame.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. Run Cody.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. Switch to Cody Engine in your browser (&lt;a href=&quot;http://localhost:4200/&quot; rel=&quot;nofollow&quot;&gt;http://localhost:4200&lt;/a&gt;)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. Click on &quot;Employees&quot; in the left sidebar.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5. Click on the &quot;Hire Employee&quot; button and enter some test data. Assign the role &quot;HR&quot; to the first test employee.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;6. Wait until the new employee is visible in the list. This takes some time, because in prototyping mode the persona needs to be created.&lt;/div&gt;" tags="pb:connected" id="4Tq6bgA8uTVsxDPb6U7quf">
-      <mxCell style="freeText;fillColor=#E0FFD1;" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
+      <mxCell style="freeText;fillColor=#E0FFD1;" vertex="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj">
         <mxGeometry x="281.5" y="92.5" width="371" height="432" as="geometry"/>
       </mxCell>
     </UserObject>
     <icon label="" type="icon" tags="pb:connected" id="9ADQkiix4YeEnMunhdbQXd">
-      <mxCell style="icon;image=data:image/svg+xml,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;fill:#00CC66&quot; viewBox=&quot;0 0 384 512&quot;&gt;&lt;path d=&quot;M91.826 467.2V317.966c-8.248 5.841-16.558 10.57-24.918 14.153C35.098 345.752-.014 322.222 0 288c.008-18.616 10.897-32.203 29.092-40 28.286-12.122 64.329-78.648 77.323-107.534 7.956-17.857 25.479-28.453 43.845-28.464l.001-.002h171.526c11.812 0 21.897 8.596 23.703 20.269 7.25 46.837 38.483 61.76 38.315 123.731-.007 2.724.195 13.254.195 16 0 50.654-22.122 81.574-71.263 72.6-9.297 18.597-39.486 30.738-62.315 16.45-21.177 24.645-53.896 22.639-70.944 6.299V467.2c0 24.15-20.201 44.8-43.826 44.8-23.283 0-43.826-21.35-43.826-44.8zM112 72V24c0-13.255 10.745-24 24-24h192c13.255 0 24 10.745 24 24v48c0 13.255-10.745 24-24 24H136c-13.255 0-24-10.745-24-24zm212-24c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20z&quot;/&gt;&lt;/svg&gt;;rotation=40;" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
+      <mxCell style="icon;image=data:image/svg+xml,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;fill:#00CC66&quot; viewBox=&quot;0 0 384 512&quot;&gt;&lt;path d=&quot;M91.826 467.2V317.966c-8.248 5.841-16.558 10.57-24.918 14.153C35.098 345.752-.014 322.222 0 288c.008-18.616 10.897-32.203 29.092-40 28.286-12.122 64.329-78.648 77.323-107.534 7.956-17.857 25.479-28.453 43.845-28.464l.001-.002h171.526c11.812 0 21.897 8.596 23.703 20.269 7.25 46.837 38.483 61.76 38.315 123.731-.007 2.724.195 13.254.195 16 0 50.654-22.122 81.574-71.263 72.6-9.297 18.597-39.486 30.738-62.315 16.45-21.177 24.645-53.896 22.639-70.944 6.299V467.2c0 24.15-20.201 44.8-43.826 44.8-23.283 0-43.826-21.35-43.826-44.8zM112 72V24c0-13.255 10.745-24 24-24h192c13.255 0 24 10.745 24 24v48c0 13.255-10.745 24-24 24H136c-13.255 0-24-10.745-24-24zm212-24c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20z&quot;/&gt;&lt;/svg&gt;;rotation=40;" vertex="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj">
         <mxGeometry x="212" y="509.5" width="88" height="55" as="geometry"/>
       </mxCell>
     </icon>
     <UserObject label="(optional)" tags="pb:connected" id="jq7yVRZcK8JnPeEH47JvWJ">
-      <mxCell style="freeText;rotation=-45;" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
+      <mxCell style="freeText;rotation=-45;" vertex="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj">
         <mxGeometry x="157" y="484.5" width="150" height="48" as="geometry"/>
       </mxCell>
     </UserObject>
     <document label="Employee Id" type="document" tags="pb:connected" metadata="{&#xa;  &quot;ns&quot;: &quot;/Employee&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$type&quot;: &quot;string|format:uuid&quot;&#xa;  }&#xa;}" id="k3irL5KfEyEAejnzSbTRi2">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj">
         <mxGeometry x="355" y="1066" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
-    <mxCell id="iecvXwUHeHporfuQspfTg" value="" edge="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj" source="g4y9FCAYRbQfdNEe8suEVX" target="n3hZguFXGmmf2TDrKXM9k2">
+    <mxCell id="iecvXwUHeHporfuQspfTg" value="" edge="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj" source="g4y9FCAYRbQfdNEe8suEVX" target="n3hZguFXGmmf2TDrKXM9k2">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <ui label="Employees" type="ui" metadata="{&#xa;  &quot;route&quot;: &quot;/time-tracker/employees&quot;,&#xa;  &quot;sidebar&quot;: {&#xa;    &quot;label&quot;: &quot;Employees&quot;,&#xa;    &quot;icon&quot;: &quot;account-group&quot;&#xa;  },&#xa;  &quot;breadcrumb&quot;: &quot;Employees&quot;&#xa;}" tags="pb:connected" id="g4y9FCAYRbQfdNEe8suEVX">
-      <mxCell style="ui" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
+      <mxCell style="ui" vertex="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj">
         <mxGeometry x="595" y="540" width="160" height="100" as="geometry"/>
       </mxCell>
     </ui>
-    <mxCell id="pi1xgdoByTztnAAEQBRZYt" style="html=1;dashed=1;dashPattern=none;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj" source="tBno167tpckNbaFVeNGRcV" target="cDpAJqEMPQQ1vfRcoiKcnc">
+    <mxCell id="pi1xgdoByTztnAAEQBRZYt" style="html=1;dashed=1;dashPattern=none;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj" source="tBno167tpckNbaFVeNGRcV" target="cDpAJqEMPQQ1vfRcoiKcnc">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
-    <mxCell id="iXVkqFDxQzwvbRw6WPT88V" value="Move &quot;&lt;b&gt;HR&lt;/b&gt;&quot; card close to&amp;nbsp;&lt;div&gt;&quot;&lt;b&gt;Employees&lt;/b&gt;&quot; card&amp;nbsp;&lt;div&gt;&lt;b&gt;AFTER&lt;/b&gt; you&#39;ve hired&amp;nbsp;&lt;/div&gt;&lt;div&gt;at least one Employee&amp;nbsp;&lt;/div&gt;&lt;div&gt;with the &quot;HR&quot; role&amp;nbsp;&lt;/div&gt;&lt;div&gt;assigned.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;Run Cody&quot; again.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This will activate the&lt;/div&gt;&lt;div&gt;permission system, so&lt;/div&gt;&lt;div&gt;that only &quot;HR&quot; can hire&lt;/div&gt;&lt;div&gt;more Employees.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Once you&#39;ve activated the&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;permission system, you&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;have to sign in as a&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;persona with &quot;HR&quot; role,&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;if you want to hire another&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;employee.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This can be done from the&lt;/div&gt;&lt;div&gt;Cody Engine Dashboard.&lt;/div&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fillColor=#99FF99;" vertex="1" connectable="0" tempVisible="1" parent="pi1xgdoByTztnAAEQBRZYt">
+    <mxCell id="iXVkqFDxQzwvbRw6WPT88V" value="Move &quot;&lt;b&gt;HR&lt;/b&gt;&quot; card close to&amp;nbsp;&lt;div&gt;&quot;&lt;b&gt;Employees&lt;/b&gt;&quot; card&amp;nbsp;&lt;div&gt;&lt;b&gt;AFTER&lt;/b&gt; you&#39;ve hired&amp;nbsp;&lt;/div&gt;&lt;div&gt;at least one Employee&amp;nbsp;&lt;/div&gt;&lt;div&gt;with the &quot;HR&quot; role&amp;nbsp;&lt;/div&gt;&lt;div&gt;assigned.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&quot;Run Cody&quot; again.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This will activate the&lt;/div&gt;&lt;div&gt;permission system, so&lt;/div&gt;&lt;div&gt;that only &quot;HR&quot; can hire&lt;/div&gt;&lt;div&gt;more Employees.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Once you&#39;ve activated the&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;permission system, you&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;have to sign in as a&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;persona with &quot;HR&quot; role,&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;if you want to hire another&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;employee.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This can be done from the&lt;/div&gt;&lt;div&gt;Cody Engine Dashboard.&lt;/div&gt;" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=none;fillColor=#99FF99;" vertex="1" connectable="0" tempVisible="0" parent="pi1xgdoByTztnAAEQBRZYt">
       <mxGeometry x="-0.2715" y="3" relative="1" as="geometry">
         <mxPoint x="-326" y="135" as="offset"/>
       </mxGeometry>
     </mxCell>
     <document label="Employee List" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Employee&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Employee/Employee&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;table&quot;: {&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;name&quot;,&#xa;          &quot;headerName&quot;: &quot;Name&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;email&quot;,&#xa;          &quot;headerName&quot;: &quot;Email&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        }&#xa;      ]&#xa;    }&#xa;  }&#xa;}" tags="pb:disconnected" id="rg4rueECaq7NGRkQMZpqPt">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj">
         <mxGeometry x="355.0000000000002" y="540" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
     <UserObject label="&amp;nbsp;" tags="pb:connected" id="cDpAJqEMPQQ1vfRcoiKcnc">
-      <mxCell style="freeText" vertex="1" tempVisible="1" parent="rg4rueECaq7NGRkQMZpqPt">
+      <mxCell style="freeText" vertex="1" tempVisible="0" parent="rg4rueECaq7NGRkQMZpqPt">
         <mxGeometry x="224" y="74" width="48" height="38" as="geometry"/>
       </mxCell>
     </UserObject>
-    <mxCell id="etfWbCyayM5RuJSuAtuoZk" value="" edge="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj" source="rg4rueECaq7NGRkQMZpqPt" target="g4y9FCAYRbQfdNEe8suEVX">
+    <mxCell id="etfWbCyayM5RuJSuAtuoZk" value="" edge="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj" source="rg4rueECaq7NGRkQMZpqPt" target="g4y9FCAYRbQfdNEe8suEVX">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <role label="HR" type="role" tags="pb:connected" id="btKHbLDWAiAJqJr4TJuNMC">
-      <mxCell style="role" vertex="1" tempVisible="1" parent="45pEZLHQaQWG3rs2jzrBMj">
+      <mxCell style="role" vertex="1" tempVisible="0" parent="45pEZLHQaQWG3rs2jzrBMj">
         <mxGeometry x="246.5" y="642" width="70" height="90" as="geometry"/>
       </mxCell>
     </role>
     <feature label="Acquire Client" type="feature" metadata="" tags="pb:connected,planned" id="d5f4ikN44X7AhYaudagF3S">
-      <mxCell style="feature;fillColor=#FFE1AD;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxCell style="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=78;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
         <mxGeometry x="653" y="1024" width="720" height="1694" as="geometry">
           <mxRectangle x="1402" y="1024" width="720" height="1694" as="alternateBounds"/>
         </mxGeometry>
       </mxCell>
     </feature>
     <document label="Client List" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Client&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Client/Client&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;table&quot;: {&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;name&quot;,&#xa;          &quot;headerName&quot;: &quot;Name&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        }&#xa;      ]&#xa;    }&#xa;  },&#xa;  &quot;resolve&quot;: {&#xa;    &quot;orderBy&quot;: {&#xa;      &quot;prop&quot;: &quot;name&quot;,&#xa;      &quot;sort&quot;: &quot;asc&quot;&#xa;    }&#xa;  }&#xa;}" tags="pb:connected" id="m4ZnZ6Cs14QpdD4pc3xW3o">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="d5f4ikN44X7AhYaudagF3S">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="d5f4ikN44X7AhYaudagF3S">
         <mxGeometry x="160" y="534" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
     <ui label="Clients" type="ui" metadata="{&#xa;  &quot;route&quot;: &quot;/time-tracker/clients&quot;,&#xa;  &quot;sidebar&quot;: {&#xa;    &quot;label&quot;: &quot;Clients&quot;,&#xa;    &quot;icon&quot;: &quot;domain&quot;&#xa;  },&#xa;  &quot;breadcrumb&quot;: &quot;Clients&quot;&#xa;}" tags="pb:connected" id="f3pSZkiMh8sUvR4LQ8pgVF">
-      <mxCell style="ui" vertex="1" tempVisible="1" parent="d5f4ikN44X7AhYaudagF3S">
+      <mxCell style="ui" vertex="1" tempVisible="0" parent="d5f4ikN44X7AhYaudagF3S">
         <mxGeometry x="400" y="534" width="160" height="100" as="geometry"/>
       </mxCell>
     </ui>
     <command label="Acquire Client" type="command" metadata="{&#xa;  &quot;schema&quot;: {&#xa;    &quot;clientId&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;name&quot;: &quot;string|minLength:1&quot;&#xa;  },&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;ui:button&quot;: {&#xa;      &quot;hidden&quot;: &quot;!isRole(user, &#39;PM&#39;)&quot;&#xa;    },&#xa;    &quot;clientId&quot;: {&#xa;      &quot;ui:widget&quot;: &quot;hidden&quot;&#xa;    }&#xa;  },&#xa;  &quot;newAggregate&quot;: true&#xa;}" tags="pb:connected" id="c9cQavJYb5xYFX38LKXxD6">
-      <mxCell style="command" vertex="1" tempVisible="1" parent="d5f4ikN44X7AhYaudagF3S">
+      <mxCell style="command" vertex="1" tempVisible="0" parent="d5f4ikN44X7AhYaudagF3S">
         <mxGeometry x="400" y="714" width="160" height="100" as="geometry"/>
       </mxCell>
     </command>
     <aggregate label="Client" type="aggregate" metadata="{&#xa;  &quot;rules&quot;: [&#xa;    {&#xa;      &quot;rule&quot;: &quot;always&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;record&quot;: {&#xa;          &quot;event&quot;: &quot;Client Acquired&quot;,&#xa;          &quot;mapping&quot;: &quot;command&quot;&#xa;        }&#xa;      }&#xa;    }&#xa;  ]&#xa;}" tags="pb:connected" id="2o9MdWbQjR9WBvXrHYyw3A">
-      <mxCell style="aggregate" vertex="1" tempVisible="1" parent="d5f4ikN44X7AhYaudagF3S">
+      <mxCell style="aggregate" vertex="1" tempVisible="0" parent="d5f4ikN44X7AhYaudagF3S">
         <mxGeometry x="400" y="894" width="160" height="100" as="geometry"/>
       </mxCell>
     </aggregate>
     <event label="Client Acquired" type="event" tags="pb:connected" metadata="{&#xa;  &quot;public&quot;: false,&#xa;  &quot;schema&quot;: {&#xa;    &quot;clientId&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;name&quot;: &quot;string|minLength:1&quot;&#xa;  },&#xa;  &quot;applyRules&quot;: [&#xa;    {&#xa;      &quot;rule&quot;: &quot;always&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;assign&quot;: {&#xa;          &quot;variable&quot;: &quot;information&quot;,&#xa;          &quot;value&quot;: {&#xa;            &quot;$merge&quot;: [&#xa;              &quot;information&quot;,&#xa;              &quot;event&quot;&#xa;            ]&#xa;          }&#xa;        }&#xa;      }&#xa;    }&#xa;  ]&#xa;}" id="nudCeoGbjQVuiWDVrYpj5P">
-      <mxCell style="event" vertex="1" tempVisible="1" parent="d5f4ikN44X7AhYaudagF3S">
+      <mxCell style="event" vertex="1" tempVisible="0" parent="d5f4ikN44X7AhYaudagF3S">
         <mxGeometry x="400" y="1074" width="160" height="100" as="geometry"/>
       </mxCell>
     </event>
     <document label="Client" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Client&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;clientId&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;name&quot;: &quot;string|minLength:1&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {&#xa;    &quot;clientId&quot;: &quot;string|format:uuid&quot;&#xa;  },&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;clientId&quot;: {&#xa;      &quot;ui:widget&quot;: &quot;hidden&quot;&#xa;    }&#xa;  },&#xa;  &quot;identifier&quot;: &quot;clientId&quot;&#xa;}" tags="pb:connected" id="gRG6vux9SCk43Q6DCWwD86">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="d5f4ikN44X7AhYaudagF3S">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="d5f4ikN44X7AhYaudagF3S">
         <mxGeometry x="400" y="1254" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
     <document label="Client List" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Client&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Client/Client&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;table&quot;: {&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;name&quot;,&#xa;          &quot;headerName&quot;: &quot;Name&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        }&#xa;      ]&#xa;    }&#xa;  },&#xa;  &quot;resolve&quot;: {&#xa;    &quot;orderBy&quot;: {&#xa;      &quot;prop&quot;: &quot;name&quot;,&#xa;      &quot;sort&quot;: &quot;asc&quot;&#xa;    }&#xa;  }&#xa;}" tags="pb:connected" id="tgjSXbhahNdFYV1vrLnrrd">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="d5f4ikN44X7AhYaudagF3S">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="d5f4ikN44X7AhYaudagF3S">
         <mxGeometry x="400" y="1434" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
-    <mxCell id="5kUsgjvrHzLDVJuVh1DRfd" value="" edge="1" tempVisible="1" parent="d5f4ikN44X7AhYaudagF3S" source="m4ZnZ6Cs14QpdD4pc3xW3o" target="f3pSZkiMh8sUvR4LQ8pgVF">
+    <mxCell id="5kUsgjvrHzLDVJuVh1DRfd" value="" edge="1" tempVisible="0" parent="d5f4ikN44X7AhYaudagF3S" source="m4ZnZ6Cs14QpdD4pc3xW3o" target="f3pSZkiMh8sUvR4LQ8pgVF">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
-    <mxCell id="8kHzjQX2b48YXCKDZNBKLS" value="" edge="1" tempVisible="1" parent="d5f4ikN44X7AhYaudagF3S" source="f3pSZkiMh8sUvR4LQ8pgVF" target="c9cQavJYb5xYFX38LKXxD6">
+    <mxCell id="8kHzjQX2b48YXCKDZNBKLS" value="" edge="1" tempVisible="0" parent="d5f4ikN44X7AhYaudagF3S" source="f3pSZkiMh8sUvR4LQ8pgVF" target="c9cQavJYb5xYFX38LKXxD6">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
-    <mxCell id="4Y29mmBuqRBXgcpF6pZmiS" value="" edge="1" tempVisible="1" parent="d5f4ikN44X7AhYaudagF3S" source="c9cQavJYb5xYFX38LKXxD6" target="2o9MdWbQjR9WBvXrHYyw3A">
+    <mxCell id="4Y29mmBuqRBXgcpF6pZmiS" value="" edge="1" tempVisible="0" parent="d5f4ikN44X7AhYaudagF3S" source="c9cQavJYb5xYFX38LKXxD6" target="2o9MdWbQjR9WBvXrHYyw3A">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
-    <mxCell id="uHQdchrETK3JM9ud84EV1L" value="" edge="1" tempVisible="1" parent="d5f4ikN44X7AhYaudagF3S" source="2o9MdWbQjR9WBvXrHYyw3A" target="nudCeoGbjQVuiWDVrYpj5P">
+    <mxCell id="uHQdchrETK3JM9ud84EV1L" value="" edge="1" tempVisible="0" parent="d5f4ikN44X7AhYaudagF3S" source="2o9MdWbQjR9WBvXrHYyw3A" target="nudCeoGbjQVuiWDVrYpj5P">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
-    <mxCell id="3Z5NpPeW3Jtd3KbxdkWYwB" value="" edge="1" tempVisible="1" parent="d5f4ikN44X7AhYaudagF3S" source="nudCeoGbjQVuiWDVrYpj5P" target="gRG6vux9SCk43Q6DCWwD86">
+    <mxCell id="3Z5NpPeW3Jtd3KbxdkWYwB" value="" edge="1" tempVisible="0" parent="d5f4ikN44X7AhYaudagF3S" source="nudCeoGbjQVuiWDVrYpj5P" target="gRG6vux9SCk43Q6DCWwD86">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
-    <mxCell id="hNDfMU1fTJo8XduiAKr9o9" value="" edge="1" tempVisible="1" parent="d5f4ikN44X7AhYaudagF3S" source="gRG6vux9SCk43Q6DCWwD86" target="tgjSXbhahNdFYV1vrLnrrd">
+    <mxCell id="hNDfMU1fTJo8XduiAKr9o9" value="" edge="1" tempVisible="0" parent="d5f4ikN44X7AhYaudagF3S" source="gRG6vux9SCk43Q6DCWwD86" target="tgjSXbhahNdFYV1vrLnrrd">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <role label="PM" type="role" tags="pb:connected" id="mTxSEY2p62j4Loux4yMYSC">
-      <mxCell style="role" vertex="1" tempVisible="1" parent="d5f4ikN44X7AhYaudagF3S">
+      <mxCell style="role" vertex="1" tempVisible="0" parent="d5f4ikN44X7AhYaudagF3S">
         <mxGeometry x="352" y="614" width="70" height="90" as="geometry"/>
       </mxCell>
     </role>
     <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;Project Managers (role: PM) are responsible for managing clients and their projects. If a new client was acquired, the PM can add that information to the Time Tracking App.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. Select the &quot;Acquire Client&quot; feature frame.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. Run Cody.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. Switch to Cody Engine in your browser (&lt;a href=&quot;http://localhost:4200/&quot; rel=&quot;nofollow&quot;&gt;http://localhost:4200&lt;/a&gt;)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. Hire another employee with a &quot;PM&quot; role.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5. Sign in as the PM persona.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;6. Click &quot;Clients&quot; in the left sidebar.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;7. Click &quot;Acquire Client&quot; button and enter a test client.&lt;/div&gt;" tags="pb:connected" id="eZpHqan7JWdHhHCH7Vgq6e">
-      <mxCell style="freeText;fillColor=#E0FFD1;" vertex="1" tempVisible="1" parent="d5f4ikN44X7AhYaudagF3S">
+      <mxCell style="freeText;fillColor=#E0FFD1;" vertex="1" tempVisible="0" parent="d5f4ikN44X7AhYaudagF3S">
         <mxGeometry x="174.5454545454545" y="86.36363636363626" width="371" height="432" as="geometry"/>
       </mxCell>
     </UserObject>
@@ -286,168 +286,168 @@
       </mxCell>
     </icon>
     <feature label="Common" type="feature" tags="pb:connected,planned" id="4uiRoZvm9WNwmUBFFozWC9">
-      <mxCell style="feature;fillColor=#FFE1AD;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxCell style="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=78;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
         <mxGeometry x="-1641" y="1024" width="740" height="864" as="geometry">
           <mxRectangle x="-1641" y="1024" width="740" height="864" as="alternateBounds"/>
         </mxGeometry>
       </mxCell>
     </feature>
     <document label="Role" type="document" tags="pb:connected" metadata="{&#xa;  &quot;ns&quot;: &quot;/User&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$type&quot;: &quot;enum:HR,PM,Dev&quot;&#xa;  }&#xa;}" id="9vcoqFquQQEDhLZk6Cq2vL">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="4uiRoZvm9WNwmUBFFozWC9">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="4uiRoZvm9WNwmUBFFozWC9">
         <mxGeometry x="290" y="534" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
     <role label="HR" type="role" tags="pb:connected" id="f3JDC5yFeGpVbktvtzXMBC">
-      <mxCell style="role" vertex="1" tempVisible="1" parent="4uiRoZvm9WNwmUBFFozWC9">
+      <mxCell style="role" vertex="1" tempVisible="0" parent="4uiRoZvm9WNwmUBFFozWC9">
         <mxGeometry x="240.81034482758628" y="674.2413793103449" width="70" height="90" as="geometry"/>
       </mxCell>
     </role>
     <role label="PM" type="role" tags="pb:connected" id="479sT7Dje7xpFfWbWVsAou">
-      <mxCell style="role" vertex="1" tempVisible="1" parent="4uiRoZvm9WNwmUBFFozWC9">
+      <mxCell style="role" vertex="1" tempVisible="0" parent="4uiRoZvm9WNwmUBFFozWC9">
         <mxGeometry x="334.8103448275863" y="674.2413793103449" width="70" height="90" as="geometry"/>
       </mxCell>
     </role>
     <role label="Dev" type="role" tags="pb:connected" id="3nXRBWMKjTMR1SpZpyWkzK">
-      <mxCell style="role" vertex="1" tempVisible="1" parent="4uiRoZvm9WNwmUBFFozWC9">
+      <mxCell style="role" vertex="1" tempVisible="0" parent="4uiRoZvm9WNwmUBFFozWC9">
         <mxGeometry x="426.8103448275863" y="674.2413793103449" width="70" height="90" as="geometry"/>
       </mxCell>
     </role>
     <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;As we learned from the Big Picture Event Storming above, the Time Tracking App is used by people with different roles. So the first step is to tell Cody Engine about those roles.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. Select the &quot;Common&quot; feature frame. Please note that a frame can only be selected at its border. See the &lt;a href=&quot;https://wiki.prooph-board.com/board_workspace/Frames.html#move-frames&quot;&gt;&lt;b&gt;wiki &lt;/b&gt;&lt;/a&gt;for details.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. Right click on the feature (again near its border) and choose &quot;Cody Wizard&quot; from the context menu.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. Click the button &quot;Run Cody&quot; in the bottom right corner of the Cody Wizard Dialog&lt;/div&gt;" tags="pb:connected" id="8cN8KVkHQWGB4HW7t62i3S">
-      <mxCell style="freeText;fillColor=#E0FFD1;" vertex="1" tempVisible="1" parent="4uiRoZvm9WNwmUBFFozWC9">
+      <mxCell style="freeText;fillColor=#E0FFD1;" vertex="1" tempVisible="0" parent="4uiRoZvm9WNwmUBFFozWC9">
         <mxGeometry x="184.5" y="128" width="371" height="336" as="geometry"/>
       </mxCell>
     </UserObject>
     <feature label="Set Up&amp;nbsp;Client Project" type="feature" metadata="" tags="pb:connected,planned" id="oVfNvMqRaXEa44MGE2iKLu">
-      <mxCell style="feature;fillColor=#FFE1AD;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxCell style="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=78;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
         <mxGeometry x="1772" y="1030" width="736" height="1694" as="geometry">
           <mxRectangle x="2390" y="1024" width="736" height="1694" as="alternateBounds"/>
         </mxGeometry>
       </mxCell>
     </feature>
     <event label="Client Project Set Up" type="event" tags="pb:connected" metadata="{&#xa;  &quot;public&quot;: false,&#xa;  &quot;schema&quot;: {&#xa;    &quot;projectId&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;name&quot;: &quot;string|minLength:1&quot;,&#xa;    &quot;pm&quot;: &quot;/Employee/EmployeeId&quot;,&#xa;    &quot;clientId&quot;: &quot;string|format:uuid&quot;&#xa;  },&#xa;  &quot;applyRules&quot;: [&#xa;    {&#xa;      &quot;rule&quot;: &quot;always&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;assign&quot;: {&#xa;          &quot;variable&quot;: &quot;information&quot;,&#xa;          &quot;value&quot;: {&#xa;            &quot;$merge&quot;: [&#xa;              &quot;information&quot;,&#xa;              &quot;event&quot;&#xa;            ]&#xa;          }&#xa;        }&#xa;      }&#xa;    }&#xa;  ]&#xa;}" id="43DS1TQ1a3G4pdLM6Ak3sN">
-      <mxCell style="event" vertex="1" tempVisible="1" parent="oVfNvMqRaXEa44MGE2iKLu">
+      <mxCell style="event" vertex="1" tempVisible="0" parent="oVfNvMqRaXEa44MGE2iKLu">
         <mxGeometry x="400.14285714285734" y="1074.2142857142858" width="160" height="100" as="geometry"/>
       </mxCell>
     </event>
     <document label="Project" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Project&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;projectId&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;name&quot;: &quot;string|minLength:1&quot;,&#xa;    &quot;pm&quot;: &quot;/Employee/EmployeeId&quot;,&#xa;    &quot;clientId?&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;developers&quot;: &quot;/Employee/EmployeeId[]&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {&#xa;    &quot;projectId&quot;: &quot;string|format:uuid&quot;&#xa;  },&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;projectId&quot;: {&#xa;      &quot;ui:widget&quot;: &quot;hidden&quot;&#xa;    },&#xa;    &quot;pm&quot;: {&#xa;      &quot;ui:title&quot;: &quot;Project Manager&quot;,&#xa;      &quot;ui:widget&quot;: &quot;DataSelect&quot;,&#xa;      &quot;ui:options&quot;: {&#xa;        &quot;data&quot;: &quot;/Employee/EmployeeList&quot;,&#xa;        &quot;text&quot;: &quot;data.name&quot;,&#xa;        &quot;value&quot;: &quot;data.employeeId&quot;&#xa;      }&#xa;    },&#xa;    &quot;clientId&quot;: {&#xa;      &quot;ui:title&quot;: &quot;Client&quot;,&#xa;      &quot;ui:widget&quot;: &quot;DataSelect&quot;,&#xa;      &quot;ui:options&quot;: {&#xa;        &quot;data&quot;: &quot;/Client/ClientList&quot;,&#xa;        &quot;text&quot;: &quot;data.name&quot;,&#xa;        &quot;value&quot;: &quot;data.clientId&quot;&#xa;      }&#xa;    },&#xa;    &quot;developers&quot;: {&#xa;      &quot;items&quot;: {&#xa;        &quot;ui:widget&quot;: &quot;DataSelect&quot;,&#xa;        &quot;ui:options&quot;: {&#xa;          &quot;label&quot;: false,&#xa;          &quot;data&quot;: &quot;/Employee/Developers&quot;,&#xa;          &quot;text&quot;: &quot;data.name&quot;,&#xa;          &quot;value&quot;: &quot;data.employeeId&quot;&#xa;        }&#xa;      }&#xa;    }&#xa;  },&#xa;  &quot;identifier&quot;: &quot;projectId&quot;,&#xa;  &quot;initialize&quot;: [&#xa;    {&#xa;      &quot;rule&quot;: &quot;condition&quot;,&#xa;      &quot;if_not&quot;: &quot;data.developers&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;assign&quot;: {&#xa;          &quot;variable&quot;: &quot;data&quot;,&#xa;          &quot;value&quot;: {&#xa;            &quot;$merge&quot;: &quot;data&quot;,&#xa;            &quot;developers&quot;: &quot;[]&quot;&#xa;          }&#xa;        }&#xa;      }&#xa;    }&#xa;  ]&#xa;}" tags="pb:connected" id="fDDJfVEBmfNSDDH8WeQ5R6">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="oVfNvMqRaXEa44MGE2iKLu">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="oVfNvMqRaXEa44MGE2iKLu">
         <mxGeometry x="400.14285714285734" y="1254.2142857142858" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
-    <mxCell id="rGM4sf7xTEGBRVVWR9DuF1" value="" edge="1" tempVisible="1" parent="oVfNvMqRaXEa44MGE2iKLu" source="43DS1TQ1a3G4pdLM6Ak3sN" target="fDDJfVEBmfNSDDH8WeQ5R6">
+    <mxCell id="rGM4sf7xTEGBRVVWR9DuF1" value="" edge="1" tempVisible="0" parent="oVfNvMqRaXEa44MGE2iKLu" source="43DS1TQ1a3G4pdLM6Ak3sN" target="fDDJfVEBmfNSDDH8WeQ5R6">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <document label="Project List" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Project&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Project/Project&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;ui:table&quot;: {&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;name&quot;,&#xa;          &quot;headerName&quot;: &quot;Name&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;clientId&quot;,&#xa;          &quot;headerName&quot;: &quot;Client&quot;,&#xa;          &quot;ref&quot;: {&#xa;            &quot;data&quot;: &quot;/Client/ClientList&quot;,&#xa;            &quot;value&quot;: &quot;data.name&quot;&#xa;          }&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;pm&quot;,&#xa;          &quot;headerName&quot;: &quot;Project Manager&quot;,&#xa;          &quot;ref&quot;: {&#xa;            &quot;data&quot;: &quot;/Employee/EmployeeList&quot;,&#xa;            &quot;value&quot;: &quot;data.name&quot;&#xa;          }&#xa;        }&#xa;      ]&#xa;    }&#xa;  },&#xa;  &quot;resolve&quot;: {&#xa;    &quot;orderBy&quot;: {&#xa;      &quot;prop&quot;: &quot;name&quot;,&#xa;      &quot;sort&quot;: &quot;asc&quot;&#xa;    }&#xa;  }&#xa;}" tags="pb:connected" id="2S3Pq2Fj4mQT3UUrJcttHq">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="oVfNvMqRaXEa44MGE2iKLu">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="oVfNvMqRaXEa44MGE2iKLu">
         <mxGeometry x="400.14285714285734" y="1434.2142857142858" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
-    <mxCell id="5oTKXLcWh9rVaxbmHgN8TZ" value="" edge="1" tempVisible="1" parent="oVfNvMqRaXEa44MGE2iKLu" source="fDDJfVEBmfNSDDH8WeQ5R6" target="2S3Pq2Fj4mQT3UUrJcttHq">
+    <mxCell id="5oTKXLcWh9rVaxbmHgN8TZ" value="" edge="1" tempVisible="0" parent="oVfNvMqRaXEa44MGE2iKLu" source="fDDJfVEBmfNSDDH8WeQ5R6" target="2S3Pq2Fj4mQT3UUrJcttHq">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <aggregate label="Project" type="aggregate" metadata="{&#xa;  &quot;rules&quot;: [&#xa;    {&#xa;      &quot;rule&quot;: &quot;always&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;record&quot;: {&#xa;          &quot;event&quot;: &quot;Client Project Set Up&quot;,&#xa;          &quot;mapping&quot;: {&#xa;            &quot;$merge&quot;: &quot;command&quot;,&#xa;            &quot;pm&quot;: &quot;meta.user.userId&quot;&#xa;          }&#xa;        }&#xa;      }&#xa;    }&#xa;  ]&#xa;}" tags="pb:disconnected" id="8r2XjsGfV6YEJ7Z7NJoWpL">
-      <mxCell style="aggregate" vertex="1" tempVisible="1" parent="oVfNvMqRaXEa44MGE2iKLu">
+      <mxCell style="aggregate" vertex="1" tempVisible="0" parent="oVfNvMqRaXEa44MGE2iKLu">
         <mxGeometry x="400.14285714285734" y="894.2142857142858" width="160" height="100" as="geometry"/>
       </mxCell>
     </aggregate>
-    <mxCell id="cN5ZFtxUm5spSXMmDXrmBD" value="" edge="1" tempVisible="1" parent="oVfNvMqRaXEa44MGE2iKLu" source="8r2XjsGfV6YEJ7Z7NJoWpL" target="43DS1TQ1a3G4pdLM6Ak3sN">
+    <mxCell id="cN5ZFtxUm5spSXMmDXrmBD" value="" edge="1" tempVisible="0" parent="oVfNvMqRaXEa44MGE2iKLu" source="8r2XjsGfV6YEJ7Z7NJoWpL" target="43DS1TQ1a3G4pdLM6Ak3sN">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <command label="&amp;nbsp;Set Up Client Project" type="command" metadata="{&#xa;  &quot;schema&quot;: {&#xa;    &quot;projectId&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;name&quot;: &quot;string|minLength:1&quot;,&#xa;    &quot;clientId&quot;: &quot;string|format:uuid&quot;&#xa;  },&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;ui:button&quot;: {&#xa;      &quot;hidden&quot;: &quot;!isRole(user, &#39;PM&#39;)&quot;&#xa;    },&#xa;    &quot;projectId&quot;: {&#xa;      &quot;ui:widget&quot;: &quot;hidden&quot;&#xa;    },&#xa;    &quot;clientId&quot;: {&#xa;      &quot;ui:title&quot;: &quot;Client&quot;,&#xa;      &quot;ui:widget&quot;: &quot;DataSelect&quot;,&#xa;      &quot;ui:options&quot;: {&#xa;        &quot;data&quot;: &quot;/Client/ClientList&quot;,&#xa;        &quot;text&quot;: &quot;data.name&quot;,&#xa;        &quot;value&quot;: &quot;data.clientId&quot;&#xa;      }&#xa;    }&#xa;  },&#xa;  &quot;newAggregate&quot;: true&#xa;}" tags="pb:connected" id="uSw5dJy7yeqUwRqeUT1a62">
-      <mxCell style="command" vertex="1" tempVisible="1" parent="oVfNvMqRaXEa44MGE2iKLu">
+      <mxCell style="command" vertex="1" tempVisible="0" parent="oVfNvMqRaXEa44MGE2iKLu">
         <mxGeometry x="400.14285714285734" y="714.2142857142858" width="160" height="100" as="geometry"/>
       </mxCell>
     </command>
-    <mxCell id="ayoz22YPiXSSFAWEixPL79" value="" edge="1" tempVisible="1" parent="oVfNvMqRaXEa44MGE2iKLu" source="uSw5dJy7yeqUwRqeUT1a62" target="8r2XjsGfV6YEJ7Z7NJoWpL">
+    <mxCell id="ayoz22YPiXSSFAWEixPL79" value="" edge="1" tempVisible="0" parent="oVfNvMqRaXEa44MGE2iKLu" source="uSw5dJy7yeqUwRqeUT1a62" target="8r2XjsGfV6YEJ7Z7NJoWpL">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <ui label="Projects" type="ui" metadata="{&#xa;  &quot;route&quot;: &quot;/time-tracker/projects&quot;,&#xa;  &quot;sidebar&quot;: {&#xa;    &quot;label&quot;: &quot;Projects&quot;,&#xa;    &quot;icon&quot;: &quot;wrench-clock&quot;&#xa;  },&#xa;  &quot;breadcrumb&quot;: &quot;Projects&quot;&#xa;}" tags="pb:connected" id="76uJ8x8qcfWr2fGw5YEnyR">
-      <mxCell style="ui" vertex="1" tempVisible="1" parent="oVfNvMqRaXEa44MGE2iKLu">
+      <mxCell style="ui" vertex="1" tempVisible="0" parent="oVfNvMqRaXEa44MGE2iKLu">
         <mxGeometry x="400.14285714285734" y="534.2142857142858" width="160" height="100" as="geometry"/>
       </mxCell>
     </ui>
-    <mxCell id="8BppZANRaG3WLfwYy8Pghk" value="" edge="1" tempVisible="1" parent="oVfNvMqRaXEa44MGE2iKLu" source="76uJ8x8qcfWr2fGw5YEnyR" target="uSw5dJy7yeqUwRqeUT1a62">
+    <mxCell id="8BppZANRaG3WLfwYy8Pghk" value="" edge="1" tempVisible="0" parent="oVfNvMqRaXEa44MGE2iKLu" source="76uJ8x8qcfWr2fGw5YEnyR" target="uSw5dJy7yeqUwRqeUT1a62">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <document label="Project List" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Project&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Project/Project&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;ui:table&quot;: {&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;name&quot;,&#xa;          &quot;headerName&quot;: &quot;Name&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;clientId&quot;,&#xa;          &quot;headerName&quot;: &quot;Client&quot;,&#xa;          &quot;ref&quot;: {&#xa;            &quot;data&quot;: &quot;/Client/ClientList&quot;,&#xa;            &quot;value&quot;: &quot;data.name&quot;&#xa;          }&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;pm&quot;,&#xa;          &quot;headerName&quot;: &quot;Project Manager&quot;,&#xa;          &quot;ref&quot;: {&#xa;            &quot;data&quot;: &quot;/Employee/EmployeeList&quot;,&#xa;            &quot;value&quot;: &quot;data.name&quot;&#xa;          }&#xa;        }&#xa;      ]&#xa;    }&#xa;  },&#xa;  &quot;resolve&quot;: {&#xa;    &quot;orderBy&quot;: {&#xa;      &quot;prop&quot;: &quot;name&quot;,&#xa;      &quot;sort&quot;: &quot;asc&quot;&#xa;    }&#xa;  }&#xa;}" tags="pb:connected" id="ja7jufLPYtJvk7UQiiFapM">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="oVfNvMqRaXEa44MGE2iKLu">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="oVfNvMqRaXEa44MGE2iKLu">
         <mxGeometry x="160.14285714285734" y="534.2142857142858" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
-    <mxCell id="kwhvtdv1zAn81LMbJtEFFH" value="" edge="1" tempVisible="1" parent="oVfNvMqRaXEa44MGE2iKLu" source="ja7jufLPYtJvk7UQiiFapM" target="76uJ8x8qcfWr2fGw5YEnyR">
+    <mxCell id="kwhvtdv1zAn81LMbJtEFFH" value="" edge="1" tempVisible="0" parent="oVfNvMqRaXEa44MGE2iKLu" source="ja7jufLPYtJvk7UQiiFapM" target="76uJ8x8qcfWr2fGw5YEnyR">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <role label="PM" type="role" tags="pb:connected" id="d5c9kDz9woVaAf1hs3RiqS">
-      <mxCell style="role" vertex="1" tempVisible="1" parent="oVfNvMqRaXEa44MGE2iKLu">
+      <mxCell style="role" vertex="1" tempVisible="0" parent="oVfNvMqRaXEa44MGE2iKLu">
         <mxGeometry x="364.91489361702133" y="613.8191489361702" width="70" height="90" as="geometry"/>
       </mxCell>
     </role>
     <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;Project Managers (role: PM) also set up client projects in Time Tracking App.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. Select the &quot;Set Up Client Project&quot; feature.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. Run Cody.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. Switch to Cody Engine in your browser (&lt;a href=&quot;http://localhost:4200/&quot; rel=&quot;nofollow&quot;&gt;http://localhost:4200&lt;/a&gt;)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. Click &quot;Projects&quot; in the left sidebar.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5. Click &quot;Set Up Client Project&quot; button and enter a test project.&lt;/div&gt;" tags="pb:connected" id="4ignXwm9UPPGU1QVVLzzVF">
-      <mxCell style="freeText;fillColor=#E0FFD1;" vertex="1" tempVisible="1" parent="oVfNvMqRaXEa44MGE2iKLu">
+      <mxCell style="freeText;fillColor=#E0FFD1;" vertex="1" tempVisible="0" parent="oVfNvMqRaXEa44MGE2iKLu">
         <mxGeometry x="214.5" y="93" width="371" height="371" as="geometry"/>
       </mxCell>
     </UserObject>
     <feature label="Assign Developer To Project" type="feature" metadata="" tags="pb:connected,planned" id="oThte9buax7CWqZEyjrY1s">
-      <mxCell style="feature;fillColor=#FFE1AD;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxCell style="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=78;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
         <mxGeometry x="2904" y="1024" width="803" height="1712" as="geometry">
           <mxRectangle x="2928" y="1024" width="803" height="1712" as="alternateBounds"/>
         </mxGeometry>
       </mxCell>
     </feature>
     <event label="Developer Assigned To Project" type="event" tags="pb:connected" metadata="{&#xa;  &quot;public&quot;: false,&#xa;  &quot;schema&quot;: {&#xa;    &quot;projectId&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;developer&quot;: &quot;/Employee/EmployeeId&quot;&#xa;  },&#xa;  &quot;applyRules&quot;: [&#xa;    {&#xa;      &quot;rule&quot;: &quot;always&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;assign&quot;: {&#xa;          &quot;variable&quot;: &quot;information&quot;,&#xa;          &quot;value&quot;: {&#xa;            &quot;$merge&quot;: &quot;information&quot;,&#xa;            &quot;developers&quot;: &quot;push(information.developers, event.developer)&quot;&#xa;          }&#xa;        }&#xa;      }&#xa;    }&#xa;  ]&#xa;}" id="rNURpfaqY7gvvRMsFcW89g">
-      <mxCell style="event;autosize=1;" vertex="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s">
+      <mxCell style="event;autosize=1;" vertex="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s">
         <mxGeometry x="434.94334975369475" y="1240" width="160" height="106" as="geometry"/>
       </mxCell>
     </event>
-    <mxCell id="4CFSVwAzJcr77vhJtZBC8i" style="html=1;" edge="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s" source="gmoqCSctRZ2m9GFtppqj2z" target="7StW4MPQoHtPKkHeMjYTmL">
+    <mxCell id="4CFSVwAzJcr77vhJtZBC8i" style="html=1;" edge="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s" source="gmoqCSctRZ2m9GFtppqj2z" target="7StW4MPQoHtPKkHeMjYTmL">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <document label="Project" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Project&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;projectId&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;name&quot;: &quot;string|minLength:1&quot;,&#xa;    &quot;pm&quot;: &quot;/Employee/EmployeeId&quot;,&#xa;    &quot;clientId?&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;developers&quot;: &quot;/Employee/EmployeeId[]&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {&#xa;    &quot;projectId&quot;: &quot;string|format:uuid&quot;&#xa;  },&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;projectId&quot;: {&#xa;      &quot;ui:widget&quot;: &quot;hidden&quot;&#xa;    },&#xa;    &quot;pm&quot;: {&#xa;      &quot;ui:title&quot;: &quot;Project Manager&quot;,&#xa;      &quot;ui:widget&quot;: &quot;DataSelect&quot;,&#xa;      &quot;ui:options&quot;: {&#xa;        &quot;data&quot;: &quot;/Employee/EmployeeList&quot;,&#xa;        &quot;text&quot;: &quot;data.name&quot;,&#xa;        &quot;value&quot;: &quot;data.employeeId&quot;&#xa;      }&#xa;    },&#xa;    &quot;clientId&quot;: {&#xa;      &quot;ui:title&quot;: &quot;Client&quot;,&#xa;      &quot;ui:widget&quot;: &quot;DataSelect&quot;,&#xa;      &quot;ui:options&quot;: {&#xa;        &quot;data&quot;: &quot;/Client/ClientList&quot;,&#xa;        &quot;text&quot;: &quot;data.name&quot;,&#xa;        &quot;value&quot;: &quot;data.clientId&quot;&#xa;      }&#xa;    },&#xa;    &quot;developers&quot;: {&#xa;      &quot;items&quot;: {&#xa;        &quot;ui:widget&quot;: &quot;DataSelect&quot;,&#xa;        &quot;ui:options&quot;: {&#xa;          &quot;label&quot;: false,&#xa;          &quot;data&quot;: &quot;/Employee/Developers&quot;,&#xa;          &quot;text&quot;: &quot;data.name&quot;,&#xa;          &quot;value&quot;: &quot;data.employeeId&quot;&#xa;        }&#xa;      }&#xa;    }&#xa;  },&#xa;  &quot;identifier&quot;: &quot;projectId&quot;,&#xa;  &quot;initialize&quot;: [&#xa;    {&#xa;      &quot;rule&quot;: &quot;condition&quot;,&#xa;      &quot;if_not&quot;: &quot;data.developers&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;assign&quot;: {&#xa;          &quot;variable&quot;: &quot;data&quot;,&#xa;          &quot;value&quot;: {&#xa;            &quot;$merge&quot;: &quot;data&quot;,&#xa;            &quot;developers&quot;: &quot;[]&quot;&#xa;          }&#xa;        }&#xa;      }&#xa;    }&#xa;  ]&#xa;}" tags="pb:connected" id="gmoqCSctRZ2m9GFtppqj2z">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s">
         <mxGeometry x="434.94334975369475" y="1426" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
-    <mxCell id="ejPcZJdfBkyY6YjPQwfK5s" value="" edge="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s" source="rNURpfaqY7gvvRMsFcW89g" target="gmoqCSctRZ2m9GFtppqj2z">
+    <mxCell id="ejPcZJdfBkyY6YjPQwfK5s" value="" edge="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s" source="rNURpfaqY7gvvRMsFcW89g" target="gmoqCSctRZ2m9GFtppqj2z">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <aggregate label="Project" type="aggregate" metadata="{&#xa;  &quot;rules&quot;: [&#xa;    {&#xa;      &quot;rule&quot;: &quot;always&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;record&quot;: {&#xa;          &quot;event&quot;: &quot;Developer Assigned To Project&quot;,&#xa;          &quot;mapping&quot;: &quot;command&quot;&#xa;        }&#xa;      }&#xa;    }&#xa;  ]&#xa;}" tags="pb:disconnected" id="2gwDPNHu8Rc3WQXY4UTTf5">
-      <mxCell style="aggregate" vertex="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s">
+      <mxCell style="aggregate" vertex="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s">
         <mxGeometry x="434.94334975369475" y="1060" width="160" height="100" as="geometry"/>
       </mxCell>
     </aggregate>
-    <mxCell id="gTNV6f3AuR5dswkPiAQfUZ" value="" edge="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s" source="2gwDPNHu8Rc3WQXY4UTTf5" target="rNURpfaqY7gvvRMsFcW89g">
+    <mxCell id="gTNV6f3AuR5dswkPiAQfUZ" value="" edge="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s" source="2gwDPNHu8Rc3WQXY4UTTf5" target="rNURpfaqY7gvvRMsFcW89g">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <command label="Assign Developer To Project" type="command" metadata="{&#xa;  &quot;schema&quot;: {&#xa;    &quot;projectId&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;developer&quot;: &quot;/Employee/EmployeeId&quot;&#xa;  },&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;ui:button&quot;: {&#xa;      &quot;hidden&quot;: &quot;!isRole(user, &#39;PM&#39;)&quot;&#xa;    },&#xa;    &quot;projectId&quot;: {&#xa;      &quot;ui:widget&quot;: &quot;hidden&quot;&#xa;    },&#xa;    &quot;developer&quot;: {&#xa;      &quot;ui:title&quot;: &quot;Developer&quot;,&#xa;      &quot;ui:widget&quot;: &quot;DataSelect&quot;,&#xa;      &quot;ui:options&quot;: {&#xa;        &quot;data&quot;: &quot;/Employee/Developers&quot;,&#xa;        &quot;text&quot;: &quot;data.name&quot;,&#xa;        &quot;value&quot;: &quot;data.employeeId&quot;&#xa;      }&#xa;    }&#xa;  },&#xa;  &quot;newAggregate&quot;: false&#xa;}" tags="pb:connected" id="m5eaYiaY437jtu8VfQ8oE6">
-      <mxCell style="command" vertex="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s">
+      <mxCell style="command" vertex="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s">
         <mxGeometry x="434.94334975369475" y="880" width="160" height="100" as="geometry"/>
       </mxCell>
     </command>
-    <mxCell id="hb4dyd6sA3dVGHiaaakWWQ" value="" edge="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s" source="m5eaYiaY437jtu8VfQ8oE6" target="2gwDPNHu8Rc3WQXY4UTTf5">
+    <mxCell id="hb4dyd6sA3dVGHiaaakWWQ" value="" edge="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s" source="m5eaYiaY437jtu8VfQ8oE6" target="2gwDPNHu8Rc3WQXY4UTTf5">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <ui label="Project Details" type="ui" metadata="{&#xa;  &quot;routeParams&quot;: [&#xa;    &quot;projectId&quot;&#xa;  ],&#xa;  &quot;route&quot;: &quot;/time-tracker/projects/:projectId&quot;,&#xa;  &quot;breadcrumb&quot;: {&#xa;    &quot;data&quot;: &quot;/Project/Project&quot;,&#xa;    &quot;label&quot;: &quot;data.name&quot;&#xa;  }&#xa;}" tags="pb:connected" id="m11gtTBJwtgffFy7EaD1CN">
-      <mxCell style="ui" vertex="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s">
+      <mxCell style="ui" vertex="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s">
         <mxGeometry x="434.94334975369475" y="700" width="160" height="100" as="geometry"/>
       </mxCell>
     </ui>
-    <mxCell id="qN8XkWRQmkn96MeR9G47zs" value="" edge="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s" source="m11gtTBJwtgffFy7EaD1CN" target="m5eaYiaY437jtu8VfQ8oE6">
+    <mxCell id="qN8XkWRQmkn96MeR9G47zs" value="" edge="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s" source="m11gtTBJwtgffFy7EaD1CN" target="m5eaYiaY437jtu8VfQ8oE6">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <ui label="Projects" type="ui" metadata="{&#xa;  &quot;route&quot;: &quot;/time-tracker/projects&quot;,&#xa;  &quot;sidebar&quot;: {&#xa;    &quot;label&quot;: &quot;Projects&quot;,&#xa;    &quot;icon&quot;: &quot;wrench-clock&quot;&#xa;  },&#xa;  &quot;breadcrumb&quot;: &quot;Projects&quot;&#xa;}" tags="pb:connected" id="uczxWe6ZgaE8pUUuKpN3cz">
-      <mxCell style="ui" vertex="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s">
+      <mxCell style="ui" vertex="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s">
         <mxGeometry x="194.94334975369475" y="700" width="160" height="100" as="geometry"/>
       </mxCell>
     </ui>
-    <mxCell id="hgNhm78mVrk4dsyCBp9LYa" value="" edge="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s" source="uczxWe6ZgaE8pUUuKpN3cz" target="m11gtTBJwtgffFy7EaD1CN">
+    <mxCell id="hgNhm78mVrk4dsyCBp9LYa" value="" edge="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s" source="uczxWe6ZgaE8pUUuKpN3cz" target="m11gtTBJwtgffFy7EaD1CN">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <document label="Project" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Project&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;projectId&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;name&quot;: &quot;string|minLength:1&quot;,&#xa;    &quot;pm&quot;: &quot;/Employee/EmployeeId&quot;,&#xa;    &quot;clientId?&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;developers&quot;: &quot;/Employee/EmployeeId[]&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {&#xa;    &quot;projectId&quot;: &quot;string|format:uuid&quot;&#xa;  },&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;projectId&quot;: {&#xa;      &quot;ui:widget&quot;: &quot;hidden&quot;&#xa;    },&#xa;    &quot;pm&quot;: {&#xa;      &quot;ui:title&quot;: &quot;Project Manager&quot;,&#xa;      &quot;ui:widget&quot;: &quot;DataSelect&quot;,&#xa;      &quot;ui:options&quot;: {&#xa;        &quot;data&quot;: &quot;/Employee/EmployeeList&quot;,&#xa;        &quot;text&quot;: &quot;data.name&quot;,&#xa;        &quot;value&quot;: &quot;data.employeeId&quot;&#xa;      }&#xa;    },&#xa;    &quot;clientId&quot;: {&#xa;      &quot;ui:title&quot;: &quot;Client&quot;,&#xa;      &quot;ui:widget&quot;: &quot;DataSelect&quot;,&#xa;      &quot;ui:options&quot;: {&#xa;        &quot;data&quot;: &quot;/Client/ClientList&quot;,&#xa;        &quot;text&quot;: &quot;data.name&quot;,&#xa;        &quot;value&quot;: &quot;data.clientId&quot;&#xa;      }&#xa;    },&#xa;    &quot;developers&quot;: {&#xa;      &quot;items&quot;: {&#xa;        &quot;ui:widget&quot;: &quot;DataSelect&quot;,&#xa;        &quot;ui:options&quot;: {&#xa;          &quot;label&quot;: false,&#xa;          &quot;data&quot;: &quot;/Employee/Developers&quot;,&#xa;          &quot;text&quot;: &quot;data.name&quot;,&#xa;          &quot;value&quot;: &quot;data.employeeId&quot;&#xa;        }&#xa;      }&#xa;    }&#xa;  },&#xa;  &quot;identifier&quot;: &quot;projectId&quot;,&#xa;  &quot;initialize&quot;: [&#xa;    {&#xa;      &quot;rule&quot;: &quot;condition&quot;,&#xa;      &quot;if_not&quot;: &quot;data.developers&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;assign&quot;: {&#xa;          &quot;variable&quot;: &quot;data&quot;,&#xa;          &quot;value&quot;: {&#xa;            &quot;$merge&quot;: &quot;data&quot;,&#xa;            &quot;developers&quot;: &quot;[]&quot;&#xa;          }&#xa;        }&#xa;      }&#xa;    }&#xa;  ]&#xa;}" tags="pb:connected" id="oyuW76fgtvgvB2Lz8u7khE">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s">
         <mxGeometry x="194.94334975369475" y="546" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
-    <mxCell id="42r2M2zFruX6Ar9ugGQ46h" value="" edge="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s" source="oyuW76fgtvgvB2Lz8u7khE" target="m11gtTBJwtgffFy7EaD1CN">
+    <mxCell id="42r2M2zFruX6Ar9ugGQ46h" value="" edge="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s" source="oyuW76fgtvgvB2Lz8u7khE" target="m11gtTBJwtgffFy7EaD1CN">
       <mxGeometry relative="1" as="geometry">
         <Array as="points">
           <mxPoint x="394" y="607"/>
@@ -455,120 +455,120 @@
         </Array>
       </mxGeometry>
     </mxCell>
-    <mxCell id="rsygeWSCC2FGkaLnNVwcSB" style="html=1;" edge="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s" source="m3LBEfmjnfo8W5ZyG6b1Fm" target="m5eaYiaY437jtu8VfQ8oE6">
+    <mxCell id="rsygeWSCC2FGkaLnNVwcSB" style="html=1;" edge="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s" source="m3LBEfmjnfo8W5ZyG6b1Fm" target="m5eaYiaY437jtu8VfQ8oE6">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <document label="Developers" type="document" tags="pb:connected" metadata="{&#xa;  &quot;ns&quot;: &quot;/Employee&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Employee/Employee&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;resolve&quot;: {&#xa;    &quot;where&quot;: {&#xa;      &quot;rule&quot;: &quot;always&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;filter&quot;: {&#xa;          &quot;eq&quot;: {&#xa;            &quot;prop&quot;: &quot;role&quot;,&#xa;            &quot;value&quot;: &quot;&#39;Dev&#39;&quot;&#xa;          }&#xa;        }&#xa;      }&#xa;    }&#xa;  }&#xa;}" id="m3LBEfmjnfo8W5ZyG6b1Fm">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s">
         <mxGeometry x="195" y="880" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
     <role label="PM" type="role" tags="pb:connected" id="tcSbFpFUogYuPgwabst5kc">
-      <mxCell style="role" vertex="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s">
+      <mxCell style="role" vertex="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s">
         <mxGeometry x="374" y="781" width="70" height="90" as="geometry"/>
       </mxCell>
     </role>
     <document label="Project List" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Project&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Project/Project&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;ui:table&quot;: {&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;name&quot;,&#xa;          &quot;headerName&quot;: &quot;Name&quot;,&#xa;          &quot;flex&quot;: 1,&#xa;          &quot;pageLink&quot;: &quot;ProjectDetails&quot;&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;clientId&quot;,&#xa;          &quot;headerName&quot;: &quot;Client&quot;,&#xa;          &quot;ref&quot;: {&#xa;            &quot;data&quot;: &quot;/Client/ClientList&quot;,&#xa;            &quot;value&quot;: &quot;data.name&quot;&#xa;          }&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;pm&quot;,&#xa;          &quot;headerName&quot;: &quot;Project Manager&quot;,&#xa;          &quot;ref&quot;: {&#xa;            &quot;data&quot;: &quot;/Employee/EmployeeList&quot;,&#xa;            &quot;value&quot;: &quot;data.name&quot;&#xa;          }&#xa;        }&#xa;      ]&#xa;    }&#xa;  },&#xa;  &quot;resolve&quot;: {&#xa;    &quot;orderBy&quot;: {&#xa;      &quot;prop&quot;: &quot;name&quot;,&#xa;      &quot;sort&quot;: &quot;asc&quot;&#xa;    }&#xa;  }&#xa;}" tags="pb:disconnected" id="7StW4MPQoHtPKkHeMjYTmL">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s">
         <mxGeometry x="434.83783783783747" y="1593.9054054054054" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
     <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;To complete a project set up, Project Managers (role: PM) have to assign developers to a project.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. Select the &quot;Assign Developer To Project&quot; feature.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. Run Cody.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. Switch to Cody Engine in your browser (&lt;a href=&quot;http://localhost:4200/&quot; rel=&quot;nofollow&quot;&gt;http://localhost:4200&lt;/a&gt;)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. Hire two developers.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;(Hint: if you activated permission system for Employees feature, sign in as the HR persona)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5. Click &quot;Projects&quot; in the left sidebar.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;6. Click on the test project in project list.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;7. Click on the &quot;Assign Developer to Project&quot; button.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;8. Assign at least one developer to the project.&lt;/div&gt;" tags="pb:connected" id="jWruWbSCdkxNDir4E72WAs">
-      <mxCell style="freeText;fillColor=#E0FFD1;" vertex="1" tempVisible="1" parent="oThte9buax7CWqZEyjrY1s">
+      <mxCell style="freeText;fillColor=#E0FFD1;" vertex="1" tempVisible="0" parent="oThte9buax7CWqZEyjrY1s">
         <mxGeometry x="216" y="107" width="371" height="421" as="geometry"/>
       </mxCell>
     </UserObject>
     <feature label="Track Project Time" type="feature" metadata="" tags="pb:connected,planned" id="ricCWjcd9xQsE3MhJn5U8Z">
-      <mxCell style="feature;fillColor=#FFE1AD;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxCell style="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=78;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
         <mxGeometry x="4078" y="1030" width="720" height="1700" as="geometry">
           <mxRectangle x="4382" y="1024" width="720" height="1700" as="alternateBounds"/>
         </mxGeometry>
       </mxCell>
     </feature>
     <document label="Timesheet" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/TimeEntry&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/TimeEntry/TimeEntry&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;ui:table&quot;: {&#xa;      &quot;density&quot;: &quot;compact&quot;,&#xa;      &quot;pageSize&quot;: 25,&#xa;      &quot;pageSizeOptions&quot;: [&#xa;        10,&#xa;        25,&#xa;        50&#xa;      ],&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;project&quot;,&#xa;          &quot;ref&quot;: {&#xa;            &quot;data&quot;: &quot;/Project/ProjectList&quot;,&#xa;            &quot;value&quot;: &quot;data.name&quot;&#xa;          }&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;day&quot;,&#xa;          &quot;headerName&quot;: &quot;Day&quot;,&#xa;          &quot;value&quot;: &quot;row.day|localDate&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;startTime&quot;,&#xa;          &quot;headerName&quot;: &quot;Start Time&quot;,&#xa;          &quot;flex&quot;: 1,&#xa;          &quot;value&quot;: &quot;(row.day+&#39;T&#39;+row.startTime)|hours|twoDigit + &#39;:&#39; + (row.day+&#39;T&#39;+row.startTime)|minutes|twoDigit&quot;&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;endTime&quot;,&#xa;          &quot;headerName&quot;: &quot;End Time&quot;,&#xa;          &quot;flex&quot;: 1,&#xa;          &quot;value&quot;: &quot;(row.day+&#39;T&#39;+row.endTime)|hours|twoDigit + &#39;:&#39; + (row.day+&#39;T&#39;+row.endTime)|minutes|twoDigit&quot;&#xa;        }&#xa;      ]&#xa;    }&#xa;  },&#xa;  &quot;resolve&quot;: {&#xa;    &quot;where&quot;: {&#xa;      &quot;rule&quot;: &quot;always&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;filter&quot;: {&#xa;          &quot;eq&quot;: {&#xa;            &quot;prop&quot;: &quot;employee&quot;,&#xa;            &quot;value&quot;: &quot;meta.user.userId&quot;&#xa;          }&#xa;        }&#xa;      }&#xa;    },&#xa;    &quot;orderBy&quot;: [&#xa;      {&#xa;        &quot;prop&quot;: &quot;day&quot;,&#xa;        &quot;sort&quot;: &quot;asc&quot;&#xa;      },&#xa;      {&#xa;        &quot;prop&quot;: &quot;startTime&quot;,&#xa;        &quot;sort&quot;: &quot;asc&quot;&#xa;      }&#xa;    ]&#xa;  }&#xa;}" tags="pb:connected" id="jZKDMfVrt52cSZfY2ZpL18">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="ricCWjcd9xQsE3MhJn5U8Z">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="ricCWjcd9xQsE3MhJn5U8Z">
         <mxGeometry x="160" y="540" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
     <ui label="Timesheet" type="ui" metadata="{&#xa;  &quot;route&quot;: &quot;/time-tracker/timesheet&quot;,&#xa;  &quot;sidebar&quot;: {&#xa;    &quot;label&quot;: &quot;Timesheet&quot;,&#xa;    &quot;icon&quot;: &quot;timetable&quot;&#xa;  },&#xa;  &quot;breadcrumb&quot;: &quot;Timesheet&quot;&#xa;}" tags="pb:connected" id="5XNUiyzWsh4iLAohTwxYWG">
-      <mxCell style="ui" vertex="1" tempVisible="1" parent="ricCWjcd9xQsE3MhJn5U8Z">
+      <mxCell style="ui" vertex="1" tempVisible="0" parent="ricCWjcd9xQsE3MhJn5U8Z">
         <mxGeometry x="400" y="540" width="160" height="100" as="geometry"/>
       </mxCell>
     </ui>
-    <mxCell id="5Mx7BBqRzRC136saGe32Ds" value="" edge="1" tempVisible="1" parent="ricCWjcd9xQsE3MhJn5U8Z" source="jZKDMfVrt52cSZfY2ZpL18" target="5XNUiyzWsh4iLAohTwxYWG">
+    <mxCell id="5Mx7BBqRzRC136saGe32Ds" value="" edge="1" tempVisible="0" parent="ricCWjcd9xQsE3MhJn5U8Z" source="jZKDMfVrt52cSZfY2ZpL18" target="5XNUiyzWsh4iLAohTwxYWG">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <command label="Track Project Time" type="command" metadata="{&#xa;  &quot;schema&quot;: {&#xa;    &quot;timeEntryId&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;project&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;day&quot;: &quot;string|format:date&quot;,&#xa;    &quot;startTime&quot;: &quot;string|format:time&quot;,&#xa;    &quot;endTime&quot;: &quot;string|format:time|$formatExclusiveMinimum:startTime&quot;&#xa;  },&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;ui:button&quot;: {&#xa;      &quot;icon&quot;: &quot;timer-plus-outline&quot;&#xa;    },&#xa;    &quot;timeEntryId&quot;: {&#xa;      &quot;ui:widget&quot;: &quot;hidden&quot;&#xa;    },&#xa;    &quot;project&quot;: {&#xa;      &quot;ui:title&quot;: &quot;Project&quot;,&#xa;      &quot;ui:widget&quot;: &quot;DataSelect&quot;,&#xa;      &quot;ui:options&quot;: {&#xa;        &quot;data&quot;: &quot;/Project/AssignedProjects&quot;,&#xa;        &quot;text&quot;: &quot;data.name&quot;,&#xa;        &quot;value&quot;: &quot;data.projectId&quot;&#xa;      }&#xa;    }&#xa;  },&#xa;  &quot;newAggregate&quot;: true&#xa;}" tags="pb:connected" id="oXDzeFfFJGKPRHRBX19a1V">
-      <mxCell style="command" vertex="1" tempVisible="1" parent="ricCWjcd9xQsE3MhJn5U8Z">
+      <mxCell style="command" vertex="1" tempVisible="0" parent="ricCWjcd9xQsE3MhJn5U8Z">
         <mxGeometry x="400" y="720" width="160" height="100" as="geometry"/>
       </mxCell>
     </command>
-    <mxCell id="5iYVX5X25idMa6okzUiriK" value="" edge="1" tempVisible="1" parent="ricCWjcd9xQsE3MhJn5U8Z" source="5XNUiyzWsh4iLAohTwxYWG" target="oXDzeFfFJGKPRHRBX19a1V">
+    <mxCell id="5iYVX5X25idMa6okzUiriK" value="" edge="1" tempVisible="0" parent="ricCWjcd9xQsE3MhJn5U8Z" source="5XNUiyzWsh4iLAohTwxYWG" target="oXDzeFfFJGKPRHRBX19a1V">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <aggregate label="Time Entry" type="aggregate" metadata="{&#xa;  &quot;rules&quot;: [&#xa;    {&#xa;      &quot;rule&quot;: &quot;always&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;record&quot;: {&#xa;          &quot;event&quot;: &quot;Project Time Tracked&quot;,&#xa;          &quot;mapping&quot;: {&#xa;            &quot;$merge&quot;: &quot;command&quot;,&#xa;            &quot;employee&quot;: &quot;meta.user.userId&quot;&#xa;          }&#xa;        }&#xa;      }&#xa;    }&#xa;  ]&#xa;}" tags="pb:disconnected" id="2eoNCciHCDnhbt7XmR3hg7">
-      <mxCell style="aggregate" vertex="1" tempVisible="1" parent="ricCWjcd9xQsE3MhJn5U8Z">
+      <mxCell style="aggregate" vertex="1" tempVisible="0" parent="ricCWjcd9xQsE3MhJn5U8Z">
         <mxGeometry x="400" y="900" width="160" height="100" as="geometry"/>
       </mxCell>
     </aggregate>
-    <mxCell id="tHhV9Tw7gtuAW5KNSSuVUg" value="" edge="1" tempVisible="1" parent="ricCWjcd9xQsE3MhJn5U8Z" source="oXDzeFfFJGKPRHRBX19a1V" target="2eoNCciHCDnhbt7XmR3hg7">
+    <mxCell id="tHhV9Tw7gtuAW5KNSSuVUg" value="" edge="1" tempVisible="0" parent="ricCWjcd9xQsE3MhJn5U8Z" source="oXDzeFfFJGKPRHRBX19a1V" target="2eoNCciHCDnhbt7XmR3hg7">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <event label="Project Time Tracked" type="event" tags="pb:connected" metadata="{&#xa;  &quot;public&quot;: false,&#xa;  &quot;schema&quot;: {&#xa;    &quot;timeEntryId&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;project&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;employee&quot;: &quot;/Employee/EmployeeId&quot;,&#xa;    &quot;day&quot;: &quot;string|format:date&quot;,&#xa;    &quot;startTime&quot;: &quot;string|format:time&quot;,&#xa;    &quot;endTime&quot;: &quot;string|format:time&quot;&#xa;  },&#xa;  &quot;applyRules&quot;: [&#xa;    {&#xa;      &quot;rule&quot;: &quot;always&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;assign&quot;: {&#xa;          &quot;variable&quot;: &quot;information&quot;,&#xa;          &quot;value&quot;: {&#xa;            &quot;$merge&quot;: [&#xa;              &quot;information&quot;,&#xa;              &quot;event&quot;&#xa;            ]&#xa;          }&#xa;        }&#xa;      }&#xa;    }&#xa;  ]&#xa;}" id="fx5igXKM8ZVas1bWHN5sMa">
-      <mxCell style="event" vertex="1" tempVisible="1" parent="ricCWjcd9xQsE3MhJn5U8Z">
+      <mxCell style="event" vertex="1" tempVisible="0" parent="ricCWjcd9xQsE3MhJn5U8Z">
         <mxGeometry x="400" y="1080" width="160" height="100" as="geometry"/>
       </mxCell>
     </event>
-    <mxCell id="2iDreuwBQkSMoo575fZFdt" value="" edge="1" tempVisible="1" parent="ricCWjcd9xQsE3MhJn5U8Z" source="2eoNCciHCDnhbt7XmR3hg7" target="fx5igXKM8ZVas1bWHN5sMa">
+    <mxCell id="2iDreuwBQkSMoo575fZFdt" value="" edge="1" tempVisible="0" parent="ricCWjcd9xQsE3MhJn5U8Z" source="2eoNCciHCDnhbt7XmR3hg7" target="fx5igXKM8ZVas1bWHN5sMa">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <document label="Time Entry" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/TimeEntry&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;timeEntryId&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;project&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;employee&quot;: &quot;/Employee/EmployeeId&quot;,&#xa;    &quot;day&quot;: &quot;string|format:date&quot;,&#xa;    &quot;startTime&quot;: &quot;string|format:time&quot;,&#xa;    &quot;endTime&quot;: &quot;string|format:time&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {&#xa;    &quot;timeEntryId&quot;: &quot;string|format:uuid&quot;&#xa;  },&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;timeEntryId&quot;: {&#xa;      &quot;ui:widget&quot;: &quot;hidden&quot;&#xa;    },&#xa;    &quot;project&quot;: {&#xa;      &quot;ui:title&quot;: &quot;Project&quot;,&#xa;      &quot;ui:widget&quot;: &quot;DataSelect&quot;,&#xa;      &quot;ui:options&quot;: {&#xa;        &quot;data&quot;: &quot;/Project/ProjectList&quot;,&#xa;        &quot;text&quot;: &quot;data.name&quot;,&#xa;        &quot;value&quot;: &quot;data.projectId&quot;&#xa;      }&#xa;    },&#xa;    &quot;employee&quot;: {&#xa;      &quot;ui:widget&quot;: &quot;DataSelect&quot;,&#xa;      &quot;ui:options&quot;: {&#xa;        &quot;data&quot;: &quot;/Employee/EmployeeList&quot;,&#xa;        &quot;text&quot;: &quot;data.name&quot;,&#xa;        &quot;value&quot;: &quot;data.employeeId&quot;&#xa;      }&#xa;    }&#xa;  },&#xa;  &quot;identifier&quot;: &quot;timeEntryId&quot;&#xa;}" tags="pb:connected" id="9PwLYvL61fUtWn1Y1JUPFG">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="ricCWjcd9xQsE3MhJn5U8Z">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="ricCWjcd9xQsE3MhJn5U8Z">
         <mxGeometry x="400" y="1260" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
-    <mxCell id="dMz7UTnG3PgUeTKeQUgmD3" value="" edge="1" tempVisible="1" parent="ricCWjcd9xQsE3MhJn5U8Z" source="fx5igXKM8ZVas1bWHN5sMa" target="9PwLYvL61fUtWn1Y1JUPFG">
+    <mxCell id="dMz7UTnG3PgUeTKeQUgmD3" value="" edge="1" tempVisible="0" parent="ricCWjcd9xQsE3MhJn5U8Z" source="fx5igXKM8ZVas1bWHN5sMa" target="9PwLYvL61fUtWn1Y1JUPFG">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <document label="Timesheet" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/TimeEntry&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/TimeEntry/TimeEntry&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;ui:table&quot;: {&#xa;      &quot;density&quot;: &quot;compact&quot;,&#xa;      &quot;pageSize&quot;: 25,&#xa;      &quot;pageSizeOptions&quot;: [&#xa;        10,&#xa;        25,&#xa;        50&#xa;      ],&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;project&quot;,&#xa;          &quot;ref&quot;: {&#xa;            &quot;data&quot;: &quot;/Project/ProjectList&quot;,&#xa;            &quot;value&quot;: &quot;data.name&quot;&#xa;          }&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;day&quot;,&#xa;          &quot;headerName&quot;: &quot;Day&quot;,&#xa;          &quot;value&quot;: &quot;row.day|localDate&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;startTime&quot;,&#xa;          &quot;headerName&quot;: &quot;Start Time&quot;,&#xa;          &quot;flex&quot;: 1,&#xa;          &quot;value&quot;: &quot;(row.day+&#39;T&#39;+row.startTime)|hours|twoDigit + &#39;:&#39; + (row.day+&#39;T&#39;+row.startTime)|minutes|twoDigit&quot;&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;endTime&quot;,&#xa;          &quot;headerName&quot;: &quot;End Time&quot;,&#xa;          &quot;flex&quot;: 1,&#xa;          &quot;value&quot;: &quot;(row.day+&#39;T&#39;+row.endTime)|hours|twoDigit + &#39;:&#39; + (row.day+&#39;T&#39;+row.endTime)|minutes|twoDigit&quot;&#xa;        }&#xa;      ]&#xa;    }&#xa;  },&#xa;  &quot;resolve&quot;: {&#xa;    &quot;where&quot;: {&#xa;      &quot;rule&quot;: &quot;always&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;filter&quot;: {&#xa;          &quot;eq&quot;: {&#xa;            &quot;prop&quot;: &quot;employee&quot;,&#xa;            &quot;value&quot;: &quot;meta.user.userId&quot;&#xa;          }&#xa;        }&#xa;      }&#xa;    },&#xa;    &quot;orderBy&quot;: [&#xa;      {&#xa;        &quot;prop&quot;: &quot;day&quot;,&#xa;        &quot;sort&quot;: &quot;asc&quot;&#xa;      },&#xa;      {&#xa;        &quot;prop&quot;: &quot;startTime&quot;,&#xa;        &quot;sort&quot;: &quot;asc&quot;&#xa;      }&#xa;    ]&#xa;  }&#xa;}" tags="pb:connected" id="98vC3BsZstzjE5mesBSxqy">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="ricCWjcd9xQsE3MhJn5U8Z">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="ricCWjcd9xQsE3MhJn5U8Z">
         <mxGeometry x="400" y="1440" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
-    <mxCell id="9EU7i4VNXXLLHTZ6yzP89g" value="" edge="1" tempVisible="1" parent="ricCWjcd9xQsE3MhJn5U8Z" source="9PwLYvL61fUtWn1Y1JUPFG" target="98vC3BsZstzjE5mesBSxqy">
+    <mxCell id="9EU7i4VNXXLLHTZ6yzP89g" value="" edge="1" tempVisible="0" parent="ricCWjcd9xQsE3MhJn5U8Z" source="9PwLYvL61fUtWn1Y1JUPFG" target="98vC3BsZstzjE5mesBSxqy">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
-    <mxCell id="vxrPFkcvpbH6JadZv1SDo3" style="html=1;" edge="1" tempVisible="1" parent="ricCWjcd9xQsE3MhJn5U8Z" source="vMuYkF9nZy3TJzBK99d6ap" target="oXDzeFfFJGKPRHRBX19a1V">
+    <mxCell id="vxrPFkcvpbH6JadZv1SDo3" style="html=1;" edge="1" tempVisible="0" parent="ricCWjcd9xQsE3MhJn5U8Z" source="vMuYkF9nZy3TJzBK99d6ap" target="oXDzeFfFJGKPRHRBX19a1V">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <document label="Assigned Projects" type="document" tags="pb:connected" metadata="{&#xa;  &quot;ns&quot;: &quot;/Project&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Project/Project&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;resolve&quot;: {&#xa;    &quot;where&quot;: {&#xa;      &quot;rule&quot;: &quot;always&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;filter&quot;: {&#xa;          &quot;or&quot;: [&#xa;            {&#xa;              &quot;inArray&quot;: {&#xa;                &quot;prop&quot;: &quot;developers&quot;,&#xa;                &quot;value&quot;: &quot;meta.user.userId&quot;&#xa;              }&#xa;            },&#xa;            {&#xa;              &quot;eq&quot;: {&#xa;                &quot;prop&quot;: &quot;pm&quot;,&#xa;                &quot;value&quot;: &quot;meta.user.userId&quot;&#xa;              }&#xa;            }&#xa;          ]&#xa;        }&#xa;      }&#xa;    },&#xa;    &quot;orderBy&quot;: {&#xa;      &quot;prop&quot;: &quot;name&quot;,&#xa;      &quot;sort&quot;: &quot;asc&quot;&#xa;    }&#xa;  }&#xa;}" id="vMuYkF9nZy3TJzBK99d6ap">
-      <mxCell style="document;autosize=1;" vertex="1" tempVisible="1" parent="ricCWjcd9xQsE3MhJn5U8Z">
+      <mxCell style="document;autosize=1;" vertex="1" tempVisible="0" parent="ricCWjcd9xQsE3MhJn5U8Z">
         <mxGeometry x="160" y="720" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
     <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;Now we can add the possibility to track time for a specific project.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. Select the &quot;Track Project Time&quot; feature.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;2. Run Cody.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. Switch to Cody Engine in your browser (&lt;a href=&quot;http://localhost:4200/&quot; rel=&quot;nofollow&quot;&gt;http://localhost:4200&lt;/a&gt;)&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. Sign in as a developer persona who is assigned to the test project.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5. Click &quot;Timesheet&quot; in the left sidebar.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;6. Click on &quot;Track Project Time&quot; button.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;7. Enter time tracking data.&lt;/div&gt;" tags="pb:connected" id="2ZzVNcnzfmXCAKoQe9zCiR">
-      <mxCell style="freeText;fillColor=#E0FFD1;" vertex="1" tempVisible="1" parent="ricCWjcd9xQsE3MhJn5U8Z">
+      <mxCell style="freeText;fillColor=#E0FFD1;" vertex="1" tempVisible="0" parent="ricCWjcd9xQsE3MhJn5U8Z">
         <mxGeometry x="175" y="100" width="371" height="396" as="geometry"/>
       </mxCell>
     </UserObject>
     <feature label="View Employee Time Report" type="feature" tags="pb:connected,planned" id="gMed4wuVeYmYGkAG4xFUdt">
-      <mxCell style="feature;fillColor=#FFE1AD;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxCell style="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=78;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
         <mxGeometry x="6665" y="1037" width="819" height="1204" as="geometry">
           <mxRectangle x="6665" y="1037" width="819" height="1204" as="alternateBounds"/>
         </mxGeometry>
       </mxCell>
     </feature>
     <ui label="Employee Details" type="ui" tags="pb:connected" metadata="{&#xa;  &quot;route&quot;: &quot;/time-tracker/employees/:employeeId&quot;,&#xa;  &quot;breadcrumb&quot;: {&#xa;    &quot;data&quot;: &quot;/Employee/Employee&quot;,&#xa;    &quot;label&quot;: &quot;data.name&quot;&#xa;  },&#xa;  &quot;routeParams&quot;: [&#xa;    &quot;employeeId&quot;&#xa;  ]&#xa;}" id="2VCRDq2odhXDg9TtCxgRTu">
-      <mxCell style="ui" vertex="1" tempVisible="1" parent="gMed4wuVeYmYGkAG4xFUdt">
+      <mxCell style="ui" vertex="1" tempVisible="0" parent="gMed4wuVeYmYGkAG4xFUdt">
         <mxGeometry x="514" y="794" width="160" height="100" as="geometry"/>
       </mxCell>
     </ui>
     <document label="Employee" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Employee&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;employeeId&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;name&quot;: &quot;string|minLength:1&quot;,&#xa;    &quot;email&quot;: &quot;string|format:email&quot;,&#xa;    &quot;role&quot;: &quot;/User/Role&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {&#xa;    &quot;employeeId&quot;: &quot;string|format:uuid&quot;&#xa;  },&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;employeeId&quot;: {&#xa;      &quot;ui:widget&quot;: &quot;hidden&quot;&#xa;    }&#xa;  },&#xa;  &quot;identifier&quot;: &quot;employeeId&quot;&#xa;}" tags="pb:connected" id="76uvRLiHwS5BW1moF5FjxY">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="gMed4wuVeYmYGkAG4xFUdt">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="gMed4wuVeYmYGkAG4xFUdt">
         <mxGeometry x="274" y="496" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
-    <mxCell id="raAoV4ec64WXrtiKXTKxwH" value="" edge="1" tempVisible="1" parent="gMed4wuVeYmYGkAG4xFUdt" source="76uvRLiHwS5BW1moF5FjxY" target="2VCRDq2odhXDg9TtCxgRTu">
+    <mxCell id="raAoV4ec64WXrtiKXTKxwH" value="" edge="1" tempVisible="0" parent="gMed4wuVeYmYGkAG4xFUdt" source="76uvRLiHwS5BW1moF5FjxY" target="2VCRDq2odhXDg9TtCxgRTu">
       <mxGeometry relative="1" as="geometry">
         <Array as="points">
           <mxPoint x="463" y="550"/>
@@ -576,7 +576,7 @@
         </Array>
       </mxGeometry>
     </mxCell>
-    <mxCell id="8CQGatnGSwX4QDMtBTHF9m" style="html=1;" edge="1" tempVisible="1" parent="gMed4wuVeYmYGkAG4xFUdt" source="odqrGj2mDM46TSd3Chph4f" target="2VCRDq2odhXDg9TtCxgRTu">
+    <mxCell id="8CQGatnGSwX4QDMtBTHF9m" style="html=1;" edge="1" tempVisible="0" parent="gMed4wuVeYmYGkAG4xFUdt" source="odqrGj2mDM46TSd3Chph4f" target="2VCRDq2odhXDg9TtCxgRTu">
       <mxGeometry relative="1" as="geometry">
         <Array as="points">
           <mxPoint x="463" y="691"/>
@@ -585,33 +585,33 @@
       </mxGeometry>
     </mxCell>
     <document label="Employee Time Report" type="document" tags="pb:connected" metadata="{&#xa;  &quot;ns&quot;: &quot;/TimeEntry&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/TimeEntry/TimeEntry&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {&#xa;    &quot;employeeId&quot;: &quot;/Employee/EmployeeId&quot;&#xa;  },&#xa;  &quot;resolve&quot;: {&#xa;    &quot;where&quot;: {&#xa;      &quot;rule&quot;: &quot;always&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;filter&quot;: {&#xa;          &quot;eq&quot;: {&#xa;            &quot;prop&quot;: &quot;employee&quot;,&#xa;            &quot;value&quot;: &quot;query.employeeId&quot;&#xa;          }&#xa;        }&#xa;      }&#xa;    },&#xa;    &quot;orderBy&quot;: [&#xa;      {&#xa;        &quot;prop&quot;: &quot;day&quot;,&#xa;        &quot;sort&quot;: &quot;asc&quot;&#xa;      },&#xa;      {&#xa;        &quot;prop&quot;: &quot;startTime&quot;,&#xa;        &quot;sort&quot;: &quot;asc&quot;&#xa;      }&#xa;    ]&#xa;  },&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;ui:table&quot;: {&#xa;      &quot;density&quot;: &quot;compact&quot;,&#xa;      &quot;pageSize&quot;: 25,&#xa;      &quot;pageSizeOptions&quot;: [&#xa;        10,&#xa;        25,&#xa;        50&#xa;      ],&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;project&quot;,&#xa;          &quot;ref&quot;: {&#xa;            &quot;data&quot;: &quot;/Project/ProjectList&quot;,&#xa;            &quot;value&quot;: &quot;data.name&quot;&#xa;          }&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;day&quot;,&#xa;          &quot;headerName&quot;: &quot;Day&quot;,&#xa;          &quot;value&quot;: &quot;row.day|localDate&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;startTime&quot;,&#xa;          &quot;headerName&quot;: &quot;Start Time&quot;,&#xa;          &quot;flex&quot;: 1,&#xa;          &quot;value&quot;: &quot;(row.day+&#39;T&#39;+row.startTime)|hours|twoDigit + &#39;:&#39; + (row.day+&#39;T&#39;+row.startTime)|minutes|twoDigit&quot;&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;endTime&quot;,&#xa;          &quot;headerName&quot;: &quot;End Time&quot;,&#xa;          &quot;flex&quot;: 1,&#xa;          &quot;value&quot;: &quot;(row.day+&#39;T&#39;+row.endTime)|hours|twoDigit + &#39;:&#39; + (row.day+&#39;T&#39;+row.endTime)|minutes|twoDigit&quot;&#xa;        }&#xa;      ]&#xa;    }&#xa;  }&#xa;}" id="odqrGj2mDM46TSd3Chph4f">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="gMed4wuVeYmYGkAG4xFUdt">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="gMed4wuVeYmYGkAG4xFUdt">
         <mxGeometry x="269.92063492063494" y="640.2698412698413" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
     <role label="HR" type="role" tags="pb:connected" id="dZrZiPFW51F93KEhKcCmgp">
-      <mxCell style="role" vertex="1" tempVisible="1" parent="gMed4wuVeYmYGkAG4xFUdt">
+      <mxCell style="role" vertex="1" tempVisible="0" parent="gMed4wuVeYmYGkAG4xFUdt">
         <mxGeometry x="239" y="872" width="70" height="90" as="geometry"/>
       </mxCell>
     </role>
     <document label="Employee List" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Employee&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Employee/Employee&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;table&quot;: {&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;name&quot;,&#xa;          &quot;headerName&quot;: &quot;Name&quot;,&#xa;          &quot;flex&quot;: 1,&#xa;          &quot;pageLink&quot;: &quot;EmployeeDetails&quot;&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;email&quot;,&#xa;          &quot;headerName&quot;: &quot;Email&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        }&#xa;      ]&#xa;    }&#xa;  }&#xa;}" tags="pb:disconnected" id="4ib4epJmobFJHmHNptFpLQ">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="gMed4wuVeYmYGkAG4xFUdt">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="gMed4wuVeYmYGkAG4xFUdt">
         <mxGeometry x="48.09459459459504" y="794.8513513513512" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
     <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;The HR department wants to keep an eye on the time tracked by an employee.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. Run Cody for the &quot;View Employee Time Report&quot; feature.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; &quot;&gt;2. Switch to Cody Engine in your browser (&lt;a href=&quot;http://localhost:4200/&quot; rel=&quot;nofollow&quot; style=&quot;&quot;&gt;http://localhost:4200&lt;/a&gt;)&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. Sign in as HR persona.&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. Navigate to Empoyees -&amp;gt; developer empoyee.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5. You should see a new &quot;Employee Time Report&quot; on the Employee Details page of the developer.&lt;br&gt;&lt;/div&gt;" tags="pb:connected" id="5SFT4wSpRB7jZa1Uksbebs">
-      <mxCell style="freeText;fillColor=#E0FFD1;" vertex="1" tempVisible="1" parent="gMed4wuVeYmYGkAG4xFUdt">
+      <mxCell style="freeText;fillColor=#E0FFD1;" vertex="1" tempVisible="0" parent="gMed4wuVeYmYGkAG4xFUdt">
         <mxGeometry x="224.11940298507398" y="110.76119402985069" width="371" height="358" as="geometry"/>
       </mxCell>
     </UserObject>
-    <mxCell id="a7Fb9Qk4Cyp3xZb9WLiZqo" value="" edge="1" tempVisible="1" parent="gMed4wuVeYmYGkAG4xFUdt" source="3r1n17USSnSXFEFkYAcci5" target="2VCRDq2odhXDg9TtCxgRTu">
+    <mxCell id="a7Fb9Qk4Cyp3xZb9WLiZqo" value="" edge="1" tempVisible="0" parent="gMed4wuVeYmYGkAG4xFUdt" source="3r1n17USSnSXFEFkYAcci5" target="2VCRDq2odhXDg9TtCxgRTu">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
-    <mxCell id="ehdF3tAXajp9V5rAkyMEec" style="html=1;" edge="1" tempVisible="1" parent="gMed4wuVeYmYGkAG4xFUdt" source="4ib4epJmobFJHmHNptFpLQ" target="3r1n17USSnSXFEFkYAcci5">
+    <mxCell id="ehdF3tAXajp9V5rAkyMEec" style="html=1;" edge="1" tempVisible="0" parent="gMed4wuVeYmYGkAG4xFUdt" source="4ib4epJmobFJHmHNptFpLQ" target="3r1n17USSnSXFEFkYAcci5">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <ui label="Employees" type="ui" metadata="{&#xa;  &quot;route&quot;: &quot;/time-tracker/employees&quot;,&#xa;  &quot;sidebar&quot;: {&#xa;    &quot;label&quot;: &quot;Employees&quot;,&#xa;    &quot;icon&quot;: &quot;account-group&quot;&#xa;  },&#xa;  &quot;breadcrumb&quot;: &quot;Employees&quot;&#xa;}" tags="pb:connected" id="3r1n17USSnSXFEFkYAcci5">
-      <mxCell style="ui" vertex="1" tempVisible="1" parent="gMed4wuVeYmYGkAG4xFUdt">
+      <mxCell style="ui" vertex="1" tempVisible="0" parent="gMed4wuVeYmYGkAG4xFUdt">
         <mxGeometry x="273.5" y="793.5" width="160" height="100" as="geometry"/>
       </mxCell>
     </ui>
@@ -632,7 +632,7 @@
     </UserObject>
     <UserObject label="" tags="pb:connected" id="2rkeVWNQ94uu3ZUFKwk4cZ">
       <mxCell style="freeText;fillColor=#E6E6E6;" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
-        <mxGeometry x="1308" y="720" width="6228" height="16" as="geometry"/>
+        <mxGeometry x="1308" y="720" width="7684" height="16" as="geometry"/>
       </mxCell>
     </UserObject>
     <boundedContext label="Continuous Event Storming" type="boundedContext" tags="pb:connected" id="ft2SZa4wYNcYspRSSHpYyB">
@@ -641,34 +641,34 @@
       </mxCell>
     </boundedContext>
     <feature label="View Project Time Report" type="feature" tags="pb:connected,planned" id="8FRLUitvnxwu4D9rgqKZgE">
-      <mxCell style="feature;fillColor=#FFE1AD;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="0" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+      <mxCell style="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=78;" vertex="1" alternateStyle="feature;fillColor=#FFE1AD;verticalAlign=middle;fontSize=56;" originalStyle="feature;fillColor=#FFE1AD;" alternateStyleEnabled="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
         <mxGeometry x="5184" y="1036" width="1033" height="1205" as="geometry">
           <mxRectangle x="4320" y="1036" width="1033" height="1205" as="alternateBounds"/>
         </mxGeometry>
       </mxCell>
     </feature>
     <ui label="Project Details" type="ui" metadata="{&#xa;  &quot;routeParams&quot;: [&#xa;    &quot;projectId&quot;&#xa;  ],&#xa;  &quot;route&quot;: &quot;/time-tracker/projects/:projectId&quot;,&#xa;  &quot;breadcrumb&quot;: {&#xa;    &quot;data&quot;: &quot;/Project/Project&quot;,&#xa;    &quot;label&quot;: &quot;data.name&quot;&#xa;  }&#xa;}" tags="pb:connected" id="7kuFzbUwG7qP4sv4wanPVB">
-      <mxCell style="ui" vertex="1" tempVisible="1" parent="8FRLUitvnxwu4D9rgqKZgE">
+      <mxCell style="ui" vertex="1" tempVisible="0" parent="8FRLUitvnxwu4D9rgqKZgE">
         <mxGeometry x="601" y="816.5" width="160" height="100" as="geometry"/>
       </mxCell>
     </ui>
     <ui label="Projects" type="ui" metadata="{&#xa;  &quot;route&quot;: &quot;/time-tracker/projects&quot;,&#xa;  &quot;sidebar&quot;: {&#xa;    &quot;label&quot;: &quot;Projects&quot;,&#xa;    &quot;icon&quot;: &quot;wrench-clock&quot;&#xa;  },&#xa;  &quot;breadcrumb&quot;: &quot;Projects&quot;&#xa;}" tags="pb:connected" id="fW7Agjrr78tf1UD7WX1GrK">
-      <mxCell style="ui" vertex="1" tempVisible="1" parent="8FRLUitvnxwu4D9rgqKZgE">
+      <mxCell style="ui" vertex="1" tempVisible="0" parent="8FRLUitvnxwu4D9rgqKZgE">
         <mxGeometry x="361" y="816.5" width="160" height="100" as="geometry"/>
       </mxCell>
     </ui>
     <UserObject label="" tags="pb:connected" id="95QE8fHMQM4bcwo4EH4agi">
-      <mxCell edge="1" tempVisible="1" parent="8FRLUitvnxwu4D9rgqKZgE" source="fW7Agjrr78tf1UD7WX1GrK" target="7kuFzbUwG7qP4sv4wanPVB">
+      <mxCell edge="1" tempVisible="0" parent="8FRLUitvnxwu4D9rgqKZgE" source="fW7Agjrr78tf1UD7WX1GrK" target="7kuFzbUwG7qP4sv4wanPVB">
         <mxGeometry relative="1" as="geometry"/>
       </mxCell>
     </UserObject>
     <document label="Project" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Project&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;projectId&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;name&quot;: &quot;string|minLength:1&quot;,&#xa;    &quot;pm&quot;: &quot;/Employee/EmployeeId&quot;,&#xa;    &quot;clientId?&quot;: &quot;string|format:uuid&quot;,&#xa;    &quot;developers&quot;: &quot;/Employee/EmployeeId[]&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {&#xa;    &quot;projectId&quot;: &quot;string|format:uuid&quot;&#xa;  },&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;projectId&quot;: {&#xa;      &quot;ui:widget&quot;: &quot;hidden&quot;&#xa;    },&#xa;    &quot;pm&quot;: {&#xa;      &quot;ui:title&quot;: &quot;Project Manager&quot;,&#xa;      &quot;ui:widget&quot;: &quot;DataSelect&quot;,&#xa;      &quot;ui:options&quot;: {&#xa;        &quot;data&quot;: &quot;/Employee/EmployeeList&quot;,&#xa;        &quot;text&quot;: &quot;data.name&quot;,&#xa;        &quot;value&quot;: &quot;data.employeeId&quot;&#xa;      }&#xa;    },&#xa;    &quot;clientId&quot;: {&#xa;      &quot;ui:title&quot;: &quot;Client&quot;,&#xa;      &quot;ui:widget&quot;: &quot;DataSelect&quot;,&#xa;      &quot;ui:options&quot;: {&#xa;        &quot;data&quot;: &quot;/Client/ClientList&quot;,&#xa;        &quot;text&quot;: &quot;data.name&quot;,&#xa;        &quot;value&quot;: &quot;data.clientId&quot;&#xa;      }&#xa;    },&#xa;    &quot;developers&quot;: {&#xa;      &quot;items&quot;: {&#xa;        &quot;ui:widget&quot;: &quot;DataSelect&quot;,&#xa;        &quot;ui:options&quot;: {&#xa;          &quot;label&quot;: false,&#xa;          &quot;data&quot;: &quot;/Employee/Developers&quot;,&#xa;          &quot;text&quot;: &quot;data.name&quot;,&#xa;          &quot;value&quot;: &quot;data.employeeId&quot;&#xa;        }&#xa;      }&#xa;    }&#xa;  },&#xa;  &quot;identifier&quot;: &quot;projectId&quot;,&#xa;  &quot;initialize&quot;: [&#xa;    {&#xa;      &quot;rule&quot;: &quot;condition&quot;,&#xa;      &quot;if_not&quot;: &quot;data.developers&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;assign&quot;: {&#xa;          &quot;variable&quot;: &quot;data&quot;,&#xa;          &quot;value&quot;: {&#xa;            &quot;$merge&quot;: &quot;data&quot;,&#xa;            &quot;developers&quot;: &quot;[]&quot;&#xa;          }&#xa;        }&#xa;      }&#xa;    }&#xa;  ]&#xa;}" tags="pb:connected" id="rshD8yuzjdUE4khZSV8k8U">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="8FRLUitvnxwu4D9rgqKZgE">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="8FRLUitvnxwu4D9rgqKZgE">
         <mxGeometry x="361" y="502.5" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
     <UserObject label="" tags="pb:connected" id="2kwFdUVEKPBhsYdGqtebkr">
-      <mxCell edge="1" tempVisible="1" parent="8FRLUitvnxwu4D9rgqKZgE" source="rshD8yuzjdUE4khZSV8k8U" target="7kuFzbUwG7qP4sv4wanPVB">
+      <mxCell edge="1" tempVisible="0" parent="8FRLUitvnxwu4D9rgqKZgE" source="rshD8yuzjdUE4khZSV8k8U" target="7kuFzbUwG7qP4sv4wanPVB">
         <mxGeometry relative="1" as="geometry">
           <Array as="points">
             <mxPoint x="561.0566502463053" y="551.5"/>
@@ -678,12 +678,12 @@
       </mxCell>
     </UserObject>
     <document label="Project Time Report" type="document" tags="pb:connected" metadata="{&#xa;  &quot;ns&quot;: &quot;/Timesheet&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/TimeEntry/TimeEntry&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {&#xa;    &quot;projectId&quot;: &quot;string|format:uuid&quot;&#xa;  },&#xa;  &quot;resolve&quot;: {&#xa;    &quot;where&quot;: {&#xa;      &quot;rule&quot;: &quot;always&quot;,&#xa;      &quot;then&quot;: {&#xa;        &quot;filter&quot;: {&#xa;          &quot;eq&quot;: {&#xa;            &quot;prop&quot;: &quot;project&quot;,&#xa;            &quot;value&quot;: &quot;query.projectId&quot;&#xa;          }&#xa;        }&#xa;      }&#xa;    },&#xa;    &quot;orderBy&quot;: [&#xa;      {&#xa;        &quot;prop&quot;: &quot;day&quot;,&#xa;        &quot;sort&quot;: &quot;asc&quot;&#xa;      },&#xa;      {&#xa;        &quot;prop&quot;: &quot;startTime&quot;,&#xa;        &quot;sort&quot;: &quot;asc&quot;&#xa;      }&#xa;    ]&#xa;  },&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;ui:table&quot;: {&#xa;      &quot;density&quot;: &quot;compact&quot;,&#xa;      &quot;pageSize&quot;: 25,&#xa;      &quot;pageSizeOptions&quot;: [&#xa;        10,&#xa;        25,&#xa;        50&#xa;      ],&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;employee&quot;,&#xa;          &quot;ref&quot;: {&#xa;            &quot;data&quot;: &quot;/Employee/EmployeeList&quot;,&#xa;            &quot;value&quot;: &quot;data.name&quot;&#xa;          }&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;day&quot;,&#xa;          &quot;headerName&quot;: &quot;Day&quot;,&#xa;          &quot;value&quot;: &quot;row.day|localDate&quot;,&#xa;          &quot;flex&quot;: 1&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;startTime&quot;,&#xa;          &quot;headerName&quot;: &quot;Start Time&quot;,&#xa;          &quot;flex&quot;: 1,&#xa;          &quot;value&quot;: &quot;(row.day+&#39;T&#39;+row.startTime)|hours|twoDigit + &#39;:&#39; + (row.day+&#39;T&#39;+row.startTime)|minutes|twoDigit&quot;&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;endTime&quot;,&#xa;          &quot;headerName&quot;: &quot;End Time&quot;,&#xa;          &quot;flex&quot;: 1,&#xa;          &quot;value&quot;: &quot;(row.day+&#39;T&#39;+row.endTime)|hours|twoDigit + &#39;:&#39; + (row.day+&#39;T&#39;+row.endTime)|minutes|twoDigit&quot;&#xa;        }&#xa;      ]&#xa;    }&#xa;  }&#xa;}" id="wH5ya6XBzUYFvrunH6QLZe">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="8FRLUitvnxwu4D9rgqKZgE">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="8FRLUitvnxwu4D9rgqKZgE">
         <mxGeometry x="361.05665024630525" y="647.5" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
     <UserObject label="" tags="pb:connected" id="9NuDTQzR59tPhFxnfHnS4M">
-      <mxCell style="html=1;" edge="1" tempVisible="1" parent="8FRLUitvnxwu4D9rgqKZgE" source="wH5ya6XBzUYFvrunH6QLZe" target="7kuFzbUwG7qP4sv4wanPVB">
+      <mxCell style="html=1;" edge="1" tempVisible="0" parent="8FRLUitvnxwu4D9rgqKZgE" source="wH5ya6XBzUYFvrunH6QLZe" target="7kuFzbUwG7qP4sv4wanPVB">
         <mxGeometry relative="1" as="geometry">
           <Array as="points">
             <mxPoint x="561.0566502463053" y="697.5"/>
@@ -693,20 +693,20 @@
       </mxCell>
     </UserObject>
     <role label="PM" type="role" tags="pb:connected" id="kamQBJp375RjEYKpK3PDcr">
-      <mxCell style="role" vertex="1" tempVisible="1" parent="8FRLUitvnxwu4D9rgqKZgE">
+      <mxCell style="role" vertex="1" tempVisible="0" parent="8FRLUitvnxwu4D9rgqKZgE">
         <mxGeometry x="331" y="894" width="70" height="90" as="geometry"/>
       </mxCell>
     </role>
-    <mxCell id="dzoc92RdcnQnXxYJ8bqzSm" style="html=1;" edge="1" tempVisible="1" parent="8FRLUitvnxwu4D9rgqKZgE" source="qpJh5ZSjssHrNoYn3c7s6Z" target="fW7Agjrr78tf1UD7WX1GrK">
+    <mxCell id="dzoc92RdcnQnXxYJ8bqzSm" style="html=1;" edge="1" tempVisible="0" parent="8FRLUitvnxwu4D9rgqKZgE" source="qpJh5ZSjssHrNoYn3c7s6Z" target="fW7Agjrr78tf1UD7WX1GrK">
       <mxGeometry relative="1" as="geometry"/>
     </mxCell>
     <document label="Project List" type="document" metadata="{&#xa;  &quot;ns&quot;: &quot;/Project&quot;,&#xa;  &quot;schema&quot;: {&#xa;    &quot;$items&quot;: &quot;/Project/Project&quot;&#xa;  },&#xa;  &quot;querySchema&quot;: {},&#xa;  &quot;uiSchema&quot;: {&#xa;    &quot;ui:table&quot;: {&#xa;      &quot;columns&quot;: [&#xa;        {&#xa;          &quot;field&quot;: &quot;name&quot;,&#xa;          &quot;headerName&quot;: &quot;Name&quot;,&#xa;          &quot;flex&quot;: 1,&#xa;          &quot;pageLink&quot;: &quot;ProjectDetails&quot;&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;clientId&quot;,&#xa;          &quot;headerName&quot;: &quot;Client&quot;,&#xa;          &quot;ref&quot;: {&#xa;            &quot;data&quot;: &quot;/Client/ClientList&quot;,&#xa;            &quot;value&quot;: &quot;data.name&quot;&#xa;          }&#xa;        },&#xa;        {&#xa;          &quot;field&quot;: &quot;pm&quot;,&#xa;          &quot;headerName&quot;: &quot;Project Manager&quot;,&#xa;          &quot;ref&quot;: {&#xa;            &quot;data&quot;: &quot;/Employee/EmployeeList&quot;,&#xa;            &quot;value&quot;: &quot;data.name&quot;&#xa;          }&#xa;        }&#xa;      ]&#xa;    }&#xa;  },&#xa;  &quot;resolve&quot;: {&#xa;    &quot;orderBy&quot;: {&#xa;      &quot;prop&quot;: &quot;name&quot;,&#xa;      &quot;sort&quot;: &quot;asc&quot;&#xa;    }&#xa;  }&#xa;}" tags="pb:disconnected" id="qpJh5ZSjssHrNoYn3c7s6Z">
-      <mxCell style="document" vertex="1" tempVisible="1" parent="8FRLUitvnxwu4D9rgqKZgE">
+      <mxCell style="document" vertex="1" tempVisible="0" parent="8FRLUitvnxwu4D9rgqKZgE">
         <mxGeometry x="111.82432432432415" y="816.864864864865" width="160" height="100" as="geometry"/>
       </mxCell>
     </document>
     <UserObject label="&lt;div style=&quot;text-align: left;&quot;&gt;The Time Tracking App should help PMs to keep an overview of the time tracked on a project.&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;1. Run Cody for the &quot;View Project Time Report&quot; feature.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; &quot;&gt;2. Switch to Cody Engine in your browser (&lt;a href=&quot;http://localhost:4200/&quot; rel=&quot;nofollow&quot; style=&quot;&quot;&gt;http://localhost:4200&lt;/a&gt;)&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. Sign in as Project Manager persona.&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. Navigate to the test project.&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5. You should see a new &quot;Project Time Report&quot; on the Project Details page of the test project.&lt;br&gt;&lt;/div&gt;" tags="pb:connected" id="sBb5nfJarMPZV9hpnYQ6Pt">
-      <mxCell style="freeText;fillColor=#E0FFD1;" vertex="1" tempVisible="1" parent="8FRLUitvnxwu4D9rgqKZgE">
+      <mxCell style="freeText;fillColor=#E0FFD1;" vertex="1" tempVisible="0" parent="8FRLUitvnxwu4D9rgqKZgE">
         <mxGeometry x="331" y="106" width="371" height="358" as="geometry"/>
       </mxCell>
     </UserObject>
@@ -790,5 +790,25 @@
         <mxGeometry x="6368.243243243243" y="1270.2432432432433" width="160" height="100" as="geometry"/>
       </mxCell>
     </icon>
+    <icon label="" type="icon" tags="pb:connected" id="gy1LJQ3zmwHhik7w2e8439">
+      <mxCell style="icon;image=data:image/svg+xml,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;fill:#00CC66&quot; viewBox=&quot;0 0 512 512&quot;&gt;&lt;path d=&quot;M512 199.652c0 23.625-20.65 43.826-44.8 43.826h-99.851c16.34 17.048 18.346 49.766-6.299 70.944 14.288 22.829 2.147 53.017-16.45 62.315C353.574 425.878 322.654 448 272 448c-2.746 0-13.276-.203-16-.195-61.971.168-76.894-31.065-123.731-38.315C120.596 407.683 112 397.599 112 385.786V214.261l.002-.001c.011-18.366 10.607-35.889 28.464-43.845 28.886-12.994 95.413-49.038 107.534-77.323 7.797-18.194 21.384-29.084 40-29.092 34.222-.014 57.752 35.098 44.119 66.908-3.583 8.359-8.312 16.67-14.153 24.918H467.2c23.45 0 44.8 20.543 44.8 43.826zM96 200v192c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V200c0-13.255 10.745-24 24-24h48c13.255 0 24 10.745 24 24zM68 368c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20z&quot;/&gt;&lt;/svg&gt;;" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="7623.783783783784" y="1258.7162162162163" width="160" height="100" as="geometry"/>
+      </mxCell>
+    </icon>
+    <UserObject label="" tags="pb:connected" id="onVXEioQ5wxMeYDC5EyF8y">
+      <mxCell style="freeText;fillColor=#ff9f4b;" vertex="1" parent="7fe80d19-d317-4e9d-8296-96c598786d78">
+        <mxGeometry x="7904" y="1037" width="960" height="1184" as="geometry"/>
+      </mxCell>
+    </UserObject>
+    <icon label="" type="icon" tags="pb:connected" id="oAT1AdS9jyfJLka4w8gEjn">
+      <mxCell style="icon;image=data:image/svg+xml,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; style=&quot;fill:#FFFFFF&quot; viewBox=&quot;0 0 512 512&quot;&gt;&lt;path d=&quot;M466.515 66.928C487.731 57.074 512 72.551 512 95.944v243.1c0 10.526-5.161 20.407-13.843 26.358-35.837 24.564-74.335 40.858-122.505 40.858-67.373 0-111.63-34.783-165.217-34.783-50.853 0-86.124 10.058-114.435 22.122V488c0 13.255-10.745 24-24 24H56c-13.255 0-24-10.745-24-24V101.945C17.497 91.825 8 75.026 8 56 8 24.296 34.345-1.254 66.338.048c28.468 1.158 51.779 23.968 53.551 52.404.52 8.342-.81 16.31-3.586 23.562C137.039 68.384 159.393 64 184.348 64c67.373 0 111.63 34.783 165.217 34.783 40.496 0 82.612-15.906 116.95-31.855zM96 134.63v70.49c29-10.67 51.18-17.83 73.6-20.91v-71.57c-23.5 2.17-40.44 9.79-73.6 21.99zm220.8 9.19c-26.417-4.672-49.886-13.979-73.6-21.34v67.42c24.175 6.706 47.566 16.444 73.6 22.31v-68.39zm-147.2 40.39v70.04c32.796-2.978 53.91-.635 73.6 3.8V189.9c-25.247-7.035-46.581-9.423-73.6-5.69zm73.6 142.23c26.338 4.652 49.732 13.927 73.6 21.34v-67.41c-24.277-6.746-47.54-16.45-73.6-22.32v68.39zM96 342.1c23.62-8.39 47.79-13.84 73.6-16.56v-71.29c-26.11 2.35-47.36 8.04-73.6 17.36v70.49zm368-221.6c-21.3 8.85-46.59 17.64-73.6 22.47v71.91c27.31-4.36 50.03-14.1 73.6-23.89V120.5zm0 209.96v-70.49c-22.19 14.2-48.78 22.61-73.6 26.02v71.58c25.07-2.38 48.49-11.04 73.6-27.11zM316.8 212.21v68.16c25.664 7.134 46.616 9.342 73.6 5.62v-71.11c-25.999 4.187-49.943 2.676-73.6-2.67z&quot;/&gt;&lt;/svg&gt;;" vertex="1" parent="onVXEioQ5wxMeYDC5EyF8y">
+        <mxGeometry x="80" y="85.78264532434709" width="209.469250210615" height="130.66891322662173" as="geometry"/>
+      </mxCell>
+    </icon>
+    <UserObject label="&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 36px;&quot;&gt;Congratulations! You&#39;ve built your first app based on an &lt;a href=&quot;https://wiki.prooph-board.com/continuous_event_storming/event-map-design.html&quot;&gt;Event Map Design&lt;/a&gt;&amp;nbsp;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 36px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 36px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 36px;&quot;&gt;Are you curious how Cody can generate a fully working app from a few simple cards on prooph board? How it works under the hood and how you can leverage this functionality for your own software needs?&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 36px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 36px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 36px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot; style=&quot;font-size: 36px;&quot;&gt;There are a few topics to explore. A very good starting point is the workflow and architecture board &quot;&lt;a href=&quot;https://free.prooph-board.com/inspectio/boards/import/https%3A%2F%2Fraw.githubusercontent.com%2Fproophboard%2Fexample-boards%2Fmain%2FHolistic%252C%2520Event-Centric%2520Workflow.xml?temp=1&quot;&gt;Holistic, event-centric workflow&lt;/a&gt;&quot;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" tags="pb:connected" id="9tJCUsRbDqgMaLZ5xL8PLM">
+      <mxCell style="freeText" vertex="1" parent="onVXEioQ5wxMeYDC5EyF8y">
+        <mxGeometry x="80" y="151" width="800" height="944" as="geometry"/>
+      </mxCell>
+    </UserObject>
   </root>
 </mxGraphModel>
